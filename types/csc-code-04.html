@@ -1,0 +1,304 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex,nofollow"><title>Turn a flowchart or pseudocode into Python · olevels.com Computer Science</title><link rel="icon" href="/igcsecomputerscience/teach-me/assets/brand/favicon.png"><link rel="stylesheet" href="/igcsecomputerscience/assets/course.css?v=1">
+<style id="olv-student-visibility">[data-olv-placeholder],[data-olv-access="teacher"],.ms,#msimg,#mspdf{display:none!important}</style>
+<script id="olv-student-guard">
+(function(){
+ const file=/(?:^|[\/\s_.-])(?:mark[\s_-]*schemes?|answers?|solutions?|ms)(?:[/\s_.-]|$)|(?:^|\/)story(?:book|figs|text|[-.])/i;
+ const label=/mark\s*schemes?|marking\s*schemes?|answer\s*(?:key|sheet)s?|^(?:[✅📄\s]*)(?:answers?|solutions?|marks)(?:\s*(?:PDF|\(teacher.*\)))?$|(?:show|reveal|view)\b.{0,25}\b(?:answer|solution)s?/i;
+ function forbidden(el){
+  if(el.hasAttribute('data-olv-placeholder'))return false;
+  if(el.getAttribute('data-olv-access')==='teacher')return true;
+  if(el.tagName==='BUTTON'&&el.hasAttribute('data-show-response'))return false;
+  if(el.tagName==='DETAILS'){if(el.hasAttribute('data-student-response'))return false;const s=el.querySelector('summary');return s&&label.test(s.textContent);}
+  if((el.tagName==='A'||el.tagName==='BUTTON')&&label.test(el.textContent.trim()))return true;
+  return ['href','src','data-src','data'].some(k=>{let v=el.getAttribute(k);if(!v)return false;try{return file.test(decodeURIComponent(new URL(v,document.baseURI).pathname));}catch(_){return true;}});
+ }
+ function clean(root){
+  const els=[];if(root.nodeType===1)els.push(root);
+  if(root.querySelectorAll)els.push(...root.querySelectorAll('a,button,details,img,source,iframe,object,embed,[data-olv-access]'));
+  els.forEach(el=>{if(!forbidden(el))return;el.hidden=true;el.setAttribute('data-olv-placeholder','');el.style.setProperty('display','none','important');
+   ['href','src','data-src','data','srcset','onclick'].forEach(k=>el.removeAttribute(k));el.replaceChildren();});
+ }
+ new MutationObserver(rows=>rows.forEach(r=>{if(r.type==='attributes')clean(r.target);else r.addedNodes.forEach(clean);})).observe(document.documentElement,{childList:true,subtree:true,attributes:true,attributeFilter:['href','src','data-src','data-olv-access']});
+ if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',()=>clean(document));else clean(document);
+})();
+</script>
+<script src="/igcsecomputerscience/assets/course.js?v=1" defer></script><link rel="stylesheet" href="/igcsecomputerscience/assets/bank.css?v=1"><link rel="stylesheet" href="/igcsecomputerscience/assets/practice-hub.css?v=1"><link rel="stylesheet" href="/igcsecomputerscience/assets/question-hint.css?v=1"><link rel="stylesheet" href="/igcsecomputerscience/assets/practice-focus.css?v=1"><link rel="stylesheet" href="/igcsecomputerscience/assets/response-checker.css?v=1"><script src="/igcsecomputerscience/assets/practice-focus.js?v=1" defer></script><script src="/igcsecomputerscience/assets/bank.js?v=1" defer></script><script src="/igcsecomputerscience/assets/paper-grade-guide.js?v=1" defer></script><script src="/igcsecomputerscience/assets/practice-hub.js?v=1" defer></script><script type="module" src="/igcsecomputerscience/assets/response-checker.js?v=1"></script><script src="/igcsecomputerscience/assets/type-check-download.js?v=1" defer></script><link rel="stylesheet" href="/igcsecomputerscience/assets/knowledge-card.css?v=1"><script src="/igcsecomputerscience/assets/knowledge-card.js?v=1" defer></script><script src="/igcsecomputerscience/assets/olv-marking-adapter.js?v=1" defer></script><link rel="stylesheet" href="/igcsecomputerscience/assets/cs.css?v=cs3"><script src="/igcsecomputerscience/assets/cs.js?v=cs3" defer></script><script src="/igcsecomputerscience/video-library/student-videos.js?v=cs3" defer></script></head><body><a href="#main" class="skip">Skip to content</a><header class="ol-bar"><a class="ol-logo" href="/igcsecomputerscience/"><img src="/igcsecomputerscience/teach-me/assets/brand/olevels-logo.png" alt="olevels.com School" width="145" height="57"></a><div class="brand-sub"><strong>Computer Science</strong>International GCSE · 4CP0</div></header><nav class="course-nav" aria-label="Course navigation"><a class="nav-home" href="/igcsecomputerscience/?view=plans" data-course-link="plans">Study plans</a><a class="nav-primary" href="/igcsecomputerscience/?view=types" data-course-link="types">All Question Types</a><a class="nav-primary" href="/igcsecomputerscience/?view=practice" data-course-link="practice">Question Bank &amp; Papers</a><details class="nav-dropdown"><summary>Open a plan</summary><div class="nav-menu" aria-label="Choose a study plan"><a href="/igcsecomputerscience/plans/a-grade/">A-Grade Plan</a><a href="/igcsecomputerscience/plans/grade-8/">Grade 8 Plan</a><a href="/igcsecomputerscience/plans/grade-9/">Grade 9 Plan</a><a href="/igcsecomputerscience/plans/top-world/">Top in the World Plan</a><a href="/igcsecomputerscience/plans/top-world-master/">Top in the World Master Plan</a><a href="/igcsecomputerscience/plans/pass/">Pass Plan</a><a href="/igcsecomputerscience/plans/grade-7-execution/">Grade 7 Execution</a></div></details><details class="nav-dropdown nav-resources"><summary>Resources</summary><div class="nav-menu" aria-label="Learning resources"><a href="/igcsecomputerscience/?view=types">Knowledge &amp; methods</a><a href="/igcsecomputerscience/?view=practice">Practice &amp; results</a><a href="/igcsecomputerscience/?view=types">Question types</a><a href="/igcsecomputerscience/?view=practice&amp;tab=bank">Question bank</a><a href="/igcsecomputerscience/syllabus.html">Syllabus</a><a href="/igcsecomputerscience/topics.html">Topics</a><a href="/igcsecomputerscience/?view=practice&amp;tab=papers">Past papers</a><a href="/igcsecomputerscience/video-library/lessons.html">Teach Me</a></div></details></nav><main id="main"><div class="breadcrumb"><a href="/igcsecomputerscience/index.html">Computer Science</a> / Turn a flowchart or pseudocode into Python</div><p class="eyebrow">Pearson Edexcel · International GCSE Computer Science · 4CP0</p><h1>Turn a flowchart or pseudocode into Python</h1><p class="lede">The algorithm is already designed - as numbered pseudocode, a flowchart or a trace table plus requirements - and the student implements its logic in Python inside a given structure (5-11 marks).</p><article class="type-lesson" data-type-lesson="CSC-CODE-04"><div class="type-heading"><span class="tag">Type 4</span> <span class="tag">Paper 2 coding (Python)</span> <span class="tag">CSC-CODE-04</span></div><p><span class="stars" role="img" aria-label="5 of 5 stars">★★★★★<span class="off"></span></span> · 6 of 14 exam papers (both papers), 2019–2025 (June 2021 not counted). Difficulty: <strong>Difficult</strong>.</p><p>The question prints a complete flowchart, numbered pseudocode or a trace table and says &#x27;Write a program to implement the logic in ...&#x27; (often 5 to 11 marks).</p><details><summary>See frequency evidence and how ratings work</summary><p>Stars describe how often this type appeared in past papers; they are not a prediction. 8 past-paper parts belong to this type.</p></details><p class="owner-line">Main plan: <a href="/igcsecomputerscience/plans/a-grade/">A-Grade Plan</a> · <a href="/igcsecomputerscience/plans/a-grade/#CSC-BLOCK-A-PYTHON-CORE">Python: selection, fixing errors and short programs</a></p><nav class="section-links"><a href="#knowledge">Knowledge</a><a href="#method">Method</a><a href="#worked-example">Worked example</a><a href="#practice">Practice</a><a href="#teach-back">Teach it back</a></nav><section class="olv-method-card kc" id="learn" data-method-card="CSC-CODE-04" data-kc-card="CSC-CODE-04"><link rel="stylesheet" href="/igcsecomputerscience/assets/knowledge-card.css?v=1"><details class="kc-drop" data-kc-drop ontoggle="if(!window.kcCardReady&amp;&amp;!document.querySelector('script[data-kc-script]')){var s=document.createElement('script');s.src='/igcsecomputerscience/assets/knowledge-card.js?v=1';s.dataset.kcScript='';document.head.appendChild(s)}"><summary class="kc-drop-sum"><span class="kc-drop-ico" aria-hidden="true"><svg viewBox="0 0 48 48"><path d="M24 6a13 13 0 0 0-8 23.3V34h16v-4.7A13 13 0 0 0 24 6z" fill="#ffd166"/><rect x="17" y="36" width="14" height="4" rx="2" fill="#fff"/><rect x="19" y="42" width="10" height="3" rx="1.5" fill="#fff"/><path d="M20 24l4 4 4-4" stroke="#3b465a" stroke-width="2.5" fill="none" stroke-linecap="round"/></svg></span><span class="kc-drop-txt"><b>Revise this concept</b><small>Knowledge card: the key ideas and the method</small></span><span class="kc-drop-cta" aria-hidden="true"><span class="kc-drop-open">Open</span><span class="kc-drop-close">Close</span><i></i></span></summary><div class="kc-body"><div class="kc-head"><div><p class="eyebrow">Knowledge card</p><h2>Turn a flowchart or pseudocode into Python</h2></div><span class="method-family">Written</span></div><div class="kc-big" id="knowledge"><span class="kc-big-ico" aria-hidden="true"><svg viewBox="0 0 72 72"><circle cx="36" cy="36" r="24" fill="none" stroke="#ffd166" stroke-width="4"/><path d="M36 22v16l10 6" stroke="#fff" stroke-width="4" fill="none" stroke-linecap="round"/></svg></span><div><ul><li>An algorithm is a step-by-step set of instructions for solving a problem; a flowchart and pseudocode are two ways of writing one down.</li><li>A rectangle (process box) or SET line becomes an assignment, e.g. answer = 1.</li><li>An input box or RECEIVE ... (INTEGER) line becomes int(input(...)).</li><li>A diamond (decision) or IF line becomes an if or if/else in Python.</li><li>An arrow that loops back, or a WHILE line, becomes a while loop with the same condition.</li><li>Pseudocode DIV is Python //, MOD is %, and RANDOM(n) maps to random.randint.</li><li>Keep the variable names and messages from the design, so each part can be matched and marked.</li><li>A loop needs a variable that changes inside it, or it will never stop.</li></ul><p><b>Before you begin</b></p><ul><li>Flowchart symbols and pseudocode keywords</li><li>while loops and if/else</li><li>int(input()) and print()</li><li>Arithmetic operators including // and %</li></ul></div></div><div class="kc-sec kc-method" id="method"><div class="kc-sec-h"><span class="kc-num" aria-hidden="true">1</span><h3>The method</h3></div><div class="kc-two"><ol class="kc-steps"><li><span class="kc-step-ico" aria-hidden="true"></span><div><b>Number or tick each box or line of the design.</b><p>Why: Marks are given per design element, so a checklist stops you missing one.</p></div></li><li><span class="kc-step-ico" aria-hidden="true"></span><div><b>Write the initial values first, then the inputs with int() where numbers are needed.</b><p>Why: Variables must exist before a loop or test uses them, and input arrives as text.</p></div></li><li><span class="kc-step-ico" aria-hidden="true"></span><div><b>Find every loop-back arrow or WHILE and write the while line with exactly that condition.</b><p>Why: The loop condition and where it ends are separate marks.</p></div></li><li><span class="kc-step-ico" aria-hidden="true"></span><div><b>Code each decision as if/else and each calculation with the matching Python operator.</b><p>Why: Each decision and calculation is credited on its own.</p></div></li><li><span class="kc-step-ico" aria-hidden="true"></span><div><b>Add the outputs with clear labels, then run with the given test data and compare.</b><p>Why: A mark is kept for the program running and giving the expected output.</p></div></li></ol><div class="kc-traps"><h4>Do not lose marks here</h4><ul><li><span class="kc-trap-x" aria-hidden="true">✗</span><div><b>Using an if where the design loops back, so the step happens only once.</b></div></li><li><span class="kc-trap-x" aria-hidden="true">✗</span><div><b>Forgetting to update the loop variable, giving a loop that never ends.</b></div></li><li><span class="kc-trap-x" aria-hidden="true">✗</span><div><b>Leaving out int() so a number is compared or multiplied as text.</b></div></li><li><span class="kc-trap-x" aria-hidden="true">✗</span><div><b>Putting the output inside the loop so it prints on every pass.</b></div></li><li><span class="kc-trap-x" aria-hidden="true">✗</span><div><b>Changing the variable names or the order of the steps so the logic no longer follows the design.</b></div></li></ul></div></div><p class="inferred muted">Common mistakes: Inferred, not measured. Inferred from the official schemes&#x27; credit and rejection patterns; not measured student-error statistics.</p><h4>How each command word is answered</h4><div class="table-wrap"><table><thead><tr><th>Command word</th><th>Times asked</th><th>What to write</th></tr></thead><tbody><tr><th scope="row">Write</th><td>7</td><td>Produce a complete, runnable Python program in the editor that follows the given design step by step; save it as the FINISHED file.</td></tr><tr><th scope="row">Amend</th><td>1</td><td>Add the missing lines to the given program so it carries out the printed design; keep the code that is already there.</td></tr></tbody></table></div></div><p class="method-card-next"><a href="#worked-example">Now see it used on a real past-paper question</a></p></div></details></section><section><h2>What a complete response includes</h2><p class="response-focus">Roughly one mark for every part of the design that is coded faithfully: starting values, input with conversion, the loop and its exit test, each decision, each calculation and the labelled outputs, plus a final mark for a run that gives the expected results.</p></section><section id="worked-example"><h2>Worked example</h2><p class="practice-on-page-note"><strong>Start here:</strong> answer the exact part below, then check it on this page.</p><div class="part-text-card"><p class="part-text-meta">Turn a flowchart or pseudocode into Python · June 2023 · Paper 2 · Question 3 · part (c) · 10 marks</p><p class="part-text">(c)	 A program is required to calculate the result of raising one integer (the base) to
+the power of another (the exponent).
+Figure 3 shows a flowchart for the algorithm.
+Start
+Initialise variables
+Enter value
+for base
+Yes
+Is base equal
+to 0?
+Stop
+No
+Enter value
+for exponent
+Yes
+Display error
+Is exponent
+message
+negative?
+No
+Set answer to 1
+Set count to 0
+Is count
+No
+Inform user
+less than
+of the result
+exponent?
+Yes
+Set answer to
+answer x base
+Increment count
+Figure 3
+The program has these requirements:
+• outputs meaningful error messages
+• outputs the final answer with the base and the exponent.
+Open Q03c in the code editor.
+Write a program to implement the logic in the flowchart.
+Do not add any further functionality.
+Save your code as Q03cFINISHED with the correct file extension for the
+programming language.
+(10)</p></div><details class="full-original-question"><summary>View full original question and diagrams</summary><div class="question-viewport" tabindex="0" role="region" aria-label="Complete original question 3; scroll to see every part"><img class="question-img" src="/igcsecomputerscience/question-images/4CP0-2023-JUN-02-standard-Q03-SEG01.png" width="1191" height="1576" loading="lazy" alt="Original June 2023 · Paper 2 question 3, image 1 of 3"><img class="question-img" src="/igcsecomputerscience/question-images/4CP0-2023-JUN-02-standard-Q03-SEG02.png" width="1191" height="1684" loading="lazy" alt="Original June 2023 · Paper 2 question 3, image 2 of 3"><img class="question-img" src="/igcsecomputerscience/question-images/4CP0-2023-JUN-02-standard-Q03-SEG03.png" width="1191" height="555" loading="lazy" alt="Original June 2023 · Paper 2 question 3, image 3 of 3"></div></details><p><a class="button" href="/igcsecomputerscience/code/4cp0-2023-jun-02-standard-q03-c.html">Open the coding page: write and test your Python here</a></p><details class="question-hint" data-question-hint="4CP0-2023-JUN-02-standard-Q03-c"><summary>Hint for part (c)</summary><p data-hint-text>Work through the design box by box or line by line, and wherever it loops back, write a while loop rather than an if. Plan the steps in order before writing, then test what you wrote with the example data.</p></details><details class="worked-solution"><summary>After your attempt, see the full worked explanation</summary><h3>Worked explanation</h3><ol class="method-steps"><li>Initialise variables: base = 1 (anything but 0, so the loop starts), exponent = 0, answer = 1, count = 0.</li><li>The &#x27;Is base equal to 0?&#x27; diamond leads to Stop, and the other arrows lead back to &#x27;Enter value for base&#x27;. So wrap everything in while base != 0: and input base at the top.</li><li>Only carry on if base is not 0: input exponent with int().</li><li>&#x27;Is exponent negative?&#x27; Yes leads to an error message: if exponent &lt; 0: print an error.</li><li>Otherwise set answer = 1 and count = 0, then while count &lt; exponent: answer = answer * base and count = count + 1.</li><li>When the inner loop ends, inform the user: print(base, &quot;to the power of&quot;, exponent, &quot;is&quot;, answer).</li><li>Test: 2 and 0 gives 1; 3 and 4 gives 81; 5 and -1 gives the error; 0 stops the program.</li></ol><div class="authored"><span class="authored-label">Model answer · written by olevels.com, not an official Pearson mark scheme</span><p>base = 1
+exponent = 0
+answer = 1
+count = 0
+while base != 0:
+    base = int(input(&quot;Enter the base (0 to stop): &quot;))
+    if base != 0:
+        exponent = int(input(&quot;Enter the exponent: &quot;))
+        if exponent &lt; 0:
+            print(&quot;Error: the exponent must be 0 or more&quot;)
+        else:
+            answer = 1
+            count = 0
+            while count &lt; exponent:
+                answer = answer * base
+                count = count + 1
+            print(base, &quot;to the power of&quot;, exponent, &quot;is&quot;, answer)</p></div><h3>How the marks are earned</h3><p>Sensible names and starting values (2 marks); a while loop that keeps the program running and a test that ends it when base is 0 (2); an if that catches a negative exponent and a clear error message (2); the answer worked out and worked out with a counting loop as in the flowchart (2); clear prompts and output (1); correct results for the test data (1).</p><h3>Calculation check</h3><ul><li class="calc-check">pow(2, 0) = 1</li><li class="calc-check">pow(3, 4) = 81</li><li class="calc-check">pow(-2, 3) = -8</li></ul><h3>Worked program</h3><p class="muted">Written by olevels.com and tested against the paper’s examples.</p><pre class="code"># Worked example for CSC-CODE-04 (4CP0-2023-JUN-02-standard-Q03-c). Authored by olevels.com; not Pearson&#x27;s code.
+# Q03c
+
+# -----------------------------------------------------
+# Write your code below this line
+
+# Initialise variables
+base = 1          # any value except 0, so the main loop starts
+exponent = 0
+answer = 1
+count = 0
+
+# Main loop: keep going until the user enters 0 for the base
+while base != 0:
+    base = int(input(&quot;Enter the base (0 to stop): &quot;))
+
+    if base != 0:
+        exponent = int(input(&quot;Enter the exponent: &quot;))
+
+        # A negative exponent is not allowed
+        if exponent &lt; 0:
+            print(&quot;Error: the exponent must be 0 or more&quot;)
+        else:
+            # Multiply answer by base, exponent times
+            answer = 1
+            count = 0
+            while count &lt; exponent:
+                answer = answer * base
+                count = count + 1
+
+            # Inform the user of the result
+            print(base, &quot;to the power of&quot;, exponent, &quot;is&quot;, answer)
+</pre><p class="muted">This explanation is authored teaching content. The original question remains unchanged.</p></details></section><section id="practice"><h2>All practice</h2><p>Each card shows the task; open its coding page to write your Python, run it in the browser and check it.</p><div class="web-practice-runner" data-practice-runner data-practice-total="7"><div class="web-practice-intro"><div><p class="eyebrow">Practise here on the website</p><h3>7 past-paper practice questions</h3><p>The first question is ready below. Write your answer, check it, then move to the next one without leaving this lesson.</p></div></div><nav class="web-practice-picker" aria-label="Choose a practice question"><button type="button" data-practice-jump="0" aria-label="Open practice question 1" aria-selected="true">1</button><button type="button" data-practice-jump="1" aria-label="Open practice question 2" aria-selected="false">2</button><button type="button" data-practice-jump="2" aria-label="Open practice question 3" aria-selected="false">3</button><button type="button" data-practice-jump="3" aria-label="Open practice question 4" aria-selected="false">4</button><button type="button" data-practice-jump="4" aria-label="Open practice question 5" aria-selected="false">5</button><button type="button" data-practice-jump="5" aria-label="Open practice question 6" aria-selected="false">6</button><button type="button" data-practice-jump="6" aria-label="Open practice question 7" aria-selected="false">7</button></nav><div class="web-practice-cards"><article class="web-practice-card" data-practice-card="4CP0-2019-JUN-02-standard-Q02-a" data-practice-part="4CP0-2019-JUN-02-standard-Q02-a" data-practice-index="0"><div class="web-practice-card-heading"><div><p class="eyebrow">Practice question 1 of 7</p><h3>Question 2 · part (a)</h3><p>June 2019 · Paper 2 · 10 marks</p></div><span class="practice-ready-badge">Write and test on the coding page</span></div><div class="web-practice-question"><div class="part-text-card"><p class="part-text-meta">Turn a flowchart or pseudocode into Python · June 2019 · Paper 2 · Question 2 · part (a) · 10 marks</p><p class="part-text">(a)	 Anna wants to program a guessing game for Beatrice to play on the computer.
+The program will generate a random number between 1 and 10.
+Beatrice has to guess the number.
+This pseudocode contains the logic required to create the game.
+#
+Initialise variables
+SET counter TO 1
+# i.e. a random integer 1 to 10 inclusive
+SET answer TO RANDOM(9) + 1
+SET guess TO 0
+#
+Print prompt and take guess from user
+SEND “Enter a number from 1 to 10: ” TO DISPLAY
+RECEIVE guess FROM (INTEGER) KEYBOARD
+#
+Create while loop to check guess
+WHILE guess &lt;&gt; answer DO
+SET counter TO counter + 1
+IF guess &gt; answer THEN
+SEND (guess &amp; “ was too high. Try again.”) TO DISPLAY
+ELSE
+SEND (guess &amp; “ was too low. Try again.”) TO DISPLAY
+END IF
+SEND “Guess again: ” TO DISPLAY
+RECEIVE guess FROM (INTEGER) KEYBOARD
+END WHILE
+#
+Report the correct answer to the user and display the number of guesses
+SEND (“You guessed “ &amp; guess &amp; “ in “ &amp; counter &amp; “guesses.”) TO DISPLAY
+Write a program to implement the logic in the pseudocode.
+Open Q02a in the code editor.
+You must use the structure give in Q02a to write the program.
+Do not add any further functionality.
+Save your code as Q02aFINISHED with the correct file extension for the
+programming language.
+(10)</p></div><details class="full-original-question"><summary>View full original question and diagrams</summary><div class="question-viewport" tabindex="0" role="region" aria-label="Complete original question 2; scroll to see every part"><img class="question-img" src="/igcsecomputerscience/question-images/4CP0-2019-JUN-02-standard-Q02-SEG01.png" width="1304" height="1631" loading="lazy" alt="Original June 2019 · Paper 2 question 2, image 1 of 4"><img class="question-img" src="/igcsecomputerscience/question-images/4CP0-2019-JUN-02-standard-Q02-SEG02.png" width="1304" height="1798" loading="lazy" alt="Original June 2019 · Paper 2 question 2, image 2 of 4"><img class="question-img" src="/igcsecomputerscience/question-images/4CP0-2019-JUN-02-standard-Q02-SEG03.png" width="1304" height="1798" loading="lazy" alt="Original June 2019 · Paper 2 question 2, image 3 of 4"><img class="question-img" src="/igcsecomputerscience/question-images/4CP0-2019-JUN-02-standard-Q02-SEG04.png" width="1304" height="521" loading="lazy" alt="Original June 2019 · Paper 2 question 2, image 4 of 4"></div></details><p><a class="button" href="/igcsecomputerscience/code/4cp0-2019-jun-02-standard-q02-a.html">Open the coding page: write and test your Python here</a></p></div><details class="question-hint" data-question-hint="4CP0-2019-JUN-02-standard-Q02-a"><summary>Hint for part (a)</summary><p data-hint-text>Work through the design box by box or line by line, and wherever it loops back, write a while loop rather than an if. Plan the steps in order before writing, then test what you wrote with the example data.</p></details><div class="web-practice-nav"><button type="button" class="secondary" data-practice-previous>Previous question</button><span data-practice-position>Question 1 of 7</span><button type="button" data-practice-next>Next question</button></div></article><article class="web-practice-card" data-practice-card="4CP0-2020-NOV-02-standard-Q02-a" data-practice-part="4CP0-2020-NOV-02-standard-Q02-a" data-practice-index="1" hidden><div class="web-practice-card-heading"><div><p class="eyebrow">Practice question 2 of 7</p><h3>Question 2 · part (a)</h3><p>November 2020 · Paper 2 · 10 marks</p></div><span class="practice-ready-badge">Write and test on the coding page</span></div><div class="web-practice-question"><div class="part-text-card"><p class="part-text-meta">Turn a flowchart or pseudocode into Python · November 2020 · Paper 2 · Question 2 · part (a) · 10 marks</p><p class="part-text">(a)	 Rama wants a program to calculate the area of a triangle.
+(area of a triangle = ½ base x height)
+This pseudocode contains the logic required to create the program.
+1	 #	 Initialise variables
+3	 SET base TO 50
+4	 SET heightChk TO TRUE
+6	 #	 Print prompt and take input from user
+8	 WHILE heightChk DO
+SEND “Enter the height (between 1 and 100): “ TO DISPLAY
+RECEIVE height FROM (INTEGER) KEYBOARD
+IF (height &gt;= 1 AND height &lt;= 100)
+THEN heightChk = FALSE
+END IF
+14	 END WHILE
+16	 #	 Calculate and print out values
+18	 SET area TO 0.5 * base * height
+20	 SEND (“Base of triangle is: “ , base) TO DISPLAY
+21	 SEND (“Height of triangle is: “ , height) TO DISPLAY
+22	 SEND (“Area of triangle is: “ , area) TO DISPLAY
+Write a program to implement the logic in the pseudocode.
+Open Q02a in the code editor.
+You must use the structure given in Q02a to write the program.
+Do not add any further functionality.
+Save your code as Q02aFINISHED with the correct file extension for the
+programming language.
+(10)</p></div><details class="full-original-question"><summary>View full original question and diagrams</summary><div class="question-viewport" tabindex="0" role="region" aria-label="Complete original question 2; scroll to see every part"><img class="question-img" src="/igcsecomputerscience/question-images/4CP0-2020-NOV-02-standard-Q02-SEG01.png" width="1191" height="1573" loading="lazy" alt="Original November 2020 · Paper 2 question 2, image 1 of 2"><img class="question-img" src="/igcsecomputerscience/question-images/4CP0-2020-NOV-02-standard-Q02-SEG02.png" width="1191" height="1518" loading="lazy" alt="Original November 2020 · Paper 2 question 2, image 2 of 2"></div></details><p><a class="button" href="/igcsecomputerscience/code/4cp0-2020-nov-02-standard-q02-a.html">Open the coding page: write and test your Python here</a></p></div><details class="question-hint" data-question-hint="4CP0-2020-NOV-02-standard-Q02-a"><summary>Hint for part (a)</summary><p data-hint-text>Work through the design box by box or line by line, and wherever it loops back, write a while loop rather than an if. Plan the steps in order before writing, then test what you wrote with the example data.</p></details><div class="web-practice-nav"><button type="button" class="secondary" data-practice-previous>Previous question</button><span data-practice-position>Question 2 of 7</span><button type="button" data-practice-next>Next question</button></div></article><article class="web-practice-card" data-practice-card="4CP0-2021-JUN-02-standard-Q02-a" data-practice-part="4CP0-2021-JUN-02-standard-Q02-a" data-practice-index="2" hidden><div class="web-practice-card-heading"><div><p class="eyebrow">Practice question 3 of 7</p><h3>Question 2 · part (a)</h3><p>June 2021 · Paper 2 · 11 marks</p></div><span class="practice-ready-badge">Write and test on the coding page</span></div><div class="web-practice-question"><div class="part-text-card"><p class="part-text-meta">Turn a flowchart or pseudocode into Python · June 2021 · Paper 2 · Question 2 · part (a) · 11 marks</p><p class="part-text">(a)	 The club wants a program to ensure that logins are valid.
+A flowchart for a test version of the program has been designed.
+The test version uses:
+• a username of bard423
+• a password of nX2934?
+Here is the flowchart.
+Start
+Initialise
+variables
+Enter username and
+password
+Are username
+No
+Display error
+and password
+message
+correct?
+Yes
+Display welcome
+message
+Stop
+Write a program to implement the logic in the flowchart.
+Open Q02a in the code editor.
+You must use the structure given in Q02a to write the program.
+Do not add any further functionality.
+Save your code as Q02aFINISHED with the correct file extension for the
+programming language.
+(11)</p></div><details class="full-original-question"><summary>View full original question and diagrams</summary><div class="question-viewport" tabindex="0" role="region" aria-label="Complete original question 2; scroll to see every part"><img class="question-img" src="/igcsecomputerscience/question-images/4CP0-2021-JUN-02-standard-Q02-SEG01.png" width="1191" height="1576" loading="lazy" alt="Original June 2021 · Paper 2 question 2, image 1 of 4"><img class="question-img" src="/igcsecomputerscience/question-images/4CP0-2021-JUN-02-standard-Q02-SEG02.png" width="1191" height="1684" loading="lazy" alt="Original June 2021 · Paper 2 question 2, image 2 of 4"><img class="question-img" src="/igcsecomputerscience/question-images/4CP0-2021-JUN-02-standard-Q02-SEG03.png" width="1191" height="1684" loading="lazy" alt="Original June 2021 · Paper 2 question 2, image 3 of 4"><img class="question-img" src="/igcsecomputerscience/question-images/4CP0-2021-JUN-02-standard-Q02-SEG04.png" width="1191" height="858" loading="lazy" alt="Original June 2021 · Paper 2 question 2, image 4 of 4"></div></details><p><a class="button" href="/igcsecomputerscience/code/4cp0-2021-jun-02-standard-q02-a.html">Open the coding page: write and test your Python here</a></p></div><details class="question-hint" data-question-hint="4CP0-2021-JUN-02-standard-Q02-a"><summary>Hint for part (a)</summary><p data-hint-text>Work through the design box by box or line by line, and wherever it loops back, write a while loop rather than an if. Plan the steps in order before writing, then test what you wrote with the example data.</p></details><div class="web-practice-nav"><button type="button" class="secondary" data-practice-previous>Previous question</button><span data-practice-position>Question 3 of 7</span><button type="button" data-practice-next>Next question</button></div></article><article class="web-practice-card" data-practice-card="4CP0-2021-NOV-02-standard-Q02-a" data-practice-part="4CP0-2021-NOV-02-standard-Q02-a" data-practice-index="3" hidden><div class="web-practice-card-heading"><div><p class="eyebrow">Practice question 4 of 7</p><h3>Question 2 · part (a)</h3><p>November 2021 · Paper 2 · 10 marks</p></div><span class="practice-ready-badge">Write and test on the coding page</span></div><div class="web-practice-question"><div class="part-text-card"><p class="part-text-meta">Turn a flowchart or pseudocode into Python · November 2021 · Paper 2 · Question 2 · part (a) · 10 marks</p><p class="part-text">(a)	 Estelle’s friend has given her a partially completed program to carry out a binary search.
+This pseudocode contains the logic required to complete the program.
+11 RECEIVE item FROM (INTEGER) KEYBOARD
+12 WHILE start &lt;= end AND NOT found DO
+SET middle TO (start + end) DIV 2
+IF numberList[middle] = item THEN
+SET found TO TRUE
+ELSE
+IF item &lt; numberList[middle] THEN
+end = middle – 1
+ELSE
+start = middle + 1
+END IF
+END IF
+SET count TO count + 1
+24 END WHILE
+Open file Q02a in the code editor.
+Amend the code to complete the program.
+You must use the structure given in Q02a to write the program.
+Do not add any further functionality.
+Save your code as Q02aFINISHED with the correct file extension for the
+programming language.
+(10)</p></div><details class="full-original-question"><summary>View full original question and diagrams</summary><div class="question-viewport" tabindex="0" role="region" aria-label="Complete original question 2; scroll to see every part"><img class="question-img" src="/igcsecomputerscience/question-images/4CP0-2021-NOV-02-standard-Q02-SEG01.png" width="1304" height="1633" loading="lazy" alt="Original November 2021 · Paper 2 question 2, image 1 of 3"><img class="question-img" src="/igcsecomputerscience/question-images/4CP0-2021-NOV-02-standard-Q02-SEG02.png" width="1304" height="1798" loading="lazy" alt="Original November 2021 · Paper 2 question 2, image 2 of 3"><img class="question-img" src="/igcsecomputerscience/question-images/4CP0-2021-NOV-02-standard-Q02-SEG03.png" width="1304" height="1309" loading="lazy" alt="Original November 2021 · Paper 2 question 2, image 3 of 3"></div></details><p><a class="button" href="/igcsecomputerscience/code/4cp0-2021-nov-02-standard-q02-a.html">Open the coding page: write and test your Python here</a></p></div><details class="question-hint" data-question-hint="4CP0-2021-NOV-02-standard-Q02-a"><summary>Hint for part (a)</summary><p data-hint-text>Work through the design box by box or line by line, and wherever it loops back, write a while loop rather than an if. Change only what the task asks for, run the program to test it, and save with the exact file name given.</p></details><div class="web-practice-nav"><button type="button" class="secondary" data-practice-previous>Previous question</button><span data-practice-position>Question 4 of 7</span><button type="button" data-practice-next>Next question</button></div></article><article class="web-practice-card" data-practice-card="4CP0-2022-JUN-02-standard-Q02-b" data-practice-part="4CP0-2022-JUN-02-standard-Q02-b" data-practice-index="4" hidden><div class="web-practice-card-heading"><div><p class="eyebrow">Practice question 5 of 7</p><h3>Question 2 · part (b)</h3><p>June 2022 · Paper 2 · 11 marks</p></div><span class="practice-ready-badge">Write and test on the coding page</span></div><div class="web-practice-question"><div class="part-text-card"><p class="part-text-meta">Turn a flowchart or pseudocode into Python · June 2022 · Paper 2 · Question 2 · part (b) · 11 marks</p><p class="part-text">(b)	 Write a program to implement the logic in the pseudocode.
+Open Q02b in the code editor.
+Write the program.
+You must use the structure given in Q02b to complete the program.
+Do not add any further functionality.
+Save your code as Q02bFINISHED with the correct file extension for the
+programming language.
+(11)</p></div><details class="full-original-question"><summary>View full original question and diagrams</summary><div class="question-viewport" tabindex="0" role="region" aria-label="Complete original question 2; scroll to see every part"><img class="question-img" src="/igcsecomputerscience/question-images/4CP0-2022-JUN-02-standard-Q02-SEG01.png" width="1191" height="1576" loading="lazy" alt="Original June 2022 · Paper 2 question 2, image 1 of 2"><img class="question-img" src="/igcsecomputerscience/question-images/4CP0-2022-JUN-02-standard-Q02-SEG02.png" width="1191" height="1244" loading="lazy" alt="Original June 2022 · Paper 2 question 2, image 2 of 2"></div></details><p><a class="button" href="/igcsecomputerscience/code/4cp0-2022-jun-02-standard-q02-b.html">Open the coding page: write and test your Python here</a></p></div><details class="question-hint" data-question-hint="4CP0-2022-JUN-02-standard-Q02-b"><summary>Hint for part (b)</summary><p data-hint-text>Work through the design box by box or line by line, and wherever it loops back, write a while loop rather than an if. Plan the steps in order before writing, then test what you wrote with the example data.</p></details><div class="web-practice-nav"><button type="button" class="secondary" data-practice-previous>Previous question</button><span data-practice-position>Question 5 of 7</span><button type="button" data-practice-next>Next question</button></div></article><article class="web-practice-card" data-practice-card="4CP0-2025-JUN-02-standard-Q03-c" data-practice-part="4CP0-2025-JUN-02-standard-Q03-c" data-practice-index="5" hidden><div class="web-practice-card-heading"><div><p class="eyebrow">Practice question 6 of 7</p><h3>Question 3 · part (c)</h3><p>June 2025 · Paper 2 · 5 marks</p></div><span class="practice-ready-badge">Write and test on the coding page</span></div><div class="web-practice-question"><div class="part-text-card"><p class="part-text-meta">Turn a flowchart or pseudocode into Python · June 2025 · Paper 2 · Question 3 · part (c) · 5 marks</p><p class="part-text">(c)	 A program is required to calculate and display the average age of members taking
+part in an activity.
+Figure 3 shows a flowchart for the algorithm.
+Start
+Initialise variables
+Yes
+No
+Set average to
+Is age
+Is count
+total / count
+equal to 0?
+equal to 0?
+No
+Yes
+Round average to
+Enter age
+whole number
+in years
+Display “No
+ages input”
+Display count
+Set total to
+and average
+total + age
+Set count to
+Stop
+count + 1
+Figure 3
+Open Q03c in the code editor.
+Write a program to implement the logic of the flowchart.
+Use the data given in Figure 4 to test your program.
+Test data
+Expected output
+7  8  9  10  11  0
+You entered 5 ages; the average age is 9.
+16  16  14  0
+You entered 3 ages; the average age is 15.
+No ages input
+Figure 4
+Do not add any further functionality.
+Save your code as Q03cFINISHED with the correct file extension for the
+programming language.
+(5)</p></div><details class="full-original-question"><summary>View full original question and diagrams</summary><div class="question-viewport" tabindex="0" role="region" aria-label="Complete original question 3; scroll to see every part"><img class="question-img" src="/igcsecomputerscience/question-images/4CP0-2025-JUN-02-standard-Q03-SEG01.png" width="1191" height="1576" loading="lazy" alt="Original June 2025 · Paper 2 question 3, image 1 of 3"><img class="question-img" src="/igcsecomputerscience/question-images/4CP0-2025-JUN-02-standard-Q03-SEG02.png" width="1191" height="1684" loading="lazy" alt="Original June 2025 · Paper 2 question 3, image 2 of 3"><img class="question-img" src="/igcsecomputerscience/question-images/4CP0-2025-JUN-02-standard-Q03-SEG03.png" width="1191" height="1567" loading="lazy" alt="Original June 2025 · Paper 2 question 3, image 3 of 3"></div></details><p><a class="button" href="/igcsecomputerscience/code/4cp0-2025-jun-02-standard-q03-c.html">Open the coding page: write and test your Python here</a></p></div><details class="question-hint" data-question-hint="4CP0-2025-JUN-02-standard-Q03-c"><summary>Hint for part (c)</summary><p data-hint-text>Work through the design box by box or line by line, and wherever it loops back, write a while loop rather than an if. Plan the steps in order before writing, then test what you wrote with the example data.</p></details><div class="web-practice-nav"><button type="button" class="secondary" data-practice-previous>Previous question</button><span data-practice-position>Question 6 of 7</span><button type="button" data-practice-next>Next question</button></div></article><article class="web-practice-card" data-practice-card="4CP0-2025-JUN-02-standard-Q04-c" data-practice-part="4CP0-2025-JUN-02-standard-Q04-c" data-practice-index="6" hidden><div class="web-practice-card-heading"><div><p class="eyebrow">Practice question 7 of 7</p><h3>Question 4 · part (c)</h3><p>June 2025 · Paper 2 · 8 marks</p></div><span class="practice-ready-badge">Write and test on the coding page</span></div><div class="web-practice-question"><div class="part-text-card"><p class="part-text-meta">Turn a flowchart or pseudocode into Python · June 2025 · Paper 2 · Question 4 · part (c) · 8 marks</p><p class="part-text">(c)	 Eli’s program has these requirements.
+• A roll of the dice is a random number between 1 and 6.
+• The dice is rolled three times.
+• The numbers rolled are added to a subtotal.
+• The final score is calculated by multiplying the subtotal by a booster value.
+The booster value starts at 1.
+• •
+Each time a 3 or 6 is rolled, the booster value is incremented by 1.
+• The game outputs the value of each roll, and the final score.
+Figure 6 shows a trace table for one execution of the program.
+Output
+Subtotal
+Booster
+Rolled: 3
+0 + 3 = 3
+3 rolled, so incremented to 2
+Rolled: 2
+3 + 2 = 5
+Neither 3 nor 6 rolled
+Rolled: 6
+5 + 6 = 11
+6 rolled, so incremented to 3
+Score 33
+Subtotal (11) * Booster (3) = 33
+Figure 6
+Open Q04c in the code editor.
+Write the code to create this program.
+You must use the layout, variables and constants given in Q04c.
+Do not add any further functionality.
+Save your code as Q04cFINISHED with the correct file extension for the
+programming language.
+(8)</p></div><details class="full-original-question"><summary>View full original question and diagrams</summary><div class="question-viewport" tabindex="0" role="region" aria-label="Complete original question 4; scroll to see every part"><img class="question-img" src="/igcsecomputerscience/question-images/4CP0-2025-JUN-02-standard-Q04-SEG01.png" width="1191" height="1576" loading="lazy" alt="Original June 2025 · Paper 2 question 4, image 1 of 2"><img class="question-img" src="/igcsecomputerscience/question-images/4CP0-2025-JUN-02-standard-Q04-SEG02.png" width="1191" height="1192" loading="lazy" alt="Original June 2025 · Paper 2 question 4, image 2 of 2"></div></details><p><a class="button" href="/igcsecomputerscience/code/4cp0-2025-jun-02-standard-q04-c.html">Open the coding page: write and test your Python here</a></p></div><details class="question-hint" data-question-hint="4CP0-2025-JUN-02-standard-Q04-c"><summary>Hint for part (c)</summary><p data-hint-text>Work through the design box by box or line by line, and wherever it loops back, write a while loop rather than an if. Plan the steps in order before writing, then test what you wrote with the example data.</p></details><div class="web-practice-nav"><button type="button" class="secondary" data-practice-previous>Previous question</button><span data-practice-position>Question 7 of 7</span><button type="button" data-practice-next>Next question</button></div></article></div></div><aside class="type-completion" data-type-completion="CSC-CODE-04"><div><strong>Finished learning and practising this type?</strong><p>Your completion is saved on this device and updates the block progress.</p></div><button type="button" class="secondary" data-toggle-completion="CSC-CODE-04" aria-pressed="false">Mark type complete</button></aside><details class="practice-download"><summary>Optional extra: download the practice PDFs</summary><p>The web questions above are the main practice route. Download the print-ready workbook to work offline: the worked example to retry, then every practice part with answer space.</p><p><a class="button secondary" href="/igcsecomputerscience/workbooks/types/csc-code-04.pdf" download>Download the practice workbook (PDF)</a></p></details></section><section id="placement"><h2>Why this plan?</h2><p>In 6 of 7 current papers (64 marks); coding a flowchart or pseudocode design needs both the design and short-program skills.</p><p><a href="/igcsecomputerscience/plans/a-grade/">A-Grade Plan</a> · <a href="/igcsecomputerscience/plans/a-grade/#CSC-BLOCK-A-PYTHON-CORE">Open its teaching block</a></p><p>Learn these types first: <a href="/igcsecomputerscience/types/csc-t1-06.html">Write an algorithm on paper: flowcharts and pseudocode</a> · <a href="/igcsecomputerscience/types/csc-code-05.html">Write a short number program from a list of requirements</a></p><p>Answer technique: <a href="/igcsecomputerscience/technique/csc-tech-other.html">Methods, tables and code: show every step</a></p><h3>Official syllabus and skill links</h3><p class="code-links"><a href="/igcsecomputerscience/syllabus.html#4CP0-I1-1.1.6">1.1.6</a> <a href="/igcsecomputerscience/syllabus.html#4CP0-I1-1.1.1">1.1.1</a> <a href="/igcsecomputerscience/syllabus.html#4CP0-I1-2.2.2">2.2.2</a></p></section><section id="teach-back"><h2>Teach it back</h2><p>Close the method card and explain the idea in your own words:</p><ol><li>What Computer Science knowledge does this type test?</li><li>How do you recognise it?</li><li>What steps earn the marks?</li><li>Which mistake will you avoid?</li></ol></section></article></main><footer class="footer"><a href="/igcsecomputerscience/?view=plans">Study plans</a><a href="/igcsecomputerscience/coverage.html">Course coverage</a><a href="/igcsecomputerscience/?view=practice&amp;tab=papers">Source papers</a><a href="/igcsecomputerscience/?view=types">Canonical methods</a><p>Pearson Edexcel International GCSE Computer Science (4CP0), linear qualification. Course materials by olevels.com. Original exam material © Pearson Education Ltd. Worked and model answers on this site are written by olevels.com; they are not official Pearson mark schemes.</p></footer></body></html>

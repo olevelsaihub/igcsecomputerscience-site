@@ -1,0 +1,22 @@
+/* 4CP0 Paper 2 coding pages */
+.cs-coding { display: grid; gap: 1rem; }
+.cs-editor { border: 1px solid var(--line, #cfd6e4); border-radius: 10px; overflow: hidden; background: #fff; }
+.cs-editor .cm-editor { min-height: 22rem; max-height: 70vh; font-size: 15px; }
+.cs-editor .cm-scroller { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+.cs-toolbar { display: flex; flex-wrap: wrap; gap: .5rem; align-items: center; }
+.cs-toolbar button { cursor: pointer; }
+.cs-io { display: grid; gap: .75rem; grid-template-columns: 1fr 1fr; }
+@media (max-width: 760px) { .cs-io { grid-template-columns: 1fr; } }
+.cs-io textarea, .cs-io pre { width: 100%; min-height: 8rem; font-family: ui-monospace, Menlo, Consolas, monospace; font-size: 14px;
+  border: 1px solid var(--line, #cfd6e4); border-radius: 8px; padding: .5rem; background: #f8fafc; white-space: pre-wrap; margin: 0; box-sizing: border-box; }
+.cs-status { font-weight: 600; }
+.cs-results { list-style: none; padding: 0; display: grid; gap: .4rem; }
+.cs-case { border-left: 4px solid #94a3b8; padding: .4rem .6rem; background: #f8fafc; border-radius: 6px; }
+.cs-case.pass { border-color: #15803d; background: #f0fdf4; }
+.cs-case.fail { border-color: #b91c1c; background: #fef2f2; }
+.cs-case.nocredit { border-color: #a16207; background: #fefce8; }
+.cs-case pre { font-size: 13px; white-space: pre-wrap; margin: .4rem 0 0; }
+.cs-selfcheck li { margin: .3rem 0; }
+.cs-badge-reconstructed { display: inline-block; background: #fff7ed; color: #9a3412; border: 1px solid #fdba74; border-radius: 999px; padding: .1rem .6rem; font-size: .85rem; }
+
+.cs-point-tag{display:inline-block;margin-left:6px;padding:0 6px;border-radius:4px;background:#eef1f5;color:#5b6577;font-size:11px;font-weight:600;vertical-align:1px}
