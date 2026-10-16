@@ -1,0 +1,36 @@
+<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex,nofollow">
+<title>Run-length encoding (RLE) | olevels.com</title><style>*{box-sizing:border-box}body{margin:0;background:#f5f3ed;color:#20354a;font:16px/1.65 system-ui}main{max-width:1060px;padding:25px;margin:auto}
+header{border-bottom:1px solid #cbd7d1;padding-bottom:18px;display:flex;justify-content:space-between;align-items:center}header img{width:154px}h1{font-size:clamp(27px,4vw,42px);line-height:1.2}
+video{width:100%;aspect-ratio:16/9;background:#20354a;border-radius:12px}.meta{display:flex;gap:12px;margin:20px 0}.meta span{background:white;border-radius:25px;padding:7px 15px}
+.chapters{display:grid;grid-template-columns:1fr 1fr;gap:10px}button,select{font:inherit;padding:12px;border:1px solid #cad5d0;border-radius:9px;background:white;color:#20354a;text-align:left;cursor:pointer}
+button span{color:#17816c;margin-right:10px}details{margin:25px 0}a{color:#17816c}@media(max-width:600px){main{padding:16px}.chapters{grid-template-columns:1fr}}</style>
+<main><header><img src="../../../teach-me/assets/brand/olevels-logo.png" alt="olevels.com School"><b>CS</b></header><h1>Run-length encoding (RLE)</h1>
+<p>Learn one part at a time. The video pauses after each part. Continue when you are ready, or repeat it.</p><div class="meta"><span>English</span><span><b>2:43</b> video</span><span>Pauses are extra</span></div>
+<video data-guided-lesson="true" id="lesson" controls playsinline preload="metadata" poster="poster.jpg"><source src="en.mp4" type="video/mp4"><track src="captions-en.vtt" kind="captions" srclang="en" label="English"></video>
+<h2>Jump to a step</h2><div class="chapters"><button data-time="0.0"><span>0:00</span> Idea</button><button data-time="38.55"><span>0:38</span> Method</button><button data-time="59.1"><span>0:59</span> Worked Example</button><button data-time="113.4"><span>1:53</span> Common Mistake</button><button data-time="123.35"><span>2:03</span> Your Turn</button><button data-time="134.0"><span>2:14</span> Answer</button></div><details><summary>Read the narration</summary><p>If you tell a friend there are five red cars in a row, you do not say red, red, red, red, red. You say five red. Run-length encoding uses exactly this idea to make data smaller. A run is a group of the same symbol, or the same pixel colour, sitting next to each other. RLE replaces each run with a count and the symbol. So four whites become four W. RLE works well when data has long runs, like a simple icon with big blocks of one colour. It works badly when values keep changing, and can even make the file bigger.</p><p>Read the data left to right, one row at a time. Count how many of the same symbol appear before it changes. Write the count and the symbol, then start counting the next run. Finally, check each line. The counts must add up to the width of the row. If they do not, you have missed or doubled a pixel.</p><p>Here is a real question from Paper 1 in November 2021. An icon is set out in an eight by eight grid of black and white pixels. Use run-length encoding to compress the first four lines. It is worth three marks. Here is the icon as a grid. Line one is white, white, white, black, then four whites. That is three W, one B, four W. Line two is one white, six black, one white. So one W, six B, one W. Line three changes a lot. One B, two W, one B, one W, one B, two W. Line four is three W, two B, three W. Here is the full answer, with every line checked against eight. All four lines correct earns three marks. This explanation is by olevels.com, not an official mark scheme.</p><p>A common mistake is counting all the whites in a line together. Line three has three separate white runs. Each run must be written on its own.</p><p>Now you try. Encode these two rows of ten pixels with RLE. Then decide which row RLE suits, and why. Pause here and work it out.</p><p>Row A is five W, two B, three W. That is six symbols instead of ten, so it is smaller. Row B has ten runs of one, so it becomes twenty symbols. That is bigger than the original. RLE suits row A, because it has long runs. Remember the method: read along each row, count each run, write count and symbol, and check the counts add up to the width. Now try the practice questions for this type.</p></details>
+<p><a href="../../../types/csc-t3-15.html">Practise this question type</a></p>
+<link rel="stylesheet" href="../../guided-player.css">
+<style id="olv-student-visibility">[data-olv-placeholder],[data-olv-access="teacher"],.ms,#msimg,#mspdf{display:none!important}</style>
+<script id="olv-student-guard">
+(function(){
+ const file=/(?:^|[\/\s_.-])(?:mark[\s_-]*schemes?|answers?|solutions?|ms)(?:[/\s_.-]|$)|(?:^|\/)story(?:book|figs|text|[-.])/i;
+ const label=/mark\s*schemes?|marking\s*schemes?|answer\s*(?:key|sheet)s?|^(?:[✅📄\s]*)(?:answers?|solutions?|marks)(?:\s*(?:PDF|\(teacher.*\)))?$|(?:show|reveal|view)\b.{0,25}\b(?:answer|solution)s?/i;
+ function forbidden(el){
+  if(el.hasAttribute('data-olv-placeholder'))return false;
+  if(el.getAttribute('data-olv-access')==='teacher')return true;
+  if(el.tagName==='BUTTON'&&el.hasAttribute('data-show-response'))return false;
+  if(el.tagName==='DETAILS'){if(el.hasAttribute('data-student-response'))return false;const s=el.querySelector('summary');return s&&label.test(s.textContent);}
+  if((el.tagName==='A'||el.tagName==='BUTTON')&&label.test(el.textContent.trim()))return true;
+  return ['href','src','data-src','data'].some(k=>{let v=el.getAttribute(k);if(!v)return false;try{return file.test(decodeURIComponent(new URL(v,document.baseURI).pathname));}catch(_){return true;}});
+ }
+ function clean(root){
+  const els=[];if(root.nodeType===1)els.push(root);
+  if(root.querySelectorAll)els.push(...root.querySelectorAll('a,button,details,img,source,iframe,object,embed,[data-olv-access]'));
+  els.forEach(el=>{if(!forbidden(el))return;el.hidden=true;el.setAttribute('data-olv-placeholder','');el.style.setProperty('display','none','important');
+   ['href','src','data-src','data','srcset','onclick'].forEach(k=>el.removeAttribute(k));el.replaceChildren();});
+ }
+ new MutationObserver(rows=>rows.forEach(r=>{if(r.type==='attributes')clean(r.target);else r.addedNodes.forEach(clean);})).observe(document.documentElement,{childList:true,subtree:true,attributes:true,attributeFilter:['href','src','data-src','data-olv-access']});
+ if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',()=>clean(document));else clean(document);
+})();
+</script>
+<script type="application/json" id="guided-steps">[{"title": "Idea", "start": 0.0, "end": 38.55, "pauseAt": 37.827}, {"title": "Method", "start": 38.55, "end": 59.1, "pauseAt": 58.394}, {"title": "Worked Example", "start": 59.1, "end": 113.4, "pauseAt": 112.679}, {"title": "Common Mistake", "start": 113.4, "end": 123.35, "pauseAt": 122.611}, {"title": "Your Turn", "start": 123.35, "end": 134.0, "pauseAt": 133.286}, {"title": "Answer", "start": 134.0, "end": 163.05, "pauseAt": 162.301}]</script><script src="../../chapter-player.js" defer></script><script src="../../guided-player.js" defer></script></main></html>

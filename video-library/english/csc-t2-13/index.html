@@ -1,0 +1,36 @@
+<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex,nofollow">
+<title>Spot constructs, operators, keywords and comments | olevels.com</title><style>*{box-sizing:border-box}body{margin:0;background:#f5f3ed;color:#20354a;font:16px/1.65 system-ui}main{max-width:1060px;padding:25px;margin:auto}
+header{border-bottom:1px solid #cbd7d1;padding-bottom:18px;display:flex;justify-content:space-between;align-items:center}header img{width:154px}h1{font-size:clamp(27px,4vw,42px);line-height:1.2}
+video{width:100%;aspect-ratio:16/9;background:#20354a;border-radius:12px}.meta{display:flex;gap:12px;margin:20px 0}.meta span{background:white;border-radius:25px;padding:7px 15px}
+.chapters{display:grid;grid-template-columns:1fr 1fr;gap:10px}button,select{font:inherit;padding:12px;border:1px solid #cad5d0;border-radius:9px;background:white;color:#20354a;text-align:left;cursor:pointer}
+button span{color:#17816c;margin-right:10px}details{margin:25px 0}a{color:#17816c}@media(max-width:600px){main{padding:16px}.chapters{grid-template-columns:1fr}}</style>
+<main><header><img src="../../../teach-me/assets/brand/olevels-logo.png" alt="olevels.com School"><b>CS</b></header><h1>Spot constructs, operators, keywords and comments</h1>
+<p>Learn one part at a time. The video pauses after each part. Continue when you are ready, or repeat it.</p><div class="meta"><span>English</span><span><b>2:38</b> video</span><span>Pauses are extra</span></div>
+<video data-guided-lesson="true" id="lesson" controls playsinline preload="metadata" poster="poster.jpg"><source src="en.mp4" type="video/mp4"><track src="captions-en.vtt" kind="captions" srclang="en" label="English"></video>
+<h2>Jump to a step</h2><div class="chapters"><button data-time="0.0"><span>0:00</span> Idea</button><button data-time="46.3"><span>0:46</span> Method</button><button data-time="71.9"><span>1:11</span> Worked Example</button><button data-time="107.0"><span>1:47</span> Common Mistake</button><button data-time="125.05"><span>2:05</span> Your Turn</button><button data-time="136.6"><span>2:16</span> Answer</button></div><details><summary>Read the narration</summary><p>Reading code is like reading a sentence in another language. You do not need to understand every word. You just spot the giveaway words and symbols. A comment is the easiest: it starts with a hash sign, and the computer ignores it. Operators come in three families. Arithmetic operators do maths, like plus and times. Relational operators compare two values, like greater than or equal to. Logical operators join tests: and, or, not. Each construct has a keyword that gives it away. If starts selection. For and while start iteration. Def defines a subprogram. Count equals zero initialises a variable, and input takes user input.</p><p>First, name the marker you are looking for. Then scan the code from the top and stop at the first match. Finally, answer in the form asked: the operator itself, the line text, or the line number. Look at line four of this program. The greater than or equal sign and the less than or equal sign are relational. The word and joins them, so and is the logical operator.</p><p>Here is a real question from Paper 2 in June 2024. Give the logical operator used in the code. It is worth one mark. Search the code for and, or or not. Line eleven reads: if count is greater than ten and count is less than twenty. Greater than and less than are relational operators, so they are not the answer. The word joining the two conditions is and. So the answer is simply the word and. One mark. This explanation is by olevels.com, not an official mark scheme.</p><p>The most common mistake is giving a relational operator, such as greater than, when a logical operator is asked for. Another mistake is giving a line number when the question asks for the operator, or skipping blank lines when you count. Give exactly what is asked.</p><p>Now you try. Using this code, give the line number where iteration starts, a logical operator, and a relational operator. Pause here and work it out.</p><p>Iteration starts at line three, the while line. The logical operator is or, on line five. A relational operator is less than on line three, or double equals on line five. Remember the method: name the marker, scan from the top, and answer in the form asked. Now try the practice questions for this type.</p></details>
+<p><a href="../../../types/csc-t2-13.html">Practise this question type</a></p>
+<link rel="stylesheet" href="../../guided-player.css">
+<style id="olv-student-visibility">[data-olv-placeholder],[data-olv-access="teacher"],.ms,#msimg,#mspdf{display:none!important}</style>
+<script id="olv-student-guard">
+(function(){
+ const file=/(?:^|[\/\s_.-])(?:mark[\s_-]*schemes?|answers?|solutions?|ms)(?:[/\s_.-]|$)|(?:^|\/)story(?:book|figs|text|[-.])/i;
+ const label=/mark\s*schemes?|marking\s*schemes?|answer\s*(?:key|sheet)s?|^(?:[✅📄\s]*)(?:answers?|solutions?|marks)(?:\s*(?:PDF|\(teacher.*\)))?$|(?:show|reveal|view)\b.{0,25}\b(?:answer|solution)s?/i;
+ function forbidden(el){
+  if(el.hasAttribute('data-olv-placeholder'))return false;
+  if(el.getAttribute('data-olv-access')==='teacher')return true;
+  if(el.tagName==='BUTTON'&&el.hasAttribute('data-show-response'))return false;
+  if(el.tagName==='DETAILS'){if(el.hasAttribute('data-student-response'))return false;const s=el.querySelector('summary');return s&&label.test(s.textContent);}
+  if((el.tagName==='A'||el.tagName==='BUTTON')&&label.test(el.textContent.trim()))return true;
+  return ['href','src','data-src','data'].some(k=>{let v=el.getAttribute(k);if(!v)return false;try{return file.test(decodeURIComponent(new URL(v,document.baseURI).pathname));}catch(_){return true;}});
+ }
+ function clean(root){
+  const els=[];if(root.nodeType===1)els.push(root);
+  if(root.querySelectorAll)els.push(...root.querySelectorAll('a,button,details,img,source,iframe,object,embed,[data-olv-access]'));
+  els.forEach(el=>{if(!forbidden(el))return;el.hidden=true;el.setAttribute('data-olv-placeholder','');el.style.setProperty('display','none','important');
+   ['href','src','data-src','data','srcset','onclick'].forEach(k=>el.removeAttribute(k));el.replaceChildren();});
+ }
+ new MutationObserver(rows=>rows.forEach(r=>{if(r.type==='attributes')clean(r.target);else r.addedNodes.forEach(clean);})).observe(document.documentElement,{childList:true,subtree:true,attributes:true,attributeFilter:['href','src','data-src','data-olv-access']});
+ if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',()=>clean(document));else clean(document);
+})();
+</script>
+<script type="application/json" id="guided-steps">[{"title": "Idea", "start": 0.0, "end": 46.3, "pauseAt": 45.567}, {"title": "Method", "start": 46.3, "end": 71.9, "pauseAt": 71.169}, {"title": "Worked Example", "start": 71.9, "end": 107.0, "pauseAt": 106.265}, {"title": "Common Mistake", "start": 107.0, "end": 125.05, "pauseAt": 124.331}, {"title": "Your Turn", "start": 125.05, "end": 136.6, "pauseAt": 135.882}, {"title": "Answer", "start": 136.6, "end": 158.95, "pauseAt": 158.241}]</script><script src="../../chapter-player.js" defer></script><script src="../../guided-player.js" defer></script></main></html>

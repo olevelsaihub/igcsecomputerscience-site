@@ -1,0 +1,46 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:10.965
+Think of a school. A notice in the main hall can be read by everyone. A note on the board in one classroom can only be read in that room, and it is wiped at the end of the lesson.
+
+00:00:11.550 --> 00:00:26.249
+In a program, the scope of a variable is the part of the program where it can be used. School is created in the main program, outside any subprogram, so it is a global variable. It can be read from anywhere, even inside show room.
+
+00:00:26.800 --> 00:00:42.117
+Room is created inside the subprogram, so it is a local variable. It only exists inside show room. When the subprogram finishes, room disappears and its memory is freed. So using room in the main program causes an error.
+
+00:00:42.700 --> 00:00:51.767
+Two subprograms can each have a local variable with the same name. They do not clash, because each one lives only inside its own subprogram.
+
+00:00:52.900 --> 00:01:01.775
+First, check what the question asks: where the variable is created, or where it can be used. These are separate facts, and your answer must match.
+
+00:01:02.350 --> 00:01:15.939
+A global variable is created in the main program and can be used anywhere. A local variable is created inside a subprogram and can be used only inside that subprogram. The word only shows the limit.
+
+00:01:17.050 --> 00:01:28.933
+Here is a real question from Paper 2 in June 2019. Describe the difference between a local variable and a global variable in a computer program. It is worth two marks.
+
+00:01:29.500 --> 00:01:38.503
+Start with the global variable. Where is it made? In the main program, outside every subprogram. Where can it be used? Anywhere in the program.
+
+00:01:39.100 --> 00:01:45.841
+Now the local variable. It is made inside a subprogram, and it can only be used inside that subprogram.
+
+00:01:46.400 --> 00:02:04.256
+Write both sentences. A global variable is created in the main program and can be used anywhere. A local variable is created inside a subprogram and can only be used there. One mark for each. This explanation is by olevels.com, not an official mark scheme.
+
+00:02:05.400 --> 00:02:14.360
+A common mistake is saying a local variable is used in one line. It can be used anywhere inside its own subprogram, but nowhere else.
+
+00:02:14.950 --> 00:02:22.203
+Another mistake is describing only one side. A difference question needs a sentence about each kind of variable.
+
+00:02:23.350 --> 00:02:30.347
+Now you try. Which variable is global, and which is local? What does the program print? Pause here and work it out.
+
+00:02:31.450 --> 00:02:47.962
+Bonus is created in the main program, so it is global, and it can be read inside add bonus. New score is created inside add bonus, so it is local. The parameter p score is local too. Fifty plus ten is sixty, so it prints sixty.
+
+00:02:48.550 --> 00:03:00.006
+Remember the method: ask where the variable is created and where it can be used, then write one sentence for global and one for local. Now try the practice questions for this type.

@@ -1,0 +1,46 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:13.312
+Imagine giving directions. To a friend you say, go to the park. To a robot you must say, turn left ninety degrees, move ten steps, stop. One is easy for people. The other is exact for the machine.
+
+00:00:13.900 --> 00:00:24.332
+A high-level language, like Python, uses English-like words. People can read and write it easily. Here, total equals a plus b, then print the total.
+
+00:00:24.900 --> 00:00:38.617
+A low-level language is close to the hardware. Assembly language uses short mnemonics like L D A, load, and A D D, add. Machine code is pure binary. Here is the same addition in assembly.
+
+00:00:39.200 --> 00:00:54.731
+Compare them. High-level code is easy to read and portable, so it runs on different computers once translated. Low-level code is written for one processor, but it can control the hardware directly, run fast and use little memory.
+
+00:00:55.850 --> 00:01:09.610
+Decide which level the question asks about, and whether it wants a benefit, a drawback or a comparison. Pick one feature. To compare, give both sides with whereas. To explain, link the feature to the scenario.
+
+00:01:10.200 --> 00:01:21.443
+Low-level languages are often used for device drivers and embedded systems. High-level languages are used for most general applications, such as games and websites.
+
+00:01:22.550 --> 00:01:36.097
+Here is a real question from Paper 1 in June 2025. A team writes smartwatch software in assembly language. Explain one benefit of writing it in a low-level language. Two marks.
+
+00:01:36.650 --> 00:01:46.719
+Recall the key benefit. Low-level code can directly access the hardware and the registers. So the programmers control exactly what the hardware does.
+
+00:01:47.300 --> 00:01:56.857
+Now link it to the device. A smartwatch has limited hardware: small memory and a small battery. So it must be used as efficiently as possible.
+
+00:01:57.450 --> 00:02:12.981
+So the answer is: programmers can make the best use of the smartwatch's limited hardware, because low-level code gives direct access to its hardware and registers. This explanation is by olevels.com, not an official mark scheme.
+
+00:02:14.100 --> 00:02:22.036
+A common mistake is saying high-level languages run faster, or that low-level ones are easier. It is the other way round.
+
+00:02:22.600 --> 00:02:29.640
+Another mistake is a vague word like better. Say how it is better, and in a compare question cover both sides.
+
+00:02:30.750 --> 00:02:42.974
+Now you try. A team is writing a phone app that must run on many different types of phone. Should they use a high-level or a low-level language? Explain one reason. Pause and decide.
+
+00:02:44.100 --> 00:02:55.492
+High-level. High-level code is portable. The same source code can be translated to run on each type of phone, whereas low-level code only works on one type of processor.
+
+00:02:56.050 --> 00:03:03.773
+Remember the method: pick the level, pick one feature, and link it to the task. Now try the practice questions for this type.

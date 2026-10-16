@@ -1,0 +1,52 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:07.829
+Think of labelled boxes on a shelf. A box called score holds one thing, and you can swap what is inside whenever you like.
+
+00:00:08.400 --> 00:00:20.709
+In a program, that box is a variable: a named place in memory whose value can change while the program runs. Score starts at nought. Score equals score plus five, so it prints five.
+
+00:00:21.300 --> 00:00:35.721
+A constant is a named value that stays fixed while the program runs. In Python we write its name in capitals, like VAT rate. If the rate ever changes, the programmer updates one line, not every place it is used.
+
+00:00:36.300 --> 00:00:48.353
+An array holds many values of the same data type under one name. Each value has an index, starting at zero. Scores index zero is twelve, and scores index two is fifteen.
+
+00:00:48.950 --> 00:00:59.467
+A one-dimensional array is like a single row. A two-dimensional array is like a table, with rows and columns. Every value in it is still the same data type.
+
+00:01:00.050 --> 00:01:10.375
+A record groups related fields about one item, and the fields can be different data types. This record for one product holds a string, a real and an integer.
+
+00:01:11.500 --> 00:01:25.089
+First, spot the key word: variable, constant, array or record. For a definition, say what is stored and whether it can change. For a difference, describe the first item, write whereas, then describe the second.
+
+00:01:25.650 --> 00:01:34.226
+For array versus record, check the data types. Values of the same type can go in an array. Mixed types about one item need a record.
+
+00:01:35.350 --> 00:01:44.971
+Here is a real question from Paper 2 in June 2025. Describe one difference between a variable and an array. It is worth two marks.
+
+00:01:45.550 --> 00:01:58.286
+Write down what each one stores. A variable holds one value at a time, such as score equals twelve. An array holds many values under one name, such as scores holding twelve, seven and fifteen.
+
+00:01:58.850 --> 00:02:13.783
+Join the two halves with whereas. A variable holds just one value at a time, whereas an array holds many values under one name. One mark for each half. This explanation is by olevels.com, not an official mark scheme.
+
+00:02:14.900 --> 00:02:23.455
+A common mistake is describing only one side. A variable holds one value is only half the answer, so it earns only one mark.
+
+00:02:24.050 --> 00:02:36.487
+Another mistake is saying a constant stops the user changing a value. The benefit is for the programmer: the value is set in one place and cannot be changed by accident while the program runs.
+
+00:02:37.600 --> 00:02:48.117
+Now you try. A shop stores the name, the price and the number in stock for one product. Should it use an array or a record? Give a reason. Pause and decide.
+
+00:02:49.250 --> 00:02:57.207
+Look at the data types. The name is a string, the price is a real, and the number in stock is an integer. The types are mixed.
+
+00:02:57.800 --> 00:03:03.816
+So use a record, because its fields can be different data types, and they all describe one product.
+
+00:03:04.400 --> 00:03:15.109
+Remember the method: spot the key word, say what is stored and whether it can change, and describe both sides with whereas. Now try the practice questions for this type.

@@ -1,0 +1,11 @@
+Look around your home. A washing machine, a smartwatch, a TV remote. None of them looks like a computer, but each one has a tiny computer hidden inside. This is an embedded system: a small computer built into a larger device to do one specific job. It has hardware and software, and the software is usually set by the maker. Many embedded systems use sensors to measure the world, such as a water-level sensor. Actuators, such as a motor or a valve, act on it. Many respond straight away, in real time.
+
+Learn the features. One dedicated task. Low power. Small size. Built-in memory, often flash. A simple interface, or none. Low cost and robust. Start from one task. Pick a feature the question has not already given. Make it fit the device. For an explain question, link the feature to the single task, to saving power, or to cost.
+
+Here is a real question from Paper 1 in June 2025. One characteristic of the embedded system in a smartwatch is that it uses sensors. Give two other characteristics that make it suitable. Two marks. Sensors are already given, so cross them out. Now picture a smartwatch. It is tiny, and it runs on a small battery. That gives two characteristics. One: low power use, so the small battery lasts a long time. Two: small physical size, so it fits inside the watch. This explanation is by olevels.com, not an official mark scheme.
+
+A common mistake is repeating what the question gave, such as sensors. That scores nothing. Give a new characteristic. Another mistake is a purpose that just repeats the sensor's name. Say what the reading is used for.
+
+Now you try. A smart thermostat keeps a room at twenty-one degrees. Name one sensor it needs and say what it is used for. Then give one characteristic that makes an embedded system suitable. Pause here and work it out.
+
+Part a. A temperature sensor measures the room. The processor compares the reading with twenty-one degrees and switches the heating on or off. Part b. For example, low power use, so it can run all day cheaply. Or it does one dedicated task, so its hardware can be just enough for that job. Remember the method: start from one task, pick a new feature that fits the device, and link it. Now try the practice questions for this type.

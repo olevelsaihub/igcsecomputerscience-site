@@ -1,0 +1,55 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:13.568
+A light switch has only two states: on or off. A computer stores everything with tiny switches like this. On is written as one, off as zero. Each one or zero is called a bit, and eight bits make a byte.
+
+00:00:14.150 --> 00:00:26.374
+You already use place value. In our everyday denary system, three hundred and forty-five means three hundreds, four tens and five ones. Each column is worth ten times the one on its right.
+
+00:00:26.950 --> 00:00:39.494
+Binary works the same way, but each column is worth double the one on its right. For eight bits, the columns are one hundred and twenty-eight, sixty-four, thirty-two, sixteen, eight, four, two and one.
+
+00:00:40.050 --> 00:00:49.949
+Unsigned means there is no minus sign. So eight bits can hold any whole number from zero, all zeros, up to two hundred and fifty-five, all ones.
+
+00:00:51.050 --> 00:01:05.983
+Binary to denary is adding. Write the headers, then add the place values above every one and ignore the zeros. Zero one zero zero, one zero one zero is sixty-four plus eight plus two, which is seventy-four.
+
+00:01:06.550 --> 00:01:19.435
+Denary to binary is taking away. Start at one hundred and twenty-eight and ask: does it fit into what is left? If yes, write one and subtract. If no, write zero. Then move one column right.
+
+00:01:20.000 --> 00:01:28.512
+Stop at the one column. What is left must be zero. Write all eight bits, with a space between the two nibbles. Then convert back to check.
+
+00:01:29.650 --> 00:01:40.466
+Here is a real question from Paper 1 in June 2023. Convert the denary unsigned integer sixty to eight-bit binary. It is worth two marks.
+
+00:01:41.050 --> 00:01:48.346
+Does one hundred and twenty-eight fit into sixty? No, so write zero. Does sixty-four fit? No, write zero.
+
+00:01:48.900 --> 00:01:58.009
+Thirty-two fits. Write one. Sixty take away thirty-two leaves twenty-eight. Sixteen fits into twenty-eight. Write one, and twelve is left.
+
+00:01:58.600 --> 00:02:07.603
+Eight fits into twelve. Write one, and four is left. Four fits. Write one, and nothing is left. So the two and one columns are zero.
+
+00:02:08.200 --> 00:02:24.221
+The answer is zero zero one one, one one zero zero. Check: thirty-two plus sixteen plus eight plus four is sixty. Each nibble in the right place earns a mark. This explanation is by olevels.com, not an official mark scheme.
+
+00:02:25.350 --> 00:02:34.139
+The most common mistake is dropping the leading zeros. One one one one zero zero is only six bits. The question asked for eight.
+
+00:02:34.700 --> 00:02:43.596
+Another mistake is starting the headers at two hundred and fifty-six, or writing the bits backwards. Both shift every bit into the wrong column.
+
+00:02:44.700 --> 00:02:54.044
+Now you try. Convert the denary number two hundred and one to eight-bit binary. Then convert your answer back to check it. Pause here and work it out.
+
+00:02:55.150 --> 00:03:06.201
+One hundred and twenty-eight fits into two hundred and one, leaving seventy-three. Sixty-four fits, leaving nine. Thirty-two and sixteen do not fit, so they are zero.
+
+00:03:06.800 --> 00:03:23.291
+Eight fits into nine, leaving one. Four and two do not fit. One fits, leaving zero. The answer is one one zero zero, one zero zero one. Check: one hundred and twenty-eight plus sixty-four plus eight plus one is two hundred and one.
+
+00:03:23.850 --> 00:03:33.173
+Remember the method: write the headers, place the biggest values first, then write eight bits and check back. Now try the practice questions for this type.

@@ -1,0 +1,46 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:11.819
+Picture a classroom whiteboard. You write on it while you work, but it is wiped clean at the end of the day. Now picture a printed safety card on the wall. It is always there, and nobody changes it.
+
+00:00:12.400 --> 00:00:23.984
+RAM, random-access memory, is the whiteboard. It holds the programs and data being used right now. RAM is volatile. When the power goes off, everything in it is lost.
+
+00:00:24.550 --> 00:00:38.182
+ROM, read-only memory, is the printed card. It is non-volatile, so it keeps its contents with no power, and they cannot normally be changed. ROM holds the start-up instructions, called the BIOS.
+
+00:00:38.750 --> 00:00:53.641
+Two more. Flash memory is non-volatile but can be rewritten, so it is used in SSDs and memory cards. Virtual memory is part of the hard disc or SSD, used as extra RAM when RAM is full.
+
+00:00:54.750 --> 00:01:04.243
+Name the memory type. State its key property. Then link the property to its use. If the question names two memory types, say something about each one.
+
+00:01:04.800 --> 00:01:16.064
+For virtual memory, describe the movement. When RAM is full, data not being used is moved out to the disc. When it is needed again, it is moved back into RAM.
+
+00:01:17.200 --> 00:01:28.485
+Here is a real question from Paper 1 in June 2024. Explain one reason why computers need both RAM and ROM. It is worth two marks.
+
+00:01:29.050 --> 00:01:37.903
+Start with RAM. RAM is volatile. So when the computer is switched on, RAM is empty. There is nothing in it to run yet.
+
+00:01:38.500 --> 00:01:48.164
+So the start-up instructions must be kept somewhere permanent. That is ROM. It keeps the BIOS even with no power, and the BIOS boots the computer.
+
+00:01:48.750 --> 00:02:04.025
+Join them with so. RAM is volatile, so its contents are lost without power. Therefore ROM is needed to keep the start-up instructions permanently. This explanation is by olevels.com, not an official mark scheme.
+
+00:02:05.150 --> 00:02:19.209
+A common mistake is saying ROM is volatile, or that ROM stores the operating system. ROM is non-volatile, and it stores the BIOS. The operating system is loaded later from storage.
+
+00:02:19.800 --> 00:02:28.995
+Another mistake is calling virtual memory extra RAM chips. It is space on the hard disc or SSD that acts like RAM.
+
+00:02:30.100 --> 00:02:43.945
+Now you try. Amir opens a game, a video editor and many browser tabs at once, and his laptop's RAM becomes full. Describe how virtual memory lets him keep working. Pause here and work it out.
+
+00:02:45.050 --> 00:03:01.519
+Part of the SSD is used as virtual memory. Data that is not being used is moved out of RAM to the SSD. When it is needed again, it is moved back into RAM. The disc is slower than RAM, so the laptop may slow down.
+
+00:03:02.100 --> 00:03:09.929
+Remember the method: name the memory, state its property, and link it to its use. Now try the practice questions for this type.

@@ -1,0 +1,46 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:13.227
+A fairground ride has a sign: ages four to twelve only. To check the ticket machine works, you would try a child of eight, a child of exactly four or twelve, and someone aged thirteen. That is testing.
+
+00:00:13.800 --> 00:00:22.760
+Normal data is a typical valid value, well inside the range. The program should accept it. For ages four to twelve, eight is normal.
+
+00:00:23.350 --> 00:00:36.683
+Boundary data sits at the very edge of the valid range: the smallest or largest value allowed. Here, four or twelve. Edges are where programmers often mix up less than and less than or equal to.
+
+00:00:37.250 --> 00:00:45.762
+Erroneous data is invalid and should be rejected. It is outside the range, like thirteen, or the wrong type, like the word ten.
+
+00:00:46.900 --> 00:00:59.423
+First, write down the valid range and whether the ends are included. Then choose normal data from the middle, boundary data at an end, and erroneous data just outside or of the wrong type.
+
+00:01:00.000 --> 00:01:07.531
+Finally, check that each answer is a real value of the right type, written as digits, and that no two values repeat.
+
+00:01:08.650 --> 00:01:24.778
+Here is a real question from Paper 2 in June 2025. A program converts denary values from zero to two hundred and fifty-five into hexadecimal. Give normal, boundary and erroneous test data. It is worth two marks.
+
+00:01:25.350 --> 00:01:36.017
+The valid range is zero to two hundred and fifty-five. For normal data, pick a value from the middle, such as one hundred and twenty-five. It converts to seven D.
+
+00:01:36.600 --> 00:01:46.307
+For boundary data, pick an end of the range. Two hundred and fifty-five is the largest. It converts to F F, the biggest two-digit hex number.
+
+00:01:46.900 --> 00:02:03.135
+For erroneous data, step just outside: two hundred and fifty-six. It would need three hex digits, one zero zero, so the program should reject it. Two marks for all three. This explanation is by olevels.com, not an official mark scheme.
+
+00:02:04.250 --> 00:02:14.042
+A common mistake is giving a boundary value outside the range, such as two hundred and fifty-six, when the question means the most extreme valid value.
+
+00:02:14.600 --> 00:02:21.811
+Another mistake is choosing normal data that is on the edge, like zero. Then two of your answers test the same thing.
+
+00:02:22.950 --> 00:02:35.131
+Now you try. A quiz program accepts a score that must be a whole number from zero to fifty. Give one normal, one boundary and one erroneous test value. Pause here and work it out.
+
+00:02:36.250 --> 00:02:46.191
+Normal could be twenty-five, from the middle. Boundary is zero or fifty, an end of the range. Erroneous could be fifty-one, minus one, or the word ten.
+
+00:02:46.750 --> 00:02:54.963
+Remember the method: write the range, then choose the middle, the edge, and just outside. Now try the practice questions for this type.

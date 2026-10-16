@@ -1,0 +1,52 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:14.123
+Think about making a cup of tea. You boil the water, put a tea bag in a cup, pour the water in, then wait. Each step is clear, and the order matters. A precise, ordered list of steps that solves a problem is called an algorithm.
+
+00:00:14.700 --> 00:00:24.407
+The same algorithm can be written down in four ways: as a flowchart, as pseudocode, as a written description in plain English, or as program code.
+
+00:00:25.000 --> 00:00:41.213
+A flowchart draws the steps as shapes joined by arrows. A rounded box is start or stop. A parallelogram is input or output. A rectangle is a process, and a diamond is a decision. You need no programming knowledge to follow it.
+
+00:00:41.800 --> 00:00:55.816
+Pseudocode looks like code, but it uses plain English words such as SET, WHILE and SEND. It is not tied to the exact rules, called the syntax, of any one language. Here, the loop makes three cups of tea.
+
+00:00:56.400 --> 00:01:10.544
+To test an algorithm, we use a trace table. It has a column for each variable and output. Each row shows the values as the algorithm runs. We fill it in by hand to follow the logic and find logic errors.
+
+00:01:11.650 --> 00:01:21.890
+First, work out exactly what is being asked. Is it a definition, a feature, a benefit, or a choice of method for an audience? Each needs a different short answer.
+
+00:01:22.450 --> 00:01:31.239
+For a choice, name the method first. Then give a reason that fits the audience. The reason only scores if a suitable method has been named.
+
+00:01:31.800 --> 00:01:44.024
+In multiple choice, rule out options that are not ways of writing an algorithm. A truth table tests logic. A cipher is for encryption. A simulation models the real world.
+
+00:01:45.150 --> 00:02:00.638
+Here is a real question from Paper 1 in June 2023. A programmer is showing a new algorithm to some non-technical managers. State a suitable method for writing it, and justify your answer. It is worth two marks.
+
+00:02:01.200 --> 00:02:10.288
+Start with the audience. The managers are non-technical, so they do not know any programming language. We need a method they can follow without code.
+
+00:02:10.850 --> 00:02:18.871
+A flowchart is the best choice. Each step is a shape, joined by arrows, so anyone can follow the order and the decisions.
+
+00:02:19.450 --> 00:02:35.621
+So the answer is: method, flowchart. Justification: it shows the steps visually with shapes and arrows, so the managers can follow it without knowing any code syntax. This explanation is by olevels.com, not an official mark scheme.
+
+00:02:36.750 --> 00:02:44.046
+A common mistake is saying an algorithm is a program. A program is only one way to write an algorithm down.
+
+00:02:44.600 --> 00:02:54.072
+Another mistake is a reason that does not fit the audience. Saying pseudocode is close to real code does not help managers who cannot read code.
+
+00:02:55.200 --> 00:03:08.021
+Now you try. A team of programmers will turn an algorithm into both Python and Java. State a suitable method for writing the algorithm, and justify your answer. Pause here and work it out.
+
+00:03:09.150 --> 00:03:21.566
+The audience is programmers, so they can read code. Pseudocode suits them. It has the structure of code, but it is not tied to the syntax of one language, so it can be turned into Python or Java.
+
+00:03:22.150 --> 00:03:31.174
+Remember the method: decide who the audience is, name the method, then give a reason that fits them. Now try the practice questions for this type.

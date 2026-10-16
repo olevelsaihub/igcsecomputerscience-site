@@ -1,0 +1,46 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:12.971
+Imagine swapping every letter of a secret note for a little shape. Only a friend with the same key can swap them back. That is a substitution cipher. Here is the word HELLO written in the Pigpen cipher.
+
+00:00:13.550 --> 00:00:26.329
+The key is a set of grids. The first is a noughts-and-crosses grid holding A to I. A letter's symbol is made of the lines around its cell. E sits in the centre, so its symbol is a full square.
+
+00:00:26.900 --> 00:00:38.249
+The second grid is the same shape, holding J to R, but every symbol from it has a dot inside. J is top left, so its symbol is two lines, right and bottom, with a dot.
+
+00:00:38.800 --> 00:00:52.880
+The last two parts are X shapes. S to V sit in a plain X, and W to Z in a dotted X: top, left, right and bottom. T is in the left triangle, so its two lines make an arrowhead pointing right.
+
+00:00:54.000 --> 00:01:04.773
+To encrypt a letter, find it in the key. Note which grid it is in, and its position. Draw only the lines that border its cell. Add a dot if it is in a dotted grid.
+
+00:01:05.350 --> 00:01:15.974
+To decrypt, work backwards. Match the outline and the dot to a cell, and read its letter. To judge a key, check every letter has a symbol, and no symbol is used twice.
+
+00:01:17.100 --> 00:01:28.535
+Here is a real question from Paper 2 in June 2022. Figure one shows a Pigpen key. Give the symbol for each letter in the word MAY. It is worth three marks.
+
+00:01:29.100 --> 00:01:40.492
+M is in the dotted grid, middle row, left cell. It has a line above, a line below and a line on its right. So its symbol is a box open on the left, with a dot inside.
+
+00:01:41.050 --> 00:01:50.927
+A is in the plain grid, top-left cell. It has a line on its right and a line below. So its symbol is a corner made of those two lines, with no dot.
+
+00:01:51.500 --> 00:02:01.228
+Y is in the dotted X, right-hand triangle. Its two lines meet at the centre, on its left, like an arrowhead pointing left, with a dot inside.
+
+00:02:01.800 --> 00:02:11.912
+So the word MAY is written with these three symbols. Each correct symbol earns one mark. This explanation is by olevels.com, not an official mark scheme.
+
+00:02:13.050 --> 00:02:23.205
+A common mistake is forgetting the dot. Look at these two symbols. The first is D, from the plain grid. The second is M. The only difference is the dot.
+
+00:02:24.350 --> 00:02:30.921
+Now you try. Using the same key, draw the Pigpen symbols for the word TREE. Pause here and work it out.
+
+00:02:32.050 --> 00:02:46.813
+T is in the plain X, left triangle: an arrowhead pointing right, no dot. R is in the dotted grid, bottom right: lines on its top and left, with a dot. E is the centre of the plain grid: a full square, drawn twice.
+
+00:02:47.400 --> 00:02:58.408
+Remember the method: find the letter's grid and cell, draw only the lines around that cell, and add a dot for the dotted grids. Now try the practice questions for this type.

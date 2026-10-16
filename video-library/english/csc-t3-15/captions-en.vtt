@@ -1,0 +1,43 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:12.672
+If you tell a friend there are five red cars in a row, you do not say red, red, red, red, red. You say five red. Run-length encoding uses exactly this idea to make data smaller.
+
+00:00:13.250 --> 00:00:25.367
+A run is a group of the same symbol, or the same pixel colour, sitting next to each other. RLE replaces each run with a count and the symbol. So four whites become four W.
+
+00:00:25.950 --> 00:00:37.427
+RLE works well when data has long runs, like a simple icon with big blocks of one colour. It works badly when values keep changing, and can even make the file bigger.
+
+00:00:38.550 --> 00:00:49.686
+Read the data left to right, one row at a time. Count how many of the same symbol appear before it changes. Write the count and the symbol, then start counting the next run.
+
+00:00:50.250 --> 00:00:57.994
+Finally, check each line. The counts must add up to the width of the row. If they do not, you have missed or doubled a pixel.
+
+00:00:59.100 --> 00:01:14.033
+Here is a real question from Paper 1 in November 2021. An icon is set out in an eight by eight grid of black and white pixels. Use run-length encoding to compress the first four lines. It is worth three marks.
+
+00:01:14.600 --> 00:01:23.603
+Here is the icon as a grid. Line one is white, white, white, black, then four whites. That is three W, one B, four W.
+
+00:01:24.200 --> 00:01:29.939
+Line two is one white, six black, one white. So one W, six B, one W.
+
+00:01:30.500 --> 00:01:40.548
+Line three changes a lot. One B, two W, one B, one W, one B, two W. Line four is three W, two B, three W.
+
+00:01:41.100 --> 00:01:52.279
+Here is the full answer, with every line checked against eight. All four lines correct earns three marks. This explanation is by olevels.com, not an official mark scheme.
+
+00:01:53.400 --> 00:02:02.211
+A common mistake is counting all the whites in a line together. Line three has three separate white runs. Each run must be written on its own.
+
+00:02:03.350 --> 00:02:12.886
+Now you try. Encode these two rows of ten pixels with RLE. Then decide which row RLE suits, and why. Pause here and work it out.
+
+00:02:14.000 --> 00:02:30.448
+Row A is five W, two B, three W. That is six symbols instead of ten, so it is smaller. Row B has ten runs of one, so it becomes twenty symbols. That is bigger than the original. RLE suits row A, because it has long runs.
+
+00:02:31.000 --> 00:02:41.901
+Remember the method: read along each row, count each run, write count and symbol, and check the counts add up to the width. Now try the practice questions for this type.

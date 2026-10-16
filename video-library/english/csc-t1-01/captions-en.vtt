@@ -1,0 +1,55 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:11.861
+Think about a football scoreboard. It starts at nil, nil. Each time a goal is scored, only that team's number changes. A trace table works the same way for the variables in an algorithm.
+
+00:00:12.450 --> 00:00:23.159
+Dry-running means following an algorithm line by line, with real values, exactly as the computer would. This algorithm adds up the numbers one, two and three.
+
+00:00:23.750 --> 00:00:35.078
+Total starts at zero. When i is one, total becomes one. When i is two, total becomes three. When i is three, total becomes six. After the loop, six is output.
+
+00:00:36.200 --> 00:00:44.605
+First, write the starting value of every variable in the first row. Then read the inputs one at a time, and follow the lines in order.
+
+00:00:45.200 --> 00:00:55.675
+At every IF, WHILE or UNTIL, work out whether the condition is true or false using the current values. Write a new value only in the column that changes.
+
+00:00:56.250 --> 00:01:04.122
+When an output happens, write the exact message and value. Stop when the loop says stop, but run the lines after the loop too.
+
+00:01:05.250 --> 00:01:19.245
+Here is a real question from Paper 1 in June 2022. Reba's game algorithm reads colours until minus one is input. Complete the trace table to show the outputs. It is worth four marks.
+
+00:01:19.800 --> 00:01:31.171
+All five variables start at zero or empty. Each pass reads a colour. Red adds one to RedPoints. Orange adds eight to OrangePoints, and one to NumOranges.
+
+00:01:31.750 --> 00:01:42.203
+Row one holds the starting values. Input red: RedPoints becomes one. Input orange: OrangePoints becomes eight and NumOranges becomes one.
+
+00:01:42.800 --> 00:01:51.696
+Red, then red again: RedPoints becomes two, then three. Orange: OrangePoints becomes sixteen, and NumOranges becomes two.
+
+00:01:52.250 --> 00:02:05.327
+Minus one is read inside the loop, but it is neither red nor orange, so nothing changes. Back at the top, Colour is minus one, so the loop ends. Score is three plus sixteen, which is nineteen.
+
+00:02:05.900 --> 00:02:23.329
+Three outputs follow. Score nineteen. Number of reds three. And number of oranges sixteen, because line twenty-three sends OrangePoints, not NumOranges. That is why Reba is surprised. This explanation is by olevels.com, not an official mark scheme.
+
+00:02:24.450 --> 00:02:34.861
+A common mistake is skipping the row for minus one. The stopping value is read inside the loop, so that pass still runs. The test only happens back at the top.
+
+00:02:35.450 --> 00:02:42.618
+Another mistake is copying every value into every row. Write only the value that changed, so each step is clear.
+
+00:02:43.750 --> 00:02:54.289
+Now you try. The inputs are seven, four, six, then zero. Complete a trace table for n, total and count, and give the output. Pause here and work it out.
+
+00:02:55.400 --> 00:03:06.173
+Total and count start at zero. Seven is read: total becomes seven, count one. Four: total eleven, count two. Six: total seventeen, count three.
+
+00:03:06.750 --> 00:03:18.078
+Zero is read, so the loop ends and zero is not added. The output is seventeen DIV three, which is five, because three goes into seventeen five whole times.
+
+00:03:18.650 --> 00:03:31.386
+Remember the method: starting values first, test every condition with the current values, write only what changes, then finish the lines after the loop. Now try the practice questions for this type.

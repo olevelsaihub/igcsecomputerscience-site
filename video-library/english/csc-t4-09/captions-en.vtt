@@ -1,0 +1,43 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:10.069
+Look around your home. A washing machine, a smartwatch, a TV remote. None of them looks like a computer, but each one has a tiny computer hidden inside.
+
+00:00:10.650 --> 00:00:22.277
+This is an embedded system: a small computer built into a larger device to do one specific job. It has hardware and software, and the software is usually set by the maker.
+
+00:00:22.850 --> 00:00:35.245
+Many embedded systems use sensors to measure the world, such as a water-level sensor. Actuators, such as a motor or a valve, act on it. Many respond straight away, in real time.
+
+00:00:36.350 --> 00:00:47.443
+Learn the features. One dedicated task. Low power. Small size. Built-in memory, often flash. A simple interface, or none. Low cost and robust.
+
+00:00:48.000 --> 00:01:00.181
+Start from one task. Pick a feature the question has not already given. Make it fit the device. For an explain question, link the feature to the single task, to saving power, or to cost.
+
+00:01:01.300 --> 00:01:15.679
+Here is a real question from Paper 1 in June 2025. One characteristic of the embedded system in a smartwatch is that it uses sensors. Give two other characteristics that make it suitable. Two marks.
+
+00:01:16.250 --> 00:01:23.759
+Sensors are already given, so cross them out. Now picture a smartwatch. It is tiny, and it runs on a small battery.
+
+00:01:24.350 --> 00:01:39.262
+That gives two characteristics. One: low power use, so the small battery lasts a long time. Two: small physical size, so it fits inside the watch. This explanation is by olevels.com, not an official mark scheme.
+
+00:01:40.400 --> 00:01:47.760
+A common mistake is repeating what the question gave, such as sensors. That scores nothing. Give a new characteristic.
+
+00:01:48.350 --> 00:01:54.323
+Another mistake is a purpose that just repeats the sensor's name. Say what the reading is used for.
+
+00:01:55.450 --> 00:02:09.658
+Now you try. A smart thermostat keeps a room at twenty-one degrees. Name one sensor it needs and say what it is used for. Then give one characteristic that makes an embedded system suitable. Pause here and work it out.
+
+00:02:10.800 --> 00:02:19.419
+Part a. A temperature sensor measures the room. The processor compares the reading with twenty-one degrees and switches the heating on or off.
+
+00:02:20.000 --> 00:02:30.048
+Part b. For example, low power use, so it can run all day cheaply. Or it does one dedicated task, so its hardware can be just enough for that job.
+
+00:02:30.600 --> 00:02:39.389
+Remember the method: start from one task, pick a new feature that fits the device, and link it. Now try the practice questions for this type.

@@ -1,0 +1,43 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:13.824
+Julius Caesar sent secret messages by moving every letter a few places along the alphabet. With a shift of plus three, A becomes D, B becomes E, and C becomes F. This is the Caesar cipher.
+
+00:00:14.400 --> 00:00:23.595
+The alphabet wraps round. After Z comes A again. So with a shift of plus three, X becomes A, Y becomes B and Z becomes C.
+
+00:00:24.150 --> 00:00:37.249
+A positive shift moves forward. A negative shift moves back. To decrypt, apply the opposite shift. Two shifts in a row add together, so minus six then plus eight is the same as plus two.
+
+00:00:38.350 --> 00:00:46.137
+To encrypt, move each letter by the shift, wrapping past Z or A. It helps to count on your fingers, one step at a time.
+
+00:00:46.700 --> 00:01:03.639
+If counting is slow, number the letters, with A as nought and Z as twenty-five. Add the shift. If the answer is more than twenty-five, take away twenty-six. For example, Y is twenty-four, plus three is twenty-seven, take away twenty-six is one, which is B.
+
+00:01:04.200 --> 00:01:12.883
+To find an unknown shift, compare one plaintext letter with its ciphertext letter and count the gap. Then check the gap with the other letters.
+
+00:01:14.000 --> 00:01:27.483
+Here is a real question from Paper 2 in June 2023. Encrypt PIXEL with a shift of minus four. Then find the shift that turns CLOUD into F O R X G. It is worth two marks.
+
+00:01:28.050 --> 00:01:38.589
+Minus four means move back four places. P goes back to L. I goes back to E. X goes back to T. E goes back to A. L goes back to H.
+
+00:01:39.150 --> 00:01:54.638
+For row two, pair C with F. C, D, E, F is three places forward. Check the others: L to O, O to R, U to X, D to G. All are plus three. This explanation is by olevels.com, not an official mark scheme.
+
+00:01:55.750 --> 00:02:02.705
+A common mistake is forgetting to wrap round. With plus three, Y does not go off the end. It wraps to B.
+
+00:02:03.300 --> 00:02:14.457
+Another mistake is calling the cipher weak without saying why. There are only twenty-five useful shifts, so an attacker can try them all very quickly. That is a brute-force attack.
+
+00:02:15.600 --> 00:02:23.195
+Now you try. Encrypt the word ZEBRA with a Caesar shift of plus five. Watch the Z. Pause here and work it out.
+
+00:02:24.300 --> 00:02:36.439
+Z wraps round: A, B, C, D, E, so Z becomes E. E becomes J. B becomes G. R becomes W. A becomes F. The answer is E J G W F.
+
+00:02:37.000 --> 00:02:47.667
+Remember the method: move every letter by the same shift, wrap round past Z or A, and give the sign with any shift. Now try the practice questions for this type.

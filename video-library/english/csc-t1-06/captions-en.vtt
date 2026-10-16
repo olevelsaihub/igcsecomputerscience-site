@@ -1,0 +1,55 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:14.997
+Think about a ticket machine at a station. It asks for your stop, decides the price, and then waits for the next person. It follows the same steps every time. On paper, we write steps like these as a flowchart or as pseudocode.
+
+00:00:15.550 --> 00:00:28.969
+A flowchart uses four shapes. A rounded box is start or stop. A parallelogram is input or output. A rectangle is a process, such as a calculation. A diamond is a decision.
+
+00:00:29.550 --> 00:00:39.427
+Every decision diamond has exactly two exits, labelled Yes and No. Every line has an arrow. A loop is an arrow that goes back up to an earlier step.
+
+00:00:40.000 --> 00:00:53.760
+In pseudocode, the same ideas are words. Here, count is set to zero before the loop. The loop reads five numbers. If a number mod three is zero, it divides exactly by three, so count goes up by one.
+
+00:00:54.900 --> 00:01:03.348
+First, list the parts from the bullet points: the inputs, the decisions, what repeats, and the outputs. Each bullet usually earns a mark.
+
+00:01:03.900 --> 00:01:12.327
+Next, set starting values before any loop. Add one decision for each condition, in a sensible order, with both exits labelled.
+
+00:01:12.900 --> 00:01:21.732
+Then put each output on the right branch, close the loop, and make sure there is a path to Stop. Finally, test it with one value for each path.
+
+00:01:22.850 --> 00:01:42.519
+Here is a real question from Paper 1 in June 2025. The user inputs a number n. If n is zero, the program stops. If it is positive, it shows Positive. If it is negative, it shows Negative. It repeats until zero is input. Draw a flowchart, for six marks.
+
+00:01:43.100 --> 00:01:52.316
+Draw Start in a rounded box, then a parallelogram: input n. Then a diamond: is n equal to zero? The Yes exit goes to Stop.
+
+00:01:52.900 --> 00:02:05.529
+From the No exit, draw a second diamond: is n greater than zero? Yes leads to output Positive. No leads to output Negative. From both outputs, draw arrows back up to input n.
+
+00:02:06.100 --> 00:02:18.431
+Now test it. Five: not zero, greater than zero, so Positive. Minus three: not zero, not greater than zero, so Negative. Zero: Yes at the first diamond, so Stop.
+
+00:02:19.000 --> 00:02:32.675
+Marks go to the start and input, each labelled decision, the two outputs on the right branches, the arrows and loop, and the correct symbols. This explanation is by olevels.com, not an official mark scheme.
+
+00:02:33.800 --> 00:02:41.907
+A common mistake is a diamond with one exit, or with no Yes and No labels. Every decision needs two labelled exits.
+
+00:02:42.500 --> 00:02:49.028
+Another mistake is looping back to Start. That resets everything. Loop back to the input step instead.
+
+00:02:50.150 --> 00:02:59.131
+Now you try. Write pseudocode that reads ten whole numbers, counts how many are even, then displays the count. Pause here and work it out.
+
+00:03:00.250 --> 00:03:06.330
+Set evens to zero before the loop. Use a FOR loop from one to ten, and receive n each time.
+
+00:03:06.900 --> 00:03:14.175
+Inside the loop, if n mod two is zero, add one to evens. After the loop ends, send the count to the display.
+
+00:03:14.750 --> 00:03:24.649
+Remember the method: list the parts, set counters before the loop, label every decision, then test each path. Now try the practice questions for this type.

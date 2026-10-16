@@ -1,0 +1,57 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex,nofollow"><title>June 2021 · Paper 2 · Question 5 · olevels.com Computer Science</title><link rel="icon" href="/igcsecomputerscience/teach-me/assets/brand/favicon.png"><link rel="stylesheet" href="/igcsecomputerscience/assets/course.css?v=1">
+<style id="olv-student-visibility">[data-olv-placeholder],[data-olv-access="teacher"],.ms,#msimg,#mspdf{display:none!important}</style>
+<script id="olv-student-guard">
+(function(){
+ const file=/(?:^|[\/\s_.-])(?:mark[\s_-]*schemes?|answers?|solutions?|ms)(?:[/\s_.-]|$)|(?:^|\/)story(?:book|figs|text|[-.])/i;
+ const label=/mark\s*schemes?|marking\s*schemes?|answer\s*(?:key|sheet)s?|^(?:[✅📄\s]*)(?:answers?|solutions?|marks)(?:\s*(?:PDF|\(teacher.*\)))?$|(?:show|reveal|view)\b.{0,25}\b(?:answer|solution)s?/i;
+ function forbidden(el){
+  if(el.hasAttribute('data-olv-placeholder'))return false;
+  if(el.getAttribute('data-olv-access')==='teacher')return true;
+  if(el.tagName==='BUTTON'&&el.hasAttribute('data-show-response'))return false;
+  if(el.tagName==='DETAILS'){if(el.hasAttribute('data-student-response'))return false;const s=el.querySelector('summary');return s&&label.test(s.textContent);}
+  if((el.tagName==='A'||el.tagName==='BUTTON')&&label.test(el.textContent.trim()))return true;
+  return ['href','src','data-src','data'].some(k=>{let v=el.getAttribute(k);if(!v)return false;try{return file.test(decodeURIComponent(new URL(v,document.baseURI).pathname));}catch(_){return true;}});
+ }
+ function clean(root){
+  const els=[];if(root.nodeType===1)els.push(root);
+  if(root.querySelectorAll)els.push(...root.querySelectorAll('a,button,details,img,source,iframe,object,embed,[data-olv-access]'));
+  els.forEach(el=>{if(!forbidden(el))return;el.hidden=true;el.setAttribute('data-olv-placeholder','');el.style.setProperty('display','none','important');
+   ['href','src','data-src','data','srcset','onclick'].forEach(k=>el.removeAttribute(k));el.replaceChildren();});
+ }
+ new MutationObserver(rows=>rows.forEach(r=>{if(r.type==='attributes')clean(r.target);else r.addedNodes.forEach(clean);})).observe(document.documentElement,{childList:true,subtree:true,attributes:true,attributeFilter:['href','src','data-src','data-olv-access']});
+ if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',()=>clean(document));else clean(document);
+})();
+</script>
+<script src="/igcsecomputerscience/assets/course.js?v=1" defer></script><link rel="stylesheet" href="/igcsecomputerscience/assets/bank.css?v=1"><link rel="stylesheet" href="/igcsecomputerscience/assets/practice-hub.css?v=1"><link rel="stylesheet" href="/igcsecomputerscience/assets/question-hint.css?v=1"><link rel="stylesheet" href="/igcsecomputerscience/assets/practice-focus.css?v=1"><link rel="stylesheet" href="/igcsecomputerscience/assets/response-checker.css?v=1"><script src="/igcsecomputerscience/assets/practice-focus.js?v=1" defer></script><script src="/igcsecomputerscience/assets/bank.js?v=1" defer></script><script src="/igcsecomputerscience/assets/practice-hub.js?v=1" defer></script><script type="module" src="/igcsecomputerscience/assets/response-checker.js?v=1"></script><script src="/igcsecomputerscience/assets/olv-marking-adapter.js?v=1" defer></script><link rel="stylesheet" href="/igcsecomputerscience/assets/cs.css?v=cs3"><script src="/igcsecomputerscience/assets/cs.js?v=cs3" defer></script><script src="/igcsecomputerscience/video-library/student-videos.js?v=cs3" defer></script></head><body><a href="#main" class="skip">Skip to content</a><header class="ol-bar"><a class="ol-logo" href="/igcsecomputerscience/"><img src="/igcsecomputerscience/teach-me/assets/brand/olevels-logo.png" alt="olevels.com School" width="145" height="57"></a><div class="brand-sub"><strong>Computer Science</strong>International GCSE · 4CP0</div></header><nav class="course-nav" aria-label="Course navigation"><a class="nav-home" href="/igcsecomputerscience/?view=plans" data-course-link="plans">Study plans</a><a class="nav-primary" href="/igcsecomputerscience/?view=types" data-course-link="types">All Question Types</a><a class="nav-primary" href="/igcsecomputerscience/?view=practice" data-course-link="practice">Question Bank &amp; Papers</a><details class="nav-dropdown"><summary>Open a plan</summary><div class="nav-menu" aria-label="Choose a study plan"><a href="/igcsecomputerscience/plans/a-grade/">A-Grade Plan</a><a href="/igcsecomputerscience/plans/grade-8/">Grade 8 Plan</a><a href="/igcsecomputerscience/plans/grade-9/">Grade 9 Plan</a><a href="/igcsecomputerscience/plans/top-world/">Top in the World Plan</a><a href="/igcsecomputerscience/plans/top-world-master/">Top in the World Master Plan</a><a href="/igcsecomputerscience/plans/pass/">Pass Plan</a><a href="/igcsecomputerscience/plans/grade-7-execution/">Grade 7 Execution</a></div></details><details class="nav-dropdown nav-resources"><summary>Resources</summary><div class="nav-menu" aria-label="Learning resources"><a href="/igcsecomputerscience/?view=types">Knowledge &amp; methods</a><a href="/igcsecomputerscience/?view=practice">Practice &amp; results</a><a href="/igcsecomputerscience/?view=types">Question types</a><a href="/igcsecomputerscience/?view=practice&amp;tab=bank">Question bank</a><a href="/igcsecomputerscience/syllabus.html">Syllabus</a><a href="/igcsecomputerscience/topics.html">Topics</a><a href="/igcsecomputerscience/?view=practice&amp;tab=papers">Past papers</a><a href="/igcsecomputerscience/video-library/lessons.html">Teach Me</a></div></details></nav><main id="main"><div class="breadcrumb"><a href="/igcsecomputerscience/index.html">Computer Science</a> / June 2021 · Paper 2 · Question 5</div><p class="eyebrow">Pearson Edexcel · International GCSE Computer Science · 4CP0</p><h1>June 2021 · Paper 2 · Question 5</h1><p class="question-meta">June 2021 · Paper 2 · Question 5 · 20 marks in this whole question</p><p class="muted">June 2021 assessment material: kept for practice, not counted in stars.</p><div class="actions"><a class="button secondary" href="/igcsecomputerscience/?view=practice&amp;tab=bank">Back to question bank</a><button class="secondary" data-print>Print question</button></div><div class="question-viewport" tabindex="0" role="region" aria-label="Complete original question 5; scroll to see every part"><img class="question-img" src="/igcsecomputerscience/question-images/4CP0-2021-JUN-02-standard-Q05-SEG01.png" width="1191" height="1576" loading="lazy" alt="Original June 2021 · Paper 2 question 5, image 1 of 2"><img class="question-img" src="/igcsecomputerscience/question-images/4CP0-2021-JUN-02-standard-Q05-SEG02.png" width="1191" height="1508" loading="lazy" alt="Original June 2021 · Paper 2 question 5, image 2 of 2"></div><p class="source-note">The complete original question is kept, including shared case material. Select the part you are practising below.</p><h2>Parts and their types</h2><p>Each part keeps its own type and plan.</p><ol class="part-index"><li id="part-4CP0-2021-JUN-02-standard-Q05-whole"><strong>Part (whole)</strong> · 20 marks · Write · <a href="/igcsecomputerscience/types/csc-code-09.html">The final 20-mark program</a> · <a href="/igcsecomputerscience/plans/a-grade/">A-Grade Plan</a> · <span class="muted">practice</span><details><summary>Read part (whole) as text</summary><p class="question-text">5	 Bianca has started to write a program.
+The program is a guessing game about countries and their capital cities.
+Open Q05 in the code editor.
+The program already:
+• displays this menu
+Menu
+[1] Add player name
+[2] Play guess the capital city
+[3] End game
+Input your menu choice:
+• asks for the user’s menu choice.
+Write the program code for the menu choices.
+Menu choice [1] Add player name
+If a player chooses this option, then they must input a player name.
+Menu choice [2] Play guess the capital city
+If a player chooses this option, then:
+• they must answer five questions
+• they select a question to answer by choosing a valid question number
+• each question can only be selected once (they must not be able to choose
+a number more than once)
+• the question should be displayed
+• they must input the name of the capital city
+• if they guess correctly their score must be incremented by 1
+• if they guess incorrectly the correct answer must be displayed.
+Menu choice [3] End game
+If the user chooses this option, then the player name and score should be displayed.
+Your program should function correctly even if the number of countries and
+capital cities in the file is increased.
+Save your code as Q05FINISHED with the correct file extension for the
+programming language.
+(20)
+You may use this space for planning / design work.
+The content of this page will not be assessed.</p><p class="muted">Automatic text extract; the original image above is the authority.</p></details></li></ol></main><footer class="footer"><a href="/igcsecomputerscience/?view=plans">Study plans</a><a href="/igcsecomputerscience/coverage.html">Course coverage</a><a href="/igcsecomputerscience/?view=practice&amp;tab=papers">Source papers</a><a href="/igcsecomputerscience/?view=types">Canonical methods</a><p>Pearson Edexcel International GCSE Computer Science (4CP0), linear qualification. Course materials by olevels.com. Original exam material © Pearson Education Ltd. Worked and model answers on this site are written by olevels.com; they are not official Pearson mark schemes.</p></footer></body></html>

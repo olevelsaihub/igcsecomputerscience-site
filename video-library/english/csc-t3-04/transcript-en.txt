@@ -1,0 +1,11 @@
+Try reading out one zero one one, one zero zero one, quickly, without a slip. It is hard. Programmers write binary in a shorter way called hexadecimal, or hex. Hex is base sixteen. Base sixteen needs sixteen digits. Hex uses nought to nine, then letters for ten to fifteen. A is ten, B is eleven, C is twelve, D is thirteen, E is fourteen and F is fifteen. Four bits, a nibble, can make exactly sixteen patterns, from nought to fifteen. So one hex digit stands for exactly one nibble, and a byte is always two hex digits.
+
+To convert a byte to hex, split it into two nibbles. Give each nibble the headers eight, four, two, one, and add the values above the ones. If a nibble is worth ten to fifteen, swap it for its letter. Then write the two digits in the same order as the nibbles, left nibble first.
+
+Here is a real question from Paper 1 in June 2025. Convert the binary pattern one zero one one, one zero zero one into hexadecimal. It is worth two marks. Split the byte into two nibbles. The left nibble is one zero one one. The right nibble is one zero zero one. The left nibble is eight plus two plus one, which is eleven. Eleven is B. The right nibble is eight plus one, which is nine. Nine stays as nine. Keep the order: B then nine. The answer is B nine. This explanation is by olevels.com, not an official mark scheme.
+
+A common mistake is writing eleven instead of B. Eleven nine would be three hex digits, but a byte is only two. Another mistake is thinking hex saves memory or is faster for the computer. It does neither. The computer still stores binary. Hex is only easier for humans to read.
+
+Now you try. Convert the binary pattern zero one one one, one one one zero into hexadecimal. Pause here and work it out.
+
+The left nibble, zero one one one, is four plus two plus one, which is seven. The right nibble, one one one zero, is eight plus four plus two, which is fourteen, and fourteen is E. The answer is seven E. Remember the method: split into nibbles, use eight, four, two, one on each, swap ten to fifteen for A to F, and keep the order. Now try the practice questions for this type.

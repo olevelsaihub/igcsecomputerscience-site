@@ -1,0 +1,46 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:16.768
+Trainee pilots practise in a flight simulator. They can face an engine failure safely, again and again, without anyone getting hurt. A computer simulation lets us try out situations that would be dangerous, costly or impossible in real life.
+
+00:00:17.350 --> 00:00:26.161
+A model is a set of rules and data that represents a real system. A simulation runs the model, to see what happens over time.
+
+00:00:26.750 --> 00:00:38.825
+Here is a tiny model in Python. The rule is: rabbits double every year. Running it is the simulation. Three years pass in a moment: two hundred, four hundred, then eight hundred.
+
+00:00:39.400 --> 00:00:51.923
+Simulations have big benefits. They are safe. You can change variables to ask what if. They can run faster or slower than real time. And they help to predict outcomes and test ideas.
+
+00:00:52.500 --> 00:01:08.585
+But a simulation is only as good as its data and rules. Real rabbits do not double for ever, so our model is wrong after a few years. Big simulations also need a powerful processor, because they handle lots of data and many calculations.
+
+00:01:09.700 --> 00:01:22.969
+First, decide what is asked: a benefit, a limit, or a hardware need. State one clear point. Then expand it with a linked effect in the scenario. Never repeat a benefit the question has already given.
+
+00:01:24.100 --> 00:01:39.951
+Here is a real question from Paper 1 in June 2024. Peter is creating a simulation of rabbits and foxes. One benefit is that it is simpler than watching real animals. Explain one other benefit. It is worth two marks.
+
+00:01:40.550 --> 00:01:47.483
+Simpler is already used, so we choose a different benefit. The simulation can run much faster than real life.
+
+00:01:48.050 --> 00:01:56.135
+Now link it to Peter's scenario. Years of rabbit and fox numbers can be seen in minutes, so he can spot long-term trends quickly.
+
+00:01:56.700 --> 00:02:12.999
+So the answer is: the simulation can run much faster than real life, so Peter can see many generations of rabbits and foxes in a short time, and spot long-term trends. This explanation is by olevels.com, not an official mark scheme.
+
+00:02:14.100 --> 00:02:19.433
+A common mistake is giving two separate facts instead of one point and its linked effect.
+
+00:02:20.000 --> 00:02:26.720
+Another mistake is saying a simulation is always accurate. Its results depend on its data and rules.
+
+00:02:27.850 --> 00:02:39.306
+Now you try. A town uses a traffic simulation to plan new traffic lights. Explain one reason why the town should not fully trust its results. Pause here and work it out.
+
+00:02:40.450 --> 00:02:55.042
+The point is a limit: the simulation is only as good as its data and rules. Then the link: if the traffic data or the assumptions about drivers are wrong, the predicted queues will be wrong too, so the lights could be planned badly.
+
+00:02:55.600 --> 00:03:04.752
+Remember the method: decide what is asked, state one point, then link it to the scenario with so. Now try the practice questions for this type.

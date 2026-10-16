@@ -1,0 +1,11 @@
+Reading code is like reading a sentence in another language. You do not need to understand every word. You just spot the giveaway words and symbols. A comment is the easiest: it starts with a hash sign, and the computer ignores it. Operators come in three families. Arithmetic operators do maths, like plus and times. Relational operators compare two values, like greater than or equal to. Logical operators join tests: and, or, not. Each construct has a keyword that gives it away. If starts selection. For and while start iteration. Def defines a subprogram. Count equals zero initialises a variable, and input takes user input.
+
+First, name the marker you are looking for. Then scan the code from the top and stop at the first match. Finally, answer in the form asked: the operator itself, the line text, or the line number. Look at line four of this program. The greater than or equal sign and the less than or equal sign are relational. The word and joins them, so and is the logical operator.
+
+Here is a real question from Paper 2 in June 2024. Give the logical operator used in the code. It is worth one mark. Search the code for and, or or not. Line eleven reads: if count is greater than ten and count is less than twenty. Greater than and less than are relational operators, so they are not the answer. The word joining the two conditions is and. So the answer is simply the word and. One mark. This explanation is by olevels.com, not an official mark scheme.
+
+The most common mistake is giving a relational operator, such as greater than, when a logical operator is asked for. Another mistake is giving a line number when the question asks for the operator, or skipping blank lines when you count. Give exactly what is asked.
+
+Now you try. Using this code, give the line number where iteration starts, a logical operator, and a relational operator. Pause here and work it out.
+
+Iteration starts at line three, the while line. The logical operator is or, on line five. A relational operator is less than on line three, or double equals on line five. Remember the method: name the marker, scan from the top, and answer in the form asked. Now try the practice questions for this type.

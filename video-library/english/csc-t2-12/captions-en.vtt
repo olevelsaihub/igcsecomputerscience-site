@@ -1,0 +1,43 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:12.331
+In a school, every pupil has a name, so you can call the right person. In a program, every variable, constant, array and subprogram has a name too. That name is called an identifier.
+
+00:00:12.900 --> 00:00:26.553
+Think of a recipe that says, add the fruit. Fruit is a placeholder. When you cook, you pass in real apples. In code, the placeholder in the def line is the parameter. The value passed in the call is the argument.
+
+00:00:27.150 --> 00:00:41.081
+Where a variable is made decides its scope. One made inside a def block is local. One made in the main program is global. And its first value shows its data type: zero point zero or float gives a real.
+
+00:00:42.200 --> 00:00:56.771
+First, underline exactly what kind of item is asked for. Then go to the right place. Def headers hold parameters. Call brackets hold arguments. The name left of equals a function call receives the returned value.
+
+00:00:57.350 --> 00:01:05.755
+Finally, copy the identifier exactly as it is spelt, with the same capitals. Do not give a line number when a name is asked for.
+
+00:01:06.900 --> 00:01:15.327
+Here is a real question from Paper 2 in June 2025. Identify the name of a parameter. It is worth one mark.
+
+00:01:15.900 --> 00:01:25.052
+Here is the program, rebuilt by olevels.com. Find the subprogram header. Def get wages, with in sales and in age in the brackets.
+
+00:01:25.650 --> 00:01:36.295
+The names inside the header brackets are the parameters: in sales and in age. Sales and age on the last line are different. They are the arguments passed in the call.
+
+00:01:36.850 --> 00:01:48.519
+So write one parameter, spelt exactly: in sales, with a capital S. Either parameter earns the mark. This explanation is by olevels.com, not an official mark scheme.
+
+00:01:49.650 --> 00:01:58.055
+The most common mistake is mixing up parameters and arguments. Sales is passed in the call, so it is an argument, not a parameter.
+
+00:01:58.650 --> 00:02:11.045
+Another mistake is naming a global variable when a local one is asked for. Wages is made inside the def block, so it is local. Sales is made in the main program, so it is global.
+
+00:02:12.150 --> 00:02:22.881
+Now you try. From this code, identify a parameter, a local variable, the variable that receives the returned value, and a constant. Pause here and work it out.
+
+00:02:24.000 --> 00:02:37.611
+A parameter is p length or p width, in the def line. Result is made inside the def block, so it is local. Answer receives the returned value on line six. Rate, in capitals, is the constant.
+
+00:02:38.200 --> 00:02:47.309
+Remember the method: know the kind of item, go to its place in the code, and copy the name exactly. Now try the practice questions for this type.

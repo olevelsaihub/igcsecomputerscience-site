@@ -1,0 +1,49 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:12.565
+When you look for your name on a class list, you stop reading as soon as you find it. Reading the rest would be wasted effort. An efficient algorithm does the job with fewer steps, such as fewer comparisons.
+
+00:00:13.150 --> 00:00:21.001
+There is a second kind of improvement. A general algorithm still works when the amount of data changes, without rewriting the code.
+
+00:00:21.600 --> 00:00:34.123
+Here, the loop stops at two, a fixed number. That is called hard-coding. Add a fourth flavour and it is never shown. Using LENGTH of flavours minus one makes the loop work for any size of list.
+
+00:00:35.250 --> 00:00:46.877
+First, find what limits the algorithm: a fixed number, many separate variables, or tests that always run. Then count the comparisons each version makes for a typical input.
+
+00:00:47.450 --> 00:00:57.989
+Then name the change, such as nested selection, a loop over an array, or LENGTH. Link it to its benefit: fewer tests are made, or it works for any amount of data.
+
+00:00:59.100 --> 00:01:14.567
+Here is a real question from Paper 2 in June 2024. Two algorithms report whether a number is in the low, middle or high range. Explain why Figure 4 is more efficient than Figure 5. It is worth two marks.
+
+00:01:15.150 --> 00:01:28.974
+Figure 4 uses nested selection. If the number is less than forty, the first test is true, and no other test is made. Otherwise, one more test decides between middle and high. The ELSE needs no test.
+
+00:01:29.550 --> 00:01:37.742
+Figure 5 has three separate IF statements. Every one is tested for every number, even after a match has already been found.
+
+00:01:38.300 --> 00:01:49.393
+Count them. For twenty, Figure 4 makes one test, and Figure 5 makes three. For fifty or eighty-five, Figure 4 makes two tests, and Figure 5 still makes three.
+
+00:01:49.950 --> 00:02:05.502
+So the answer is: Figure 4 makes fewer comparisons, because its tests are nested, so once one is true the rest are skipped. Figure 5 checks all three every time. This explanation is by olevels.com, not an official mark scheme.
+
+00:02:06.650 --> 00:02:14.437
+A common mistake is judging efficiency by the number of lines. Efficiency is about how many operations are carried out.
+
+00:02:15.000 --> 00:02:21.763
+Another mistake is saying use an array without saying why. Link it to processing every value in one loop.
+
+00:02:22.900 --> 00:02:35.103
+Now you try. This algorithm finds the mean of five temperatures. It must work for any number of temperatures. Give the two lines that must change, and write them. Pause here and work it out.
+
+00:02:36.250 --> 00:02:42.586
+Line three stops at four, a fixed number. Change it to loop from zero to LENGTH of temps minus one.
+
+00:02:43.150 --> 00:02:57.145
+Line six divides by five, another fixed number. Divide by LENGTH of temps instead. The mean here is one hundred and six divided by five, which is twenty-one point two, and it now works for any size of list.
+
+00:02:57.700 --> 00:03:08.623
+Remember the method: find what limits the algorithm, count the comparisons, then name the change and link it to its benefit. Now try the practice questions for this type.
