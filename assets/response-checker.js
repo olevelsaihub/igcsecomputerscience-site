@@ -1,5 +1,5 @@
-import { CHECKER_VERSION, cleanAnswer, evaluateChoice, currentAttempt, mergeAttempt } from './response-checker-core.mjs?v=526a4c2394';
-import { checkWrittenAnswer } from './written-response-core.mjs?v=526a4c2394';
+import { CHECKER_VERSION, cleanAnswer, evaluateChoice, currentAttempt, mergeAttempt } from './response-checker-core.mjs?v=e4ec351f82';
+import { checkWrittenAnswer } from './written-response-core.mjs?v=e4ec351f82';
 
 const storageKey = 'igcsecomputerscience-practice-results-v1';
 const markingApi = '/igcsecomputerscience/';

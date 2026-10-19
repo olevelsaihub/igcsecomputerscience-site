@@ -130,7 +130,7 @@ if (practiceHub) {
   function loadPdfBuilder() {
     if (!pdfBuilderPromise) pdfBuilderPromise = new Promise((resolve, reject) => {
       const script = document.createElement('script');
-      script.src = '/igcsecomputerscience/assets/paper-downloads.js?v=526a4c2394';
+      script.src = '/igcsecomputerscience/assets/paper-downloads.js?v=e4ec351f82';
       script.onload = () => resolve(window.OlvPaperDownloads);
       script.onerror = () => reject(new Error('The PDF builder could not load. Please try again.'));
       document.head.append(script);
