@@ -1,7 +1,7 @@
 /* 4CP0 Paper 2 coding page: editor (CodeMirror 6) + Python in the browser (Pyodide in a Web Worker).
  * Data: <script type="application/json" id="cs-code-data"> {part, seedName, seed, files, finished, tests(base64), base}
  * "Run" uses the stdin box. "Run the checks" runs the hidden cases (some with changed data the page never shows),
- * marks cases that also pass on the untouched starter file as "no credit", and lists the scheme points evidenced.
+ * marks cases that also pass on the untouched starter file or an empty file as "no credit", and lists the scheme points evidenced.
  * Points a test cannot judge are a self-check list. Nothing here holds a model solution. */
 (function () {
   'use strict';
@@ -127,12 +127,12 @@
         for (const fc of c.file_checks || []) ok = ok && r.files && r.files[fc.file] != null && check(fc.type, fc.value, r.files[fc.file]);
       } catch (e) { ok = false; }
       const noCredit = !!c.passes_on_seed;
-      if (ok) passed++;
+      if (ok && !noCredit) passed++;   // a check the starter or an empty file passes proves nothing
       if (ok && !noCredit) { scored++; (c.awards || []).forEach((a) => evidenced.add(a)); }
       const li = document.createElement('li');
       li.className = ok ? (noCredit ? 'cs-case nocredit' : 'cs-case pass') : 'cs-case fail';
       li.innerHTML = '<strong>Check ' + (n + 1) + (c.hidden ? ' (hidden data)' : '') + ':</strong> ' + (ok ? 'passed' : 'not yet') +
-        (noCredit ? ' · no credit (the starter file already does this)' : '') +
+        (noCredit ? ' · no credit (the starter file or an empty file already does this)' : '') +
         (c.awards && c.awards.length ? ' · shows ' + c.awards.join(', ') : '');
       if (!ok && !c.hidden) {
         const pre = document.createElement('pre');
@@ -142,7 +142,9 @@
       results.appendChild(li);
     }
     const pts = [...evidenced].sort();
-    status.textContent = passed + ' of ' + tests.cases.length + ' checks passed. Marking points shown by running: ' + (pts.length ? pts.join(', ') : 'none yet') +
+    const free = tests.cases.filter((c) => c.passes_on_seed).length;
+    status.textContent = passed + ' of ' + (tests.cases.length - free) + ' checks passed' +
+      (free ? ' (' + free + ' more give no credit: an empty or starter file passes them)' : '') + '. Marking points shown by running: ' + (pts.length ? pts.join(', ') : 'none yet') +
       '. Now tick the self-check list below for the points a test cannot judge.';
   });
 })();
