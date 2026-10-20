@@ -1,46 +1,46 @@
 WEBVTT
 
-00:00:00.000 --> 00:00:14.229
-Think of a recipe card called make tea. Whenever you want tea, you follow the same card. You never rewrite it. In a program, a subprogram is a named block of code that does one job, and you can call it whenever you need it.
+00:00:00.000 --> 00:00:15.208
+Idea. Think of a recipe card called make tea. Whenever you want tea, you follow the same card. You never rewrite it. In a program, a subprogram is a named block of code that does one job, and you can call it whenever you need it.
 
-00:00:14.800 --> 00:00:27.131
+00:00:15.800 --> 00:00:28.321
 A function is a subprogram that sends a value back, using return. Area takes a length and a width, and returns length times width. Rug equals area of three and two, so rug is six.
 
-00:00:27.700 --> 00:00:34.228
+00:00:28.900 --> 00:00:35.608
 A procedure carries out a task but does not have to send a value back. Show menu just prints two lines.
 
-00:00:34.800 --> 00:00:49.371
+00:00:36.200 --> 00:00:50.951
 P length and p width are parameters. A parameter is a named input in the subprogram's header. Parameters let one subprogram work with different data each time, so it can be reused: area of five and four gives twenty.
 
-00:00:49.950 --> 00:01:06.825
+00:00:51.550 --> 00:01:08.705
 Some subprograms come ready-made. Built-in ones, like print and len, are part of Python. A library is a collection of pre-written subprograms that you import, like random. Library code has already been tested, so it is less likely to contain errors.
 
-00:01:07.950 --> 00:01:19.321
-First decide which idea is being tested. For a difference between a function and a procedure, use the return value: a function returns a value, a procedure does not have to.
+00:01:09.850 --> 00:01:22.169
+Method. First decide which idea is being tested. For a difference between a function and a procedure, use the return value: a function returns a value, a procedure does not have to.
 
-00:01:19.900 --> 00:01:29.671
+00:01:22.750 --> 00:01:32.891
 For a similarity, choose shared features, such as parameters, local variables and reuse. For an explain question, give a point, then so, then its effect.
 
-00:01:30.800 --> 00:01:40.549
-Here is a real question from Paper 2 in November 2020. Explain one difference between a function and a procedure. It is worth two marks.
+00:01:34.000 --> 00:01:45.198
+Worked example. Here is a real question from Paper 2 in November 2020. Explain one difference between a function and a procedure. It is worth two marks.
 
-00:01:41.100 --> 00:01:55.137
+00:01:45.750 --> 00:01:59.967
 Think about what happens when each one finishes. A function ends with return and hands a value back, so the value can be stored, like rug equals area of three and two. A procedure just does its job, like showing a menu.
 
-00:01:55.700 --> 00:02:08.927
+00:02:00.550 --> 00:02:14.181
 So write: a function always sends a value back to the code that called it, whereas a procedure does not have to. One mark for each half. This explanation is by olevels.com, not an official mark scheme.
 
-00:02:10.050 --> 00:02:19.565
-A common mistake is saying a procedure cannot take parameters. It can. Both can take parameters. Only the return value tells them apart.
+00:02:15.300 --> 00:02:26.275
+Common mistake. A common mistake is saying a procedure cannot take parameters. It can. Both can take parameters. Only the return value tells them apart.
 
-00:02:20.150 --> 00:02:30.475
+00:02:26.850 --> 00:02:37.365
 Another mistake is writing libraries are quicker, with no reason. Say why: the code is already written and tested, so it saves time and has fewer errors.
 
-00:02:31.600 --> 00:02:42.459
-Now you try. Look at these two subprograms. Which one is a function, and which is a procedure? Name one parameter, and give a reason for your answer. Pause and decide.
+00:02:38.500 --> 00:02:50.502
+Your turn. Now you try. Look at these two subprograms. Which one is a function, and which is a procedure? Name one parameter, and give a reason for your answer. Pause and decide.
 
-00:02:43.600 --> 00:02:55.931
-Double has a return line, so it sends a value back: it is a function. Double of seven returns fourteen. Greet only prints, so it is a procedure. The parameters are p num and p name.
+00:02:51.650 --> 00:03:05.041
+Answer. Double has a return line, so it sends a value back: it is a function. Double of seven returns fourteen. Greet only prints, so it is a procedure. The parameters are p num and p name.
 
-00:02:56.500 --> 00:03:07.316
+00:03:05.600 --> 00:03:16.616
 Remember the method: a function returns a value, a procedure does a task, and parameters are the named inputs in the header. Now try the practice questions for this type.

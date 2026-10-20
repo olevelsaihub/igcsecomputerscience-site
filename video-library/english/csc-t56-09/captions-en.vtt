@@ -1,43 +1,43 @@
 WEBVTT
 
-00:00:00.000 --> 00:00:12.800
-A thief does not always break a lock. Sometimes he knocks on the door, pretends to be a repair engineer, and is let in. Tricking people instead of breaking technology is called social engineering.
+00:00:00.000 --> 00:00:13.640
+Idea. A thief does not always break a lock. Sometimes he knocks on the door, pretends to be a repair engineer, and is let in. Tricking people instead of breaking technology is called social engineering.
 
-00:00:13.350 --> 00:00:30.459
+00:00:14.200 --> 00:00:31.559
 Phishing is a social engineering attack. A fake email pretends to come from a trusted company, to get you to click a link or give personal details. Look for a generic greeting, a sender address that does not match, urgent threats, spelling mistakes and a login link.
 
-00:00:31.050 --> 00:00:49.205
+00:00:32.150 --> 00:00:50.505
 Other attacks. Pharming secretly sends you from a real website to a fake one. Shoulder surfing is watching someone type a password or PIN. Eavesdropping is intercepting data as it travels across a network. Unpatched software has known weaknesses that attackers use.
 
-00:00:49.800 --> 00:01:03.219
+00:00:51.100 --> 00:01:04.739
 Each attack has a defence. Check the sender before clicking. Cover the keypad or use a privacy screen. Encrypt data sent across a network. Install updates, called patches, as soon as they are released.
 
-00:01:04.350 --> 00:01:15.187
-Name the attack. Say what the attacker exploits, a person or a weakness. Say what the attacker wants, such as a password. For prevention, give a measure and why it works.
+00:01:05.850 --> 00:01:17.821
+Method. Name the attack. Say what the attacker exploits, a person or a weakness. Say what the attacker wants, such as a password. For prevention, give a measure and why it works.
 
-00:01:16.300 --> 00:01:28.801
-Here is a real question from Paper 1 in November 2021. Some employees use company laptops in public places. Describe what is meant by shoulder surfing. Two marks.
+00:01:18.950 --> 00:01:32.697
+Worked example. Here is a real question from Paper 1 in November 2021. Some employees use company laptops in public places. Describe what is meant by shoulder surfing. Two marks.
 
-00:01:29.400 --> 00:01:39.405
+00:01:33.250 --> 00:01:43.435
 Part one is the action. Another person secretly watches someone using a device, for example looking over their shoulder in a café, or using a camera.
 
-00:01:40.000 --> 00:01:48.149
+00:01:44.000 --> 00:01:52.329
 Part two is the aim. The watcher wants to see and steal a password, a PIN or other private details, to use them later.
 
-00:01:48.700 --> 00:02:04.529
+00:01:52.900 --> 00:02:09.261
 So the answer is: shoulder surfing is when someone secretly watches a person using a device, so they can see and steal their password, PIN or private details. This explanation is by olevels.com, not an official mark scheme.
 
-00:02:05.650 --> 00:02:16.743
-A common mistake is mixing up eavesdropping and shoulder surfing. Shoulder surfing is watching a person. Eavesdropping is intercepting data travelling across a network.
+00:02:10.400 --> 00:02:22.878
+Common mistake. A common mistake is mixing up eavesdropping and shoulder surfing. Shoulder surfing is watching a person. Eavesdropping is intercepting data travelling across a network.
 
-00:02:17.300 --> 00:02:25.855
+00:02:23.450 --> 00:02:32.195
 Another mistake is saying unpatched software has a virus. It has known weaknesses that attackers can use until the patch is installed.
 
-00:02:27.000 --> 00:02:43.576
-Now you try. Sam gets an email. It says, dear customer, your parcel is held, pay a small fee within twelve hours or it will be returned, click here. The sender is quick deliveree dot net. Give two signs that this is phishing. Pause here and work it out.
+00:02:33.300 --> 00:02:51.273
+Your turn. Now you try. Sam gets an email. It says, dear customer, your parcel is held, pay a small fee within twelve hours or it will be returned, click here. The sender is quick deliveree dot net. Give two signs that this is phishing. Pause here and work it out.
 
-00:02:44.700 --> 00:02:57.777
-There are several clues. The greeting is generic, dear customer. There is an urgent threat, twelve hours. The sender's address is misspelt. And there is a link asking for payment. Any two earn the marks.
+00:02:52.400 --> 00:03:06.621
+Answer. There are several clues. The greeting is generic, dear customer. There is an urgent threat, twelve hours. The sender's address is misspelt. And there is a link asking for payment. Any two earn the marks.
 
-00:02:58.350 --> 00:03:07.502
+00:03:07.200 --> 00:03:16.532
 Remember the method: name the attack, give the action and the aim, then a measure and why it works. Now try the practice questions for this type.

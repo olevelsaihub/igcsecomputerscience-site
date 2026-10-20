@@ -1,46 +1,46 @@
 WEBVTT
 
-00:00:00.000 --> 00:00:18.773
-Think of roads and delivery vans. The roads are like the internet: a worldwide network of networks, made of cables, routers and devices. The vans are like the World Wide Web: one service that uses the roads. A company called an I S P connects your home to the internet.
+00:00:00.000 --> 00:00:19.554
+Idea. Think of roads and delivery vans. The roads are like the internet: a worldwide network of networks, made of cables, routers and devices. The vans are like the World Wide Web: one service that uses the roads. A company called an I S P connects your home to the internet.
 
-00:00:19.350 --> 00:00:30.913
+00:00:20.150 --> 00:00:32.063
 Every device on the internet has an I P address, a number that identifies it. Numbers are hard to remember, so a website also has a domain name, such as olevels dot com.
 
-00:00:31.500 --> 00:00:42.295
+00:00:32.650 --> 00:00:43.625
 D N S works like the contacts on your phone. You give a D N S server a domain name, and it returns the matching I P address. Then your device can connect.
 
-00:00:42.850 --> 00:00:53.005
+00:00:44.200 --> 00:00:54.555
 A U R L is the full address of one thing on the web. Read it from left to right: the protocol, the domain name, the folders, and finally the file name.
 
-00:00:54.150 --> 00:01:08.401
-To read a U R L, split it at the colon and two slashes, and at each single slash. Before the colon is the protocol. Next is the domain name. Middle pieces are folders. The last piece, with a dot, is the file.
+00:00:55.700 --> 00:01:10.903
+Method. To read a U R L, split it at the colon and two slashes, and at each single slash. Before the colon is the protocol. Next is the domain name. Middle pieces are folders. The last piece, with a dot, is the file.
 
-00:01:09.000 --> 00:01:21.843
+00:01:11.500 --> 00:01:24.553
 Two more rules. D N S goes one way: domain name in, I P address out. And for internet versus web, give both sides: the internet is the network, the web is the pages that use it.
 
-00:01:22.950 --> 00:01:36.241
-Here is a real question from Paper 1 in June 2022. A music file is stored at a U R L. Complete the table by describing each U R L component. It is worth four marks.
+00:01:25.700 --> 00:01:40.459
+Worked example. Here is a real question from Paper 1 in June 2022. A music file is stored at a U R L. Complete the table by describing each U R L component. It is worth four marks.
 
-00:01:36.800 --> 00:01:50.880
+00:01:41.050 --> 00:01:55.360
 First, split the U R L at the colon and slashes. We get four pieces: https, then w w w dot cloudisfab dot com, then r e twelve, then r u two dot m p three.
 
-00:01:51.450 --> 00:02:02.970
+00:01:55.950 --> 00:02:07.640
 The first piece, https, is the protocol: the secure H T T P used to fetch the file. The second piece is the domain name, which identifies the web server.
 
-00:02:03.550 --> 00:02:18.547
+00:02:08.200 --> 00:02:23.794
 r e twelve is a folder on the server, part of the path. r u two dot m p three is the file being requested, an M P three music file. This explanation is by olevels.com, not an official mark scheme.
 
-00:02:19.650 --> 00:02:28.631
-A common mistake is reversing D N S. It does not turn an I P address into a name. You give it the name, and it gives back the address.
+00:02:24.900 --> 00:02:35.361
+Common mistake. A common mistake is reversing D N S. It does not turn an I P address into a name. You give it the name, and it gives back the address.
 
-00:02:29.200 --> 00:02:39.781
+00:02:35.950 --> 00:02:46.701
 Another mistake is calling the domain name the U R L. The domain name is only one part. The U R L is the whole address, from the protocol to the file.
 
-00:02:40.900 --> 00:02:59.737
-Now you try. A fan opens this address: h t t p, colon, slash slash, w w w dot lakesideclub dot com, slash fixtures, slash june dot p d f. Identify the protocol, the domain name, the folder and the file name. Pause here and work it out.
+00:02:47.850 --> 00:03:07.631
+Your turn. Now you try. A fan opens this address: h t t p, colon, slash slash, w w w dot lakesideclub dot com, slash fixtures, slash june dot p d f. Identify the protocol, the domain name, the folder and the file name. Pause here and work it out.
 
-00:03:00.850 --> 00:03:13.927
-The protocol is http, which is not encrypted. The domain name is w w w dot lakesideclub dot com. The folder is fixtures. The file is june dot p d f.
+00:03:08.750 --> 00:03:22.706
+Answer. The protocol is http, which is not encrypted. The domain name is w w w dot lakesideclub dot com. The folder is fixtures. The file is june dot p d f.
 
-00:03:14.500 --> 00:03:24.569
+00:03:23.300 --> 00:03:33.569
 Remember the method: split at the colon and slashes, label left to right, and keep D N S the right way round. Now try the practice questions for this type.

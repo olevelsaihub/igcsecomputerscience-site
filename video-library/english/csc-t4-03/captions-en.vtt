@@ -1,46 +1,46 @@
 WEBVTT
 
-00:00:00.000 --> 00:00:10.816
-Think of a cook with a recipe. The recipe and the ingredients sit on the same shelf. The cook reads one step, works out what it means, does it, then moves to the next step.
+00:00:00.000 --> 00:00:11.807
+Idea. Think of a cook with a recipe. The recipe and the ingredients sit on the same shelf. The cook reads one step, works out what it means, does it, then moves to the next step.
 
-00:00:11.400 --> 00:00:25.608
+00:00:12.400 --> 00:00:26.671
 This is the stored program concept, from von Neumann. Program instructions and data are both kept together in main memory. The CPU fetches each instruction, decodes it and executes it, one at a time.
 
-00:00:26.200 --> 00:00:38.467
+00:00:27.250 --> 00:00:39.707
 An instruction is one command telling the CPU what to do, such as add two numbers. A memory address is a number that identifies one location in memory, like a house number on a street.
 
-00:00:39.050 --> 00:00:56.138
+00:00:40.300 --> 00:00:57.819
 Inside the CPU are three main parts. The control unit runs the fetch-decode-execute cycle and sends control signals. The arithmetic logic unit, the ALU, does calculations and comparisons. Registers are tiny, very fast stores.
 
-00:00:57.250 --> 00:01:16.066
-Five registers have names. The program counter holds the address of the next instruction. The memory address register and memory data register hold the address and data being moved. The current instruction register holds the instruction, and the accumulator holds ALU results.
+00:00:58.950 --> 00:01:18.522
+Method. Five registers have names. The program counter holds the address of the next instruction. The memory address register and memory data register hold the address and data being moved. The current instruction register holds the instruction, and the accumulator holds ALU results.
 
-00:01:16.650 --> 00:01:31.349
+00:01:19.100 --> 00:01:33.947
 To answer, find the exact term in the question. Give its meaning in one plain sentence. For the stored program concept, say both stored and executed. For labels, the control unit and ALU go inside the CPU.
 
-00:01:32.450 --> 00:01:41.815
-Here is a real question from Paper 1 in June 2022. State what is meant by the term program instruction. It is worth one mark.
+00:01:35.050 --> 00:01:45.885
+Worked example. Here is a real question from Paper 1 in June 2022. State what is meant by the term program instruction. It is worth one mark.
 
-00:01:42.400 --> 00:01:49.952
+00:01:46.450 --> 00:01:54.172
 A program is a list of commands. Each line here is one instruction: load a value, add a value, store the result.
 
-00:01:50.550 --> 00:02:04.950
+00:01:54.750 --> 00:02:09.683
 So say what it does. A program instruction is a single command that tells the CPU what operation to carry out, for example add two numbers. This explanation is by olevels.com, not an official mark scheme.
 
-00:02:06.050 --> 00:02:18.125
-A common mistake is saying only instructions are stored in memory. In the stored program concept, instructions and data are both stored, then the instructions are fetched and executed.
+00:02:10.800 --> 00:02:24.133
+Common mistake. A common mistake is saying only instructions are stored in memory. In the stored program concept, instructions and data are both stored, then the instructions are fetched and executed.
 
-00:02:18.700 --> 00:02:28.449
+00:02:24.700 --> 00:02:34.523
 Another mistake is mixing up the control unit and the ALU. The control unit controls the cycle. The ALU does the arithmetic and logic.
 
-00:02:29.550 --> 00:02:42.115
-Now you try. A games console adds a bonus to a player's score. Which part of the CPU does the addition? Which part sends the control signals? Name one register. Pause and decide.
+00:02:35.650 --> 00:02:49.345
+Your turn. Now you try. A games console adds a bonus to a player's score. Which part of the CPU does the addition? Which part sends the control signals? Name one register. Pause and decide.
 
-00:02:43.250 --> 00:02:48.349
-Part a. Adding is arithmetic, so the arithmetic logic unit does the addition.
+00:02:50.450 --> 00:02:56.699
+Answer. Part a. Adding is arithmetic, so the arithmetic logic unit does the addition.
 
-00:02:48.900 --> 00:02:58.052
+00:02:57.250 --> 00:03:06.572
 Part b. The control unit sends the control signals. Part c. Any named register, such as the program counter or the accumulator.
 
-00:02:58.650 --> 00:03:07.717
+00:03:07.150 --> 00:03:16.417
 Remember the method: name the term, give its meaning in one sentence, and know where each part sits. Now try the practice questions for this type.

@@ -1,46 +1,46 @@
 WEBVTT
 
-00:00:00.000 --> 00:00:13.632
-A games console is a box you can touch, but it does nothing without a game. The box is hardware: the physical parts. The game is software: instructions that tell the hardware what to do. A computer needs both.
+00:00:00.000 --> 00:00:14.804
+Idea. A games console is a box you can touch, but it does nothing without a game. The box is hardware: the physical parts. The game is software: instructions that tell the hardware what to do. A computer needs both.
 
-00:00:14.200 --> 00:00:26.765
+00:00:15.400 --> 00:00:28.135
 An input device sends data into the computer, like a keyboard, mouse or microphone. An output device receives data from the computer and presents it, like a screen, speaker or printer.
 
-00:00:27.350 --> 00:00:40.470
+00:00:28.700 --> 00:00:41.990
 Some devices do both jobs. A touch screen shows images and senses your finger. A headset has a speaker and a microphone. A U S B storage device has data saved to it and read from it.
 
-00:00:41.050 --> 00:00:52.271
+00:00:42.550 --> 00:00:53.951
 On a diagram, the arrow shows which way the data travels. For an input device, the arrow points to the C P U. For an output device, it points away from the C P U.
 
-00:00:53.400 --> 00:01:05.539
-For each device, ask: does it send data, receive data, or both? Draw the arrow head at the C P U for input, at the device for output, and at both ends for a device that does both.
+00:00:55.100 --> 00:01:08.257
+Method. For each device, ask: does it send data, receive data, or both? Draw the arrow head at the C P U for input, at the device for output, and at both ends for a device that does both.
 
-00:01:06.100 --> 00:01:17.428
+00:01:08.850 --> 00:01:20.338
 If a question asks for devices in a named product, give ones built into it. A smartphone's output devices are its screen, speaker and vibration motor, not a printer.
 
-00:01:18.550 --> 00:01:34.465
-Here is a real question from Paper 1 in June 2023. The diagram shows a C P U, a speaker, a mouse and a U S B device. Add directional arrows to show the flow of communication. It is worth three marks.
+00:01:21.450 --> 00:01:38.643
+Worked example. Here is a real question from Paper 1 in June 2023. The diagram shows a C P U, a speaker, a mouse and a U S B device. Add directional arrows to show the flow of communication. It is worth three marks.
 
-00:01:35.050 --> 00:01:44.415
+00:01:39.200 --> 00:01:48.755
 The mouse sends clicks and movements to the computer, so it is input. Draw a line from the mouse to the C P U, with the arrow head at the C P U.
 
-00:01:45.000 --> 00:01:53.981
+00:01:49.350 --> 00:01:58.511
 The speaker receives sound data from the computer, so it is output. Draw a line from the C P U to the speaker, with the arrow head at the speaker.
 
-00:01:54.550 --> 00:02:07.990
+00:01:59.100 --> 00:02:13.061
 Data is saved to the U S B device and read from it, so data goes both ways. Draw one line with arrow heads at both ends. This explanation is by olevels.com, not an official mark scheme.
 
-00:02:09.100 --> 00:02:18.807
-A common mistake is putting the arrow head at the wrong end, such as from the speaker to the C P U. Sound comes out of the speaker, so the data flows to it.
+00:02:14.200 --> 00:02:25.334
+Common mistake. A common mistake is putting the arrow head at the wrong end, such as from the speaker to the C P U. Sound comes out of the speaker, so the data flows to it.
 
-00:02:19.400 --> 00:02:28.467
+00:02:25.900 --> 00:02:35.147
 Another mistake is naming a separate device, such as a printer, when the question asks about a smartphone. Name devices built into the phone.
 
-00:02:29.600 --> 00:02:42.805
-Now you try. A self-service checkout has a barcode scanner, a touch screen and a receipt printer. For each, say input, output or both, and which way the arrow points. Pause here and work it out.
+00:02:36.250 --> 00:02:50.477
+Your turn. Now you try. A self-service checkout has a barcode scanner, a touch screen and a receipt printer. For each, say input, output or both, and which way the arrow points. Pause here and work it out.
 
-00:02:43.950 --> 00:02:58.862
-The scanner sends barcodes to the computer, so it is input, with the arrow pointing to the C P U. The touch screen does both, so it has arrows at both ends. The printer receives data, so it is output, with the arrow pointing away.
+00:02:51.600 --> 00:03:07.176
+Answer. The scanner sends barcodes to the computer, so it is input, with the arrow pointing to the C P U. The touch screen does both, so it has arrows at both ends. The printer receives data, so it is output, with the arrow pointing away.
 
-00:02:59.450 --> 00:03:10.031
+00:03:07.750 --> 00:03:18.511
 Remember the method: ask whether each device sends, receives or both, then point the arrow the way the data flows. Now try the practice questions for this type.

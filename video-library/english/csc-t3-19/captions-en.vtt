@@ -1,46 +1,46 @@
 WEBVTT
 
-00:00:00.000 --> 00:00:13.248
-Remember the Caesar cipher. Every letter moves the same number of places along the alphabet. With a shift of three, cat becomes f d w. It is easy to crack, because every letter has the same shift.
+00:00:00.000 --> 00:00:14.321
+Idea. Remember the Caesar cipher. Every letter moves the same number of places along the alphabet. With a shift of three, cat becomes f d w. It is easy to crack, because every letter has the same shift.
 
-00:00:13.800 --> 00:00:25.960
+00:00:14.900 --> 00:00:27.357
 The Vigenere cipher uses a keyword to give each letter its own shift. Letter a means shift zero, b means shift one, and so on. Because the shift keeps changing, it is much harder to crack.
 
-00:00:26.550 --> 00:00:37.878
+00:00:27.950 --> 00:00:39.704
 A Vigenere square does the shifting for you. Each row starts with a different letter. Row a has no shift. Row b is shifted by one, row c by two, and so on down the square.
 
-00:00:39.000 --> 00:00:49.347
-First, write the keyword under the message, repeating it until every letter has a keyword letter. Then, for each letter, go to the row that starts with its keyword letter.
+00:00:40.850 --> 00:00:52.015
+Method. First, write the keyword under the message, repeating it until every letter has a keyword letter. Then, for each letter, go to the row that starts with its keyword letter.
 
-00:00:49.900 --> 00:01:01.761
+00:00:52.600 --> 00:01:04.651
 To encrypt, read along that row to the plain letter's column. To decrypt, find the cipher letter inside the row, then read the heading at the top of its column. Check your answer makes words.
 
-00:01:02.900 --> 00:01:14.399
-Here is a question from June 2021. Decrypt f l m k t r w h e e using the keyword thirty and the Vigenere square. It is worth four marks.
+00:01:05.800 --> 00:01:18.907
+Worked example. Here is a question from June 2021. Decrypt f l m k t r w h e e using the keyword thirty and the Vigenere square. It is worth four marks.
 
-00:01:14.950 --> 00:01:24.443
+00:01:19.500 --> 00:01:29.173
 Write thirty under the ten cipher letters, repeating it: t h i r t y t h i r. Now each cipher letter has its own keyword letter.
 
-00:01:25.000 --> 00:01:39.144
+00:01:29.750 --> 00:01:44.164
 Letter one: go to row t and find f. Its column heading is m. In numbers, f is five and t is nineteen. Five take away nineteen is minus fourteen. Add twenty-six to get twelve, which is m.
 
-00:01:39.700 --> 00:01:48.447
+00:01:44.750 --> 00:01:53.867
 Carry on. Row h, l gives e. Row i, m gives e. Row r, k gives t. So the first four letters are m e e t.
 
-00:01:49.000 --> 00:02:06.216
+00:01:54.450 --> 00:02:12.466
 Then row t, r gives a. Row y, r gives t. Row t, w gives d. Row h, h gives a. Row i, e gives w. Row r, e gives n. The message is meet at dawn. This explanation is by olevels.com, not an official mark scheme.
 
-00:02:07.350 --> 00:02:18.891
-A common mistake when decrypting is reading the letter where the row and column meet. That is how you encrypt. To decrypt, you find the cipher letter in the row and read the column heading.
+00:02:13.600 --> 00:02:26.485
+Common mistake. A common mistake when decrypting is reading the letter where the row and column meet. That is how you encrypt. To decrypt, you find the cipher letter in the row and read the column heading.
 
-00:02:19.450 --> 00:02:28.197
+00:02:27.050 --> 00:02:35.967
 Another mistake is not repeating the keyword, or skipping a letter so the keyword gets out of step. Line the keyword up first, one letter per cell.
 
-00:02:29.300 --> 00:02:39.007
-Now you try. Encrypt the word safe using the keyword cat. Repeat the keyword first, then use each keyword letter's row. Pause here and work it out.
+00:02:37.100 --> 00:02:47.896
+Your turn. Now you try. Encrypt the word safe using the keyword cat. Repeat the keyword first, then use each keyword letter's row. Pause here and work it out.
 
-00:02:40.150 --> 00:02:54.379
-The keyword row is c a t c. S with c, shift two, gives u. A with a, shift zero, stays a. F with t, shift nineteen, gives y. E with c, shift two, gives g. The answer is u a y g.
+00:02:49.000 --> 00:03:04.373
+Answer. The keyword row is c a t c. S with c, shift two, gives u. A with a, shift zero, stays a. F with t, shift nineteen, gives y. E with c, shift two, gives g. The answer is u a y g.
 
-00:02:54.950 --> 00:03:07.281
+00:03:04.950 --> 00:03:17.461
 Remember the method: repeat the keyword, use the keyword letter's row, then read across to encrypt, or find the letter and read the heading to decrypt. Now try the practice questions for this type.

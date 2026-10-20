@@ -1,49 +1,49 @@
 WEBVTT
 
-00:00:00.000 --> 00:00:14.507
-When you post a letter, you follow agreed rules. The address goes on the front and the stamp in the corner, so any post office can deliver it. Devices need agreed rules too. A set of agreed rules for communication is a protocol.
+00:00:00.000 --> 00:00:15.600
+Idea. When you post a letter, you follow agreed rules. The address goes on the front and the stamp in the corner, so any post office can deliver it. Devices need agreed rules too. A set of agreed rules for communication is a protocol.
 
-00:00:15.100 --> 00:00:26.321
+00:00:16.150 --> 00:00:27.531
 A protocol sets the format of the data, the timing, and how errors are checked. Without shared protocols, devices made by different companies could not understand each other.
 
-00:00:26.900 --> 00:00:42.921
+00:00:28.100 --> 00:00:44.311
 Each protocol has one job. H T T P moves web pages to your browser, and H T T P S is the secure version. F T P moves files. Ethernet is for wired LANs, and Wi-Fi is for wireless LANs.
 
-00:00:43.500 --> 00:00:51.799
+00:00:44.900 --> 00:00:53.389
 Email uses three. S M T P sends the email. Then P O P three or I M A P fetch it from the mail server.
 
-00:00:52.350 --> 00:01:03.465
+00:00:53.950 --> 00:01:05.265
 P O P three downloads email to one device and usually removes it from the server. I M A P keeps the email on the server, so every device stays in step.
 
-00:01:04.600 --> 00:01:13.795
-Find the job in the question, then match it to its protocol. For a justification, say what the protocol does, then link it to the person's need.
+00:01:06.400 --> 00:01:16.469
+Method. Find the job in the question, then match it to its protocol. For a justification, say what the protocol does, then link it to the person's need.
 
-00:01:14.350 --> 00:01:23.929
+00:01:17.050 --> 00:01:26.839
 If you must describe Ethernet, give two separate facts. It is a family of protocols, for wired networks, and it sets cables, speeds and error checks.
 
-00:01:25.050 --> 00:01:39.194
-Here is a real question from Paper 1 in June 2019. Isra uses a tablet and a smartphone for email. State the email protocol she should use, and justify your choice. It is worth three marks.
+00:01:27.950 --> 00:01:43.297
+Worked example. Here is a real question from Paper 1 in June 2019. Isra uses a tablet and a smartphone for email. State the email protocol she should use, and justify your choice. It is worth three marks.
 
-00:01:39.750 --> 00:01:48.369
+00:01:43.850 --> 00:01:52.649
 Isra has two devices, and both must show the same mailbox. So the email should stay on the server. The protocol is I M A P.
 
-00:01:48.950 --> 00:01:56.374
+00:01:53.200 --> 00:02:00.794
 Now say what I M A P does. It keeps her emails stored on the mail server, and keeps each device synchronised with it.
 
-00:01:56.950 --> 00:02:11.883
+00:02:01.350 --> 00:02:17.001
 Then link it to Isra. An email she reads or deletes on her tablet shows the same way on her phone, and her devices do not need to store all her mail. This explanation is by olevels.com, not an official mark scheme.
 
-00:02:13.000 --> 00:02:22.557
-The most common mistake is choosing P O P three or I M A P for sending email. They only fetch it. S M T P is the one that sends.
+00:02:18.150 --> 00:02:29.102
+Common mistake. The most common mistake is choosing P O P three or I M A P for sending email. They only fetch it. S M T P is the one that sends.
 
-00:02:23.150 --> 00:02:32.985
+00:02:29.700 --> 00:02:39.725
 Another mistake is choosing P O P three for someone with several devices. P O P three leaves the mail on one device, so the others miss it.
 
-00:02:34.100 --> 00:02:48.287
-Now you try. Sami runs a small website. He uploads new image files from his laptop to the web server. Visitors then view his pages in their browsers. Name a protocol for each job. Pause here and work it out.
+00:02:40.850 --> 00:02:56.080
+Your turn. Now you try. Sami runs a small website. He uploads new image files from his laptop to the web server. Visitors then view his pages in their browsers. Name a protocol for each job. Pause here and work it out.
 
-00:02:49.400 --> 00:02:59.256
-Moving files between computers is F T P. Showing web pages in a browser is H T T P, or H T T P S if it is encrypted.
+00:02:57.200 --> 00:03:08.000
+Answer. Moving files between computers is F T P. Showing web pages in a browser is H T T P, or H T T P S if it is encrypted.
 
-00:02:59.850 --> 00:03:09.877
+00:03:08.550 --> 00:03:18.767
 Remember the method: find the job, match the protocol, then justify by saying what it does for this person. Now try the practice questions for this type.

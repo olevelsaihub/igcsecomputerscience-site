@@ -1,49 +1,49 @@
 WEBVTT
 
-00:00:00.000 --> 00:00:14.144
-You cannot see inside a dishwasher. But dirty plates go in, and clean plates come out. So you know its job: washing dishes. To find the purpose of an algorithm, we do the same. Compare what goes in with what comes out.
+00:00:00.000 --> 00:00:15.176
+Idea. You cannot see inside a dishwasher. But dirty plates go in, and clean plates come out. So you know its job: washing dishes. To find the purpose of an algorithm, we do the same. Compare what goes in with what comes out.
 
-00:00:14.700 --> 00:00:23.148
+00:00:15.750 --> 00:00:24.388
 Here is a short algorithm. Do not read it line by line in your answer. Instead, run it with a tiny input and watch what happens.
 
-00:00:23.700 --> 00:00:36.521
+00:00:24.950 --> 00:00:37.961
 Try the word banana. Count goes up on each letter a, so it ends at three, and three is output. So the purpose is: it counts how many times the letter a appears in a word, and displays that number.
 
-00:00:37.100 --> 00:00:48.001
+00:00:38.550 --> 00:00:49.641
 Some questions ask about one variable. Here, temp holds a's value during a swap. Without it, setting a to b would overwrite a, and its old value would be lost.
 
-00:00:49.150 --> 00:00:58.131
-First, pick a small, easy input and dry-run the algorithm. Then compare the input with the output, or with the final state of the data.
+00:00:50.750 --> 00:01:00.743
+Method. First, pick a small, easy input and dry-run the algorithm. Then compare the input with the output, or with the final state of the data.
 
-00:00:58.700 --> 00:01:06.935
+00:01:01.300 --> 00:01:09.695
 Write the purpose as one sentence that names the task. For a two-mark describe, add a second linked point, such as what is output.
 
-00:01:08.050 --> 00:01:19.783
-Here is a real question from Paper 2 in June 2025. Describe the purpose of Martha's algorithm, assuming the error has been corrected. It is worth two marks.
+00:01:10.800 --> 00:01:24.018
+Worked example. Here is a real question from Paper 2 in June 2025. Describe the purpose of Martha's algorithm, assuming the error has been corrected. It is worth two marks.
 
-00:01:20.350 --> 00:01:31.614
+00:01:24.600 --> 00:01:36.064
 The error is on line eight: score is reset to zero inside the loop. We assume it is fixed, so score is set to zero only once, on line five. The loop runs ten times.
 
-00:01:32.200 --> 00:01:47.688
+00:01:36.650 --> 00:01:52.498
 Dry-run two passes with made-up numbers. Twenty-three plus forty-five is shown. The user types sixty-eight, which is correct, so score goes up. Next, ten plus seven: the user types fifteen, which is wrong, so score stays the same.
 
-00:01:48.250 --> 00:02:05.317
+00:01:53.050 --> 00:02:10.499
 So the purpose is: it is an addition quiz of ten questions using random numbers. It checks each typed answer, adds one to the score for each correct one, and displays the final score. This explanation is by olevels.com, not an official mark scheme.
 
-00:02:06.450 --> 00:02:14.045
-A common mistake is retelling each line. That does not say what the algorithm is for. Name the overall job instead.
+00:02:11.600 --> 00:02:20.666
+Common mistake. A common mistake is retelling each line. That does not say what the algorithm is for. Name the overall job instead.
 
-00:02:14.600 --> 00:02:22.621
+00:02:21.250 --> 00:02:29.441
 Another mistake is a vague reason for a variable. Saying temp stores a number earns nothing. Say what would be lost without it.
 
-00:02:23.750 --> 00:02:29.574
-Now you try. Describe the purpose of this algorithm, for two marks. Pause here and work it out.
+00:02:30.550 --> 00:02:37.747
+Your turn. Now you try. Describe the purpose of this algorithm, for two marks. Pause here and work it out.
 
-00:02:30.700 --> 00:02:41.943
-Big starts as four, the first item. Nine is greater than four, so big becomes nine. Two and seven are not greater than nine, so big stays nine. Nine is output.
+00:02:38.850 --> 00:02:50.821
+Answer. Big starts as four, the first item. Nine is greater than four, so big becomes nine. Two and seven are not greater than nine, so big stays nine. Nine is output.
 
-00:02:42.500 --> 00:02:47.428
+00:02:51.400 --> 00:02:56.488
 So the purpose is: it finds the largest number in the array, and displays it.
 
-00:02:48.000 --> 00:02:59.200
+00:02:57.050 --> 00:03:08.440
 Remember the method: dry-run a tiny input, compare what goes in with what comes out, then name the job and add a linked point. Now try the practice questions for this type.

@@ -5,11 +5,11 @@
   window.olvComputerScienceVideosLoaded = true;
   const base = '/igcsecomputerscience/video-library/';
   const style = document.createElement('link');
-  style.rel = 'stylesheet'; style.href = base + 'student-videos.css?v=06c3ec8681'; document.head.append(style);
+  style.rel = 'stylesheet'; style.href = base + 'student-videos.css?v=22d048e141'; document.head.append(style);
   const chapterPlayerReady = new Promise(resolve => {
     if (window.olvCreateChapterPlayer) { resolve(window.olvCreateChapterPlayer); return; }
     const script = document.createElement('script');
-    script.src = base + 'chapter-player.js?v=06c3ec8681';
+    script.src = base + 'chapter-player.js?v=22d048e141';
     script.onload = () => resolve(window.olvCreateChapterPlayer);
     script.onerror = () => resolve(null);
     document.head.append(script);
@@ -19,8 +19,8 @@
   function loadGuidedPlayer() {
     guidedAssets ||= chapterPlayerReady.then(() => new Promise(resolve => {
       if (window.olvMountGuidedPlayer) { resolve(window.olvMountGuidedPlayer); return; }
-      const css = document.createElement('link'); css.rel = 'stylesheet'; css.href = base + 'guided-player.css?v=06c3ec8681'; document.head.append(css);
-      const script = document.createElement('script'); script.src = base + 'guided-player.js?v=06c3ec8681';
+      const css = document.createElement('link'); css.rel = 'stylesheet'; css.href = base + 'guided-player.css?v=22d048e141'; document.head.append(css);
+      const script = document.createElement('script'); script.src = base + 'guided-player.js?v=22d048e141';
       script.onload = () => resolve(window.olvMountGuidedPlayer); script.onerror = () => resolve(null); document.head.append(script);
     }));
     return guidedAssets;
@@ -95,7 +95,7 @@
       speed.addEventListener('change', () => { video.playbackRate = Number(speed.value); });
       speedLabel.append(speed); controls.append(speedLabel);
       const full = node('a', 'Open full lesson'); full.href = base + lesson.page; controls.append(full);
-      const browse = node('a', 'All video lessons'); browse.href = base; controls.append(browse); body.append(controls);
+      const browse = node('a', 'All video lessons'); browse.href = base + 'lessons.html'; controls.append(browse); body.append(controls);
       const chapters = node('div', undefined, 'cs-video-chapters'); chapters.setAttribute('aria-label', 'Lesson chapters');
       const ensureSource = () => { if (!video.src) { video.src = base + lesson.video; video.load(); } };
       const seekStatus = node('p', '', 'cs-video-seek-status');

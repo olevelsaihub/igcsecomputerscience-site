@@ -1,43 +1,43 @@
 WEBVTT
 
-00:00:00.000 --> 00:00:11.840
-Imagine passing a note in class, written in a secret code that only your friend knows. If someone else picks it up, they can see it, but they cannot read it. That is the idea of encryption.
+00:00:00.000 --> 00:00:12.558
+Idea. Imagine passing a note in class, written in a secret code that only your friend knows. If someone else picks it up, they can see it, but they cannot read it. That is the idea of encryption.
 
-00:00:12.400 --> 00:00:22.661
+00:00:13.150 --> 00:00:23.581
 The readable message is called plaintext. Encryption uses an algorithm and a key to turn it into ciphertext, a scrambled message that cannot be understood.
 
-00:00:23.250 --> 00:00:33.853
+00:00:24.150 --> 00:00:34.973
 For example, shift each letter three places along the alphabet. Hello becomes K H O O R. Without knowing the key, three, the message looks like nonsense.
 
-00:00:34.450 --> 00:00:40.850
+00:00:35.550 --> 00:00:42.120
 Decryption is the reverse. The receiver uses the key to turn the ciphertext back into plaintext.
 
-00:00:41.400 --> 00:00:54.563
+00:00:42.700 --> 00:00:56.033
 Be clear about what encryption does. It does not stop data being intercepted or stolen, and it does not stop hackers getting in. It stops them understanding the data. It also does not make files smaller.
 
-00:00:55.700 --> 00:01:09.161
-For a definition, say what goes in and what comes out: plaintext is turned into ciphertext. For a reason, say who can understand the data: only authorised people with the key. Never say it stops hacking.
+00:00:57.150 --> 00:01:11.325
+Method. For a definition, say what goes in and what comes out: plaintext is turned into ciphertext. For a reason, say who can understand the data: only authorised people with the key. Never say it stops hacking.
 
-00:01:10.300 --> 00:01:19.687
-Here is a real question from Paper 2 in November 2020. Give one reason why data may need to be encrypted. It is worth one mark.
+00:01:12.450 --> 00:01:23.115
+Worked example. Here is a real question from Paper 2 in November 2020. Give one reason why data may need to be encrypted. It is worth one mark.
 
-00:01:20.250 --> 00:01:29.743
+00:01:23.700 --> 00:01:33.373
 Think about what happens if someone intercepts the data. Encrypted data looks like nonsense without the key. So the reason is about who can understand it.
 
-00:01:30.300 --> 00:01:43.548
+00:01:33.950 --> 00:01:47.762
 So the answer is: if the data is intercepted, it cannot be understood, because only an authorised person with the key can read it. This explanation is by olevels.com, not an official mark scheme.
 
-00:01:44.650 --> 00:01:53.439
-The most common mistake is writing to stop hackers. Encryption does not stop anyone getting in. It stops them understanding what they take.
+00:01:48.900 --> 00:01:58.979
+Common mistake. The most common mistake is writing to stop hackers. Encryption does not stop anyone getting in. It stops them understanding what they take.
 
-00:01:54.000 --> 00:02:03.259
+00:01:59.550 --> 00:02:08.979
 Another mistake is swapping the words. Encryption makes ciphertext from plaintext. Decryption turns it back. And encryption is not compression.
 
-00:02:04.400 --> 00:02:17.989
-Now you try. Maya sends her card details to an online shop. The details are encrypted. A criminal copies the data on its way. Explain what the criminal sees, and why. Pause here and work it out.
+00:02:10.100 --> 00:02:24.889
+Your turn. Now you try. Maya sends her card details to an online shop. The details are encrypted. A criminal copies the data on its way. Explain what the criminal sees, and why. Pause here and work it out.
 
-00:02:19.100 --> 00:02:29.468
-The criminal sees only ciphertext, scrambled data. They do not have the key, so they cannot understand it. The shop has the key, so it can decrypt the details.
+00:02:26.000 --> 00:02:37.304
+Answer. The criminal sees only ciphertext, scrambled data. They do not have the key, so they cannot understand it. The shop has the key, so it can decrypt the details.
 
-00:02:30.050 --> 00:02:40.077
+00:02:37.900 --> 00:02:48.117
 Remember the method: plaintext goes in, ciphertext comes out, and only people with the key can understand it. Now try the practice questions for this type.

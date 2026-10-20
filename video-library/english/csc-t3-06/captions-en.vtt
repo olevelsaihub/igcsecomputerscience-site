@@ -1,58 +1,58 @@
 WEBVTT
 
-00:00:00.000 --> 00:00:11.307
-You already add in columns. Fifty-eight plus twenty-seven: eight plus seven is fifteen, so write five and carry one. Five plus two plus the carry is eight. Eighty-five.
+00:00:00.000 --> 00:00:12.305
+Idea. You already add in columns. Fifty-eight plus twenty-seven: eight plus seven is fifteen, so write five and carry one. Five plus two plus the carry is eight. Eighty-five.
 
-00:00:11.900 --> 00:00:27.345
+00:00:12.900 --> 00:00:28.675
 Binary has only four rules. Zero plus zero is zero. Zero plus one is one. One plus one is two, written one zero: write zero, carry one. One plus one plus one is three, written one one: write one, carry one.
 
-00:00:27.900 --> 00:00:41.831
+00:00:29.250 --> 00:00:43.361
 A register is a small store in the processor with a fixed number of bits, often eight. Two hundred and fifty-five plus one needs a ninth bit. When a result is too big for the bits available, that is called overflow.
 
-00:00:42.950 --> 00:00:51.185
-Line up the two numbers and start at the rightmost column. Add each column with the four rules, writing any carry above the next column.
+00:00:44.500 --> 00:00:53.566
+Method. Line up the two numbers and start at the rightmost column. Add each column with the four rules, writing any carry above the next column.
 
-00:00:51.750 --> 00:00:56.742
+00:00:54.150 --> 00:00:59.322
 Keep going to the leftmost column. A one carried out of that column means overflow.
 
-00:00:57.300 --> 00:01:07.241
+00:00:59.900 --> 00:01:10.011
 To explain overflow, name it and give the reason: the result needs more bits than the register has. Finally, check by converting everything to denary.
 
-00:01:08.350 --> 00:01:24.777
-Here is a real question from Paper 1 in June 2022. Add these two eight-bit binary integers: zero zero one one, zero one zero zero, and zero zero zero one, zero one one zero. It is worth two marks.
+00:01:11.150 --> 00:01:28.748
+Worked example. Here is a real question from Paper 1 in June 2022. Add these two eight-bit binary integers: zero zero one one, zero one zero zero, and zero zero zero one, zero one one zero. It is worth two marks.
 
-00:01:25.350 --> 00:01:31.430
+00:01:29.300 --> 00:01:35.560
 Column one, far right: zero plus zero is zero. Column two: zero plus one is one.
 
-00:01:32.000 --> 00:01:40.085
+00:01:36.150 --> 00:01:44.495
 Column three: one plus one is one zero. Write zero, carry one. Column four: zero plus zero plus the carry is one.
 
-00:01:40.650 --> 00:01:51.487
+00:01:45.050 --> 00:01:56.217
 Column five: one plus one is one zero. Write zero, carry one. Column six: one plus zero plus the carry is one zero again. Write zero, carry one.
 
-00:01:52.050 --> 00:02:06.450
+00:01:56.800 --> 00:02:11.410
 Column seven: zero plus zero plus the carry is one. Column eight: zero plus zero is zero. Nothing is carried out, so there is no overflow. The answer is zero one zero zero, one zero one zero.
 
-00:02:07.000 --> 00:02:23.917
+00:02:12.000 --> 00:02:29.621
 Here is the whole sum with its carries. Check in denary: fifty-two plus twenty-two is seventy-four, and sixty-four plus eight plus two is seventy-four. Each correct nibble earns a mark. This explanation is by olevels.com, not an official mark scheme.
 
-00:02:25.050 --> 00:02:33.946
-A common mistake is writing two in a column. Binary has no digit two. One plus one is one zero, so write zero and carry one.
+00:02:30.750 --> 00:02:41.096
+Common mistake. A common mistake is writing two in a column. Binary has no digit two. One plus one is one zero, so write zero and carry one.
 
-00:02:34.500 --> 00:02:43.417
+00:02:41.650 --> 00:02:50.747
 Another mistake is saying only that there was an error. Name it as overflow, and say why: the result needs more bits than are available.
 
-00:02:44.550 --> 00:02:59.035
-Now you try. Add one zero one one, zero one one zero, and zero one one zero, zero one zero one, as eight-bit binary integers. Is there an overflow? Explain your answer. Pause here and work it out.
+00:02:51.850 --> 00:03:07.391
+Your turn. Now you try. Add one zero one one, zero one one zero, and zero one one zero, zero one zero one, as eight-bit binary integers. Is there an overflow? Explain your answer. Pause here and work it out.
 
-00:03:00.150 --> 00:03:13.398
-Right nibble. Zero plus one is one. One plus zero is one. One plus one is one zero: write zero, carry one. Zero plus zero plus the carry is one. That gives one zero one one.
+00:03:08.500 --> 00:03:22.989
+Answer. Right nibble. Zero plus one is one. One plus zero is one. One plus one is one zero: write zero, carry one. Zero plus zero plus the carry is one. That gives one zero one one.
 
-00:03:13.950 --> 00:03:31.209
+00:03:23.550 --> 00:03:41.109
 Left nibble. One plus zero is one. One plus one is one zero: write zero, carry one. Zero plus one plus the carry is one zero: write zero, carry one. One plus zero plus the carry is one zero: write zero, and carry one out of the left.
 
-00:03:31.800 --> 00:03:47.565
+00:03:41.700 --> 00:03:57.655
 That carry out means overflow. The result needs nine bits, but only eight are available, so the ninth bit is lost. Check: one hundred and eighty-two plus one hundred and one is two hundred and eighty-three, more than two hundred and fifty-five.
 
-00:03:48.150 --> 00:03:57.686
+00:03:58.250 --> 00:04:07.966
 Remember the method: add right to left with the four rules, write every carry, and watch the leftmost column. Now try the practice questions for this type.

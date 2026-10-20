@@ -1,46 +1,46 @@
 WEBVTT
 
-00:00:00.000 --> 00:00:13.397
-Think of a library. You hand the librarian a shelf number. She finds that shelf and brings the book back to you. The shelf number only goes one way, to the librarian. Books travel both ways, out and back.
+00:00:00.000 --> 00:00:14.175
+Idea. Think of a library. You hand the librarian a shelf number. She finds that shelf and brings the book back to you. The shelf number only goes one way, to the librarian. Books travel both ways, out and back.
 
-00:00:13.950 --> 00:00:33.129
+00:00:14.750 --> 00:00:34.119
 Inside a computer, sets of wires called buses carry signals between the CPU and memory. The address bus carries addresses, one way, from the CPU to memory. The data bus carries data and instructions both ways. The control bus carries signals like read, write and the clock.
 
-00:00:33.700 --> 00:00:43.300
+00:00:34.700 --> 00:00:44.480
 The CPU repeats one cycle again and again. Fetch an instruction from memory. Decode it, to work out what it means. Execute it, to carry it out.
 
-00:00:44.450 --> 00:01:01.794
-Here is the fetch in detail. The address in the program counter is copied to the memory address register. That address goes on the address bus. A read signal goes on the control bus. The instruction comes back on the data bus. The program counter goes up by one.
+00:00:45.600 --> 00:01:03.567
+Method. Here is the fetch in detail. The address in the program counter is copied to the memory address register. That address goes on the address bus. A read signal goes on the control bus. The instruction comes back on the data bus. The program counter goes up by one.
 
-00:01:02.350 --> 00:01:13.017
+00:01:04.150 --> 00:01:15.163
 Next, decode. The control unit works out what the instruction means. Then execute. The instruction is carried out, for example the ALU adds two numbers.
 
-00:01:13.600 --> 00:01:24.523
+00:01:15.750 --> 00:01:26.863
 Bus width matters. A wider data bus moves more bits in one go. A wider address bus can point to more memory locations. Saying only faster is too vague.
 
-00:01:25.650 --> 00:01:37.191
-Here is a real question from Paper 1 in June 2025. Describe how the address bus is used during the fetch-decode-execute cycle. It is worth two marks.
+00:01:28.000 --> 00:01:40.819
+Worked example. Here is a real question from Paper 1 in June 2025. Describe how the address bus is used during the fetch-decode-execute cycle. It is worth two marks.
 
-00:01:37.750 --> 00:01:49.611
+00:01:41.400 --> 00:01:53.431
 Point one. During the fetch, the CPU places the address of the next instruction, held in the memory address register, onto the address bus. It travels one way, to main memory.
 
-00:01:50.200 --> 00:02:02.616
+00:01:54.000 --> 00:02:06.586
 Point two, linked. Memory uses that address to find the right location, so it can be read from or written to. If the address is one hundred and one, location one hundred and one is read.
 
-00:02:03.200 --> 00:02:17.515
+00:02:07.150 --> 00:02:21.837
 So the answer is: the CPU puts the memory address on the address bus, and this identifies the location in main memory to read or write. This explanation is by olevels.com, not an official mark scheme.
 
-00:02:18.650 --> 00:02:27.418
-A common mistake is saying the address bus carries data, or that it is two-way. It carries addresses only, from the CPU to memory.
+00:02:22.950 --> 00:02:33.242
+Common mistake. A common mistake is saying the address bus carries data, or that it is two-way. It carries addresses only, from the CPU to memory.
 
-00:02:28.000 --> 00:02:35.189
+00:02:33.800 --> 00:02:41.169
 Another mistake is saying the program counter holds the next instruction. It holds the address of the next instruction.
 
-00:02:36.300 --> 00:02:48.823
-Now you try. The program counter holds forty. Which register does forty go to next? Which bus carries the instruction back? What is in the program counter after the fetch? Pause and decide.
+00:02:42.300 --> 00:02:55.864
+Your turn. Now you try. The program counter holds forty. Which register does forty go to next? Which bus carries the instruction back? What is in the program counter after the fetch? Pause and decide.
 
-00:02:49.950 --> 00:03:01.726
-Forty is copied to the memory address register, then put on the address bus with a read signal. The instruction comes back on the data bus. The program counter increments to forty-one.
+00:02:57.000 --> 00:03:09.542
+Answer. Forty is copied to the memory address register, then put on the address bus with a read signal. The instruction comes back on the data bus. The program counter increments to forty-one.
 
-00:03:02.300 --> 00:03:13.607
+00:03:10.100 --> 00:03:21.577
 Remember: the address goes out on the address bus, the instruction comes back on the data bus, then it is decoded and executed. Now try the practice questions for this type.

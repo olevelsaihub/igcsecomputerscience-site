@@ -1,46 +1,46 @@
 WEBVTT
 
-00:00:00.000 --> 00:00:13.013
-Think of your home. Your phone, laptop and television all share one internet connection, and they can send things to each other. Two or more devices linked so they can share data and resources make a network.
+00:00:00.000 --> 00:00:13.701
+Idea. Think of your home. Your phone, laptop and television all share one internet connection, and they can send things to each other. Two or more devices linked so they can share data and resources make a network.
 
-00:00:13.600 --> 00:00:27.424
+00:00:14.300 --> 00:00:28.374
 Why link computers? To share files, to share hardware such as a printer, to share one internet connection, and to communicate. An organisation can also back up, update and secure every computer from one place.
 
-00:00:28.000 --> 00:00:46.155
+00:00:28.950 --> 00:00:47.275
 Distance decides the type. A PAN connects devices around one person, like earbuds linked to a phone. A LAN covers one building or site. A WAN covers a large area and joins LANs together. The internet is the biggest WAN.
 
-00:00:46.750 --> 00:01:00.873
+00:00:47.850 --> 00:01:02.143
 There are also two usage models. In client-server, a central server provides services such as file storage or logins, and the clients ask for them. In peer-to-peer, every device is equal and shares directly.
 
-00:01:02.000 --> 00:01:12.624
-First, underline the distance in the scenario. Then name the network type that matches it. If a usage model is asked, check whether one central device serves the others.
+00:01:03.250 --> 00:01:14.725
+Method. First, underline the distance in the scenario. Then name the network type that matches it. If a usage model is asked, check whether one central device serves the others.
 
-00:01:13.200 --> 00:01:24.699
+00:01:15.300 --> 00:01:27.069
 For a difference, take one feature and write both sides: what the WAN does, whereas what the LAN does. Area, ownership, bandwidth and latency are all good features.
 
-00:01:25.800 --> 00:01:35.699
-Here is a real question from Paper 1 in June 2024. Give two differences between a WAN and a LAN. It is worth two marks.
+00:01:28.200 --> 00:01:39.579
+Worked example. Here is a real question from Paper 1 in June 2024. Give two differences between a WAN and a LAN. It is worth two marks.
 
-00:01:36.250 --> 00:01:47.151
+00:01:40.150 --> 00:01:51.221
 Start with the size of the area. A WAN spreads over a large area, such as several cities or countries, whereas a LAN covers only one building or site.
 
-00:01:47.750 --> 00:01:59.718
+00:01:51.800 --> 00:02:04.028
 Now a different feature: latency, which means delay. A WAN usually has higher latency than a LAN, because data travels much further and passes through many more links.
 
-00:02:00.300 --> 00:02:11.948
+00:02:04.600 --> 00:02:16.876
 Check: two lines, two different features, and each line names both networks. Each line earns one mark. This explanation is by olevels.com, not an official mark scheme.
 
-00:02:13.050 --> 00:02:21.839
-A common mistake is a vague difference. A WAN is slower does not say what is slower. Name the feature: latency, or bandwidth.
+00:02:18.000 --> 00:02:28.217
+Common mistake. A common mistake is a vague difference. A WAN is slower does not say what is slower. Name the feature: latency, or bandwidth.
 
-00:02:22.400 --> 00:02:30.464
+00:02:28.800 --> 00:02:37.054
 Another mistake is giving the same point twice. Big area and covers many cities are one idea, so they earn only one mark.
 
-00:02:31.600 --> 00:02:43.312
-Now you try. A dental clinic links its six computers, all in one building. Name the type of network. Then give one reason for networking the computers. Pause here and work it out.
+00:02:38.200 --> 00:02:51.249
+Your turn. Now you try. A dental clinic links its six computers, all in one building. Name the type of network. Then give one reason for networking the computers. Pause here and work it out.
 
-00:02:44.450 --> 00:02:57.847
-All the computers are in one building, so it is a LAN. A good reason: staff can share files, such as the appointment list, from any computer. Sharing a printer or one internet connection also works.
+00:02:52.350 --> 00:03:06.420
+Answer. All the computers are in one building, so it is a LAN. A good reason: staff can share files, such as the appointment list, from any computer. Sharing a printer or one internet connection also works.
 
-00:02:58.400 --> 00:03:09.131
+00:03:07.000 --> 00:03:17.961
 Remember the method: read the distance, name PAN, LAN or WAN, and write differences as pairs on one feature. Now try the practice questions for this type.

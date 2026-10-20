@@ -1,46 +1,46 @@
 WEBVTT
 
-00:00:00.000 --> 00:00:15.104
-When you sing, the air vibrates in a smooth wave that changes all the time. That smooth, continuous signal is called analogue. A computer cannot store a smooth wave. It can only store separate binary numbers, which is digital.
+00:00:00.000 --> 00:00:15.941
+Idea. When you sing, the air vibrates in a smooth wave that changes all the time. That smooth, continuous signal is called analogue. A computer cannot store a smooth wave. It can only store separate binary numbers, which is digital.
 
-00:00:15.700 --> 00:00:25.620
+00:00:16.500 --> 00:00:26.600
 To turn the wave into numbers, the computer samples it. It measures the height of the wave, called the amplitude, at regular time intervals. Here are eight samples.
 
-00:00:26.200 --> 00:00:38.040
+00:00:27.150 --> 00:00:39.170
 Each sample is stored as a binary number. The number of bits for each sample is the bit depth. With a bit depth of three, sample three, with amplitude six, is stored as one one zero.
 
-00:00:38.600 --> 00:00:49.928
+00:00:39.750 --> 00:00:51.268
 The sampling frequency, or sample rate, is the number of samples taken each second. It is measured in hertz. A music file often uses forty-four thousand one hundred hertz.
 
-00:00:51.050 --> 00:01:03.231
-To describe the conversion, give the steps in order. Set the sample rate and bit depth. Measure the amplitude at each interval. Turn each measurement into binary. Store the binary values.
+00:00:52.400 --> 00:01:05.523
+Method. To describe the conversion, give the steps in order. Set the sample rate and bit depth. Measure the amplitude at each interval. Turn each measurement into binary. Store the binary values.
 
-00:01:03.800 --> 00:01:12.824
+00:01:06.100 --> 00:01:15.284
 For the effect of a change, give both sides. A higher sample rate or bit depth makes a closer copy of the sound, but the file gets bigger.
 
-00:01:13.950 --> 00:01:25.257
-Here is a real question from Paper 1 in November 2021. Describe how an analogue sound is converted into a digital sound file. It is worth three marks.
+00:01:16.400 --> 00:01:28.995
+Worked example. Here is a real question from Paper 1 in November 2021. Describe how an analogue sound is converted into a digital sound file. It is worth three marks.
 
-00:01:25.850 --> 00:01:34.725
+00:01:29.550 --> 00:01:38.635
 First, the sample rate and bit depth are set. Then the analogue wave is sampled. Its amplitude is measured at regular time intervals.
 
-00:01:35.300 --> 00:01:46.820
+00:01:39.200 --> 00:01:50.880
 Next, each measured amplitude is given a binary value using the chosen number of bits. Finally, the binary values are stored, with the sample rate, as the sound file.
 
-00:01:47.400 --> 00:01:59.645
+00:01:51.450 --> 00:02:04.269
 For example, at forty-four thousand one hundred hertz, two seconds of sound gives eighty-eight thousand two hundred samples. This explanation is by olevels.com, not an official mark scheme.
 
-00:02:00.750 --> 00:02:07.470
-A common mistake is swapping the axes. Time always goes along the bottom. Amplitude goes up the side.
+00:02:05.400 --> 00:02:13.739
+Common mistake. A common mistake is swapping the axes. Time always goes along the bottom. Amplitude goes up the side.
 
-00:02:08.050 --> 00:02:17.970
+00:02:14.300 --> 00:02:24.400
 Another mistake is describing playback through speakers. The question asks about recording and storing the sound, so describe sampling and binary values.
 
-00:02:19.100 --> 00:02:31.708
-Now you try. A voice note is recorded at eight thousand hertz for three seconds. How many samples are stored? What happens to the file size if the sample rate is doubled? Pause here and work it out.
+00:02:25.500 --> 00:02:39.219
+Your turn. Now you try. A voice note is recorded at eight thousand hertz for three seconds. How many samples are stored? What happens to the file size if the sample rate is doubled? Pause here and work it out.
 
-00:02:32.850 --> 00:02:45.074
-Eight thousand samples each second, for three seconds, is twenty-four thousand samples. Double the rate and there are forty-eight thousand samples, so the file is twice as big, with better quality.
+00:02:40.350 --> 00:02:53.609
+Answer. Eight thousand samples each second, for three seconds, is twenty-four thousand samples. Double the rate and there are forty-eight thousand samples, so the file is twice as big, with better quality.
 
-00:02:45.650 --> 00:02:57.106
+00:02:54.200 --> 00:03:05.856
 Remember the method: set the rate and bit depth, measure the amplitude at regular intervals, turn each sample into binary, and store it. Now try the practice questions for this type.

@@ -1,43 +1,43 @@
 WEBVTT
 
-00:00:00.000 --> 00:00:12.523
-A car needs servicing. The oil is changed, the tyres are checked, and a spare is kept in the boot. A computer needs looking after too. The programs that do this are called utility software.
+00:00:00.000 --> 00:00:13.474
+Idea. A car needs servicing. The oil is changed, the tyres are checked, and a spare is kept in the boot. A computer needs looking after too. The programs that do this are called utility software.
 
-00:00:13.100 --> 00:00:20.823
+00:00:14.050 --> 00:00:21.943
 There are five main utilities to know. Anti-malware, defragmentation, backup, file repair and file conversion.
 
-00:00:21.400 --> 00:00:38.573
+00:00:22.500 --> 00:00:39.853
 Anti-malware protects against harmful software. Types include antivirus, anti-spyware, anti-adware and a software firewall. Antivirus can scan for viruses, quarantine infected files, remove them, scan in real time and update itself.
 
-00:00:39.150 --> 00:00:50.905
+00:00:40.450 --> 00:00:52.415
 Over time, a file's blocks get scattered across a hard drive. File A is split into three places, with gaps between. This is called fragmentation, and it slows reading down.
 
-00:00:52.050 --> 00:01:04.402
-A defragmentation utility moves each file's blocks together and in order, and gathers the free space at one end. The head moves less, so files open faster. It does not add any space.
+00:00:53.550 --> 00:01:06.775
+Method. A defragmentation utility moves each file's blocks together and in order, and gathers the free space at one end. The head moves less, so files open faster. It does not add any space.
 
-00:01:05.000 --> 00:01:21.832
+00:01:07.350 --> 00:01:24.372
 To choose a utility, match the problem. A slow hard disc needs defragmentation. A corrupt file needs file repair. Damaged or lost files need backup and restore. A wrong format needs file conversion. Malware needs anti-malware.
 
-00:01:22.950 --> 00:01:35.259
-Here is a real question from Paper 1 in June 2024. Anna has four problems. Complete the table with the type of utility software she should use for each. Four marks.
+00:01:25.500 --> 00:01:39.097
+Worked example. Here is a real question from Paper 1 in June 2024. Anna has four problems. Complete the table with the type of utility software she should use for each. Four marks.
 
-00:01:35.850 --> 00:01:48.437
+00:01:39.650 --> 00:01:52.397
 Row one: a file cannot be read because it is corrupt. Use a file repair utility. Row two: a JPEG must become a PNG. Changing format needs a file conversion utility.
 
-00:01:49.000 --> 00:02:06.835
+00:01:52.950 --> 00:02:11.473
 Row three: a flood damaged files on a server, but the data is needed. A backup copy must be restored, so use backup and restore. Row four: the hard drive is slow, so use defragmentation. This explanation is by olevels.com, not an official mark scheme.
 
-00:02:07.950 --> 00:02:14.030
-A common mistake is giving a brand name. Brand names are not credited. Give the type of software.
+00:02:12.600 --> 00:02:20.183
+Common mistake. A common mistake is giving a brand name. Brand names are not credited. Give the type of software.
 
-00:02:14.600 --> 00:02:23.304
+00:02:20.750 --> 00:02:29.645
 Another mistake is saying defragmentation adds space to the disc. The amount of free space stays the same. It is only gathered together.
 
-00:02:24.450 --> 00:02:43.415
-Now you try. File P has blocks P one and P two. File Q has blocks Q one, Q two and Q three. The disc holds, in order: Q two, P one, empty, Q one, P two, empty, Q three. Show the disc after defragmenting. Pause here and work it out.
+00:02:30.750 --> 00:02:50.703
+Your turn. Now you try. File P has blocks P one and P two. File Q has blocks Q one, Q two and Q three. The disc holds, in order: Q two, P one, empty, Q one, P two, empty, Q three. Show the disc after defragmenting. Pause here and work it out.
 
-00:02:44.550 --> 00:02:58.502
-Put P one and P two together, then Q one, Q two and Q three in order. The two empty spaces go together at the end. Either file could go first, as long as each file's blocks are together and in order.
+00:02:51.850 --> 00:03:06.855
+Answer. Put P one and P two together, then Q one, Q two and Q three in order. The two empty spaces go together at the end. Either file could go first, as long as each file's blocks are together and in order.
 
-00:02:59.100 --> 00:03:07.825
+00:03:07.450 --> 00:03:16.405
 Remember the method: read the issue, name the type of utility, and never give a brand name. Now try the practice questions for this type.

@@ -1,46 +1,46 @@
 WEBVTT
 
-00:00:00.000 --> 00:00:14.571
-Planning a birthday party feels like a big job. So you split it up: invitations, food, music and games. Each small job is easy to plan on its own. Splitting a big problem into smaller ones is called decomposition.
+00:00:00.000 --> 00:00:15.455
+Idea. Planning a birthday party feels like a big job. So you split it up: invitations, food, music and games. Each small job is easy to plan on its own. Splitting a big problem into smaller ones is called decomposition.
 
-00:00:15.150 --> 00:00:30.595
+00:00:16.050 --> 00:00:31.715
 Now think about a metro map. It shows the stations, the lines and the order of the stops. It leaves out the streets, the buildings and the real distances, because you do not need them. Hiding detail that does not matter is called abstraction.
 
-00:00:31.150 --> 00:00:40.750
+00:00:32.300 --> 00:00:42.080
 In a program, decomposition often appears as planning comments. Each comment names one smaller task, which can then be written and tested separately.
 
-00:00:41.300 --> 00:00:52.777
+00:00:42.650 --> 00:00:54.297
 Abstraction appears when you use a library subprogram. Here, random dot randint gives a number from one to six. You use the result, without needing to know how it works inside.
 
-00:00:53.900 --> 00:01:06.487
-First, decide which idea is asked: splitting into parts, or hiding detail. Give its meaning in your own words. Then point to the exact place in the scenario, and join the two with because or so.
+00:00:55.400 --> 00:01:08.899
+Method. First, decide which idea is asked: splitting into parts, or hiding detail. Give its meaning in your own words. Then point to the exact place in the scenario, and join the two with because or so.
 
-00:01:07.600 --> 00:01:24.453
-Here is a real question from Paper 2 in June 2025. Eli is designing a dice game. He uses a library subprogram to make random numbers that model a dice throw. Explain why this is an example of abstraction. It is worth two marks.
+00:01:10.000 --> 00:01:28.025
+Worked example. Here is a real question from Paper 2 in June 2025. Eli is designing a dice game. He uses a library subprogram to make random numbers that model a dice throw. Explain why this is an example of abstraction. It is worth two marks.
 
-00:01:25.050 --> 00:01:34.799
+00:01:28.600 --> 00:01:38.498
 The idea asked for is abstraction, which means hiding detail that is not needed. Eli calls a ready-made subprogram and gets back a dice number.
 
-00:01:35.350 --> 00:01:45.867
+00:01:39.050 --> 00:01:49.727
 Split the detail into two groups. How the random number is made is hidden, because Eli does not need it. The number itself, and his own game rules, are what he works with.
 
-00:01:46.450 --> 00:02:03.474
+00:01:50.300 --> 00:02:07.739
 So the answer is: abstraction means hiding detail that is not needed. Eli only needs the dice number the subprogram returns, so he can ignore how it is made and focus on his game. This explanation is by olevels.com, not an official mark scheme.
 
-00:02:04.600 --> 00:02:13.048
-The most common mistake is swapping the two definitions. Breaking a problem into smaller parts is decomposition, not abstraction.
+00:02:08.850 --> 00:02:18.663
+Common mistake. The most common mistake is swapping the two definitions. Breaking a problem into smaller parts is decomposition, not abstraction.
 
-00:02:13.600 --> 00:02:19.296
+00:02:19.250 --> 00:02:25.126
 Another mistake is describing what the library does, instead of why using it hides detail.
 
-00:02:20.400 --> 00:02:32.389
-Now you try. Mina is writing an app for a school canteen. She starts with these three planning comments. Explain why this is an example of decomposition. Pause here and work it out.
+00:02:26.250 --> 00:02:39.296
+Your turn. Now you try. Mina is writing an app for a school canteen. She starts with these three planning comments. Explain why this is an example of decomposition. Pause here and work it out.
 
-00:02:33.500 --> 00:02:39.409
-Each comment is one smaller task: showing the menu, taking the order, and working out the price.
+00:02:40.400 --> 00:02:47.299
+Answer. Each comment is one smaller task: showing the menu, taking the order, and working out the price.
 
-00:02:40.000 --> 00:02:51.733
+00:02:47.850 --> 00:02:59.753
 So the answer is: decomposition means splitting a problem into smaller sub-problems. Mina has split her app into three smaller tasks, so each one can be coded and tested separately.
 
-00:02:52.300 --> 00:03:03.585
+00:03:00.350 --> 00:03:11.815
 Remember the method: splitting is decomposition, hiding is abstraction. Give the meaning, then link it to the scenario with because. Now try the practice questions for this type.

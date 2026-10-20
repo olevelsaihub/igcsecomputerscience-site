@@ -1,58 +1,58 @@
 WEBVTT
 
-00:00:00.000 --> 00:00:11.541
-In Paper 2 you are given a short Python program that does not work. The question tells you what it should do and how many errors it has. You fix them, and each fix earns one mark.
+00:00:00.000 --> 00:00:12.221
+Idea. In Paper 2 you are given a short Python program that does not work. The question tells you what it should do and how many errors it has. You fix them, and each fix earns one mark.
 
-00:00:12.100 --> 00:00:21.849
+00:00:12.800 --> 00:00:22.719
 There are three kinds of error. A syntax error breaks the rules of Python, so the program will not run at all. Here, the if line is missing its colon.
 
-00:00:22.400 --> 00:00:32.960
+00:00:23.300 --> 00:00:34.060
 A runtime error happens while the program is running. Python is case-sensitive, so a capital C makes Count a new name it has never seen, and the program crashes.
 
-00:00:33.550 --> 00:00:44.899
+00:00:34.650 --> 00:00:46.249
 A logic error is the sneaky one. The program runs, but the answer is wrong, and there is no message. Here, the per cent sign means remainder, but we wanted to multiply.
 
-00:00:46.000 --> 00:00:51.376
-First, read the task. Note what the program should do and how many errors you must find.
+00:00:47.350 --> 00:00:53.650
+Method. First, read the task. Note what the program should do and how many errors you must find.
 
-00:00:51.950 --> 00:01:02.062
+00:00:54.200 --> 00:01:04.602
 Next, run the program and read the first error message. It gives a line number. Fix that one error, save, and run again. Repeat until the program runs.
 
-00:01:02.650 --> 00:01:12.314
+00:01:05.200 --> 00:01:15.034
 When it runs, compare the output with the task, and check every operator and comparison. Change nothing else, then save with the exact finished file name.
 
-00:01:13.450 --> 00:01:28.405
-Here is a real question from Paper 2 in June 2024. The width of a rectangle is random, and the length is always four. The program should show the width, the length and the perimeter. There are three errors, for three marks.
+00:01:16.150 --> 00:01:32.498
+Worked example. Here is a real question from Paper 2 in June 2024. The width of a rectangle is random, and the length is always four. The program should show the width, the length and the perimeter. There are three errors, for three marks.
 
-00:01:29.000 --> 00:01:36.040
+00:01:33.050 --> 00:01:40.250
 Run it. Python stops at line six. A value cannot start with a semicolon, so we write length equals four.
 
-00:01:36.600 --> 00:01:44.749
+00:01:40.800 --> 00:01:49.279
 Run again. Now Python stops at line nine. The randint call has two arguments, one and five, and they need a comma between them.
 
-00:01:45.300 --> 00:02:01.407
+00:01:49.850 --> 00:02:06.187
 Run again. It runs, but if the width is three it shows a perimeter of ten. The perimeter should be two times the width plus two times the length, which is fourteen. The per cent sign means remainder, so change it to the star, which means multiply.
 
-00:02:02.000 --> 00:02:15.717
+00:02:06.750 --> 00:02:21.117
 Test it a few times. A width of three now gives three, four, fourteen, which is right. Save the file as Q zero two c FINISHED. This explanation is by olevels.com, not an official mark scheme.
 
-00:02:16.850 --> 00:02:25.853
-The most common mistake is fixing only the errors Python reports. The logic error gives no message, so you must test the output yourself.
+00:02:22.250 --> 00:02:32.713
+Common mistake. The most common mistake is fixing only the errors Python reports. The logic error gives no message, so you must test the output yourself.
 
-00:02:26.450 --> 00:02:36.093
+00:02:33.300 --> 00:02:43.123
 Another mistake is rewriting lines that already work, or forgetting to save with the finished name. Change only the errors, and save exactly as asked.
 
-00:02:37.200 --> 00:02:47.461
-Now you try. This program should show the average of two scores, then print Pass if the average is fifteen or more. There are three errors. Pause here and work it out.
+00:02:44.250 --> 00:02:55.844
+Your turn. Now you try. This program should show the average of two scores, then print Pass if the average is fifteen or more. There are three errors. Pause here and work it out.
 
-00:02:48.600 --> 00:02:57.581
-Run it. Python reports line six first, even though it is near the end, because syntax is checked before any line runs. Add the colon.
+00:02:56.950 --> 00:03:06.677
+Answer. Run it. Python reports line six first, even though it is near the end, because syntax is checked before any line runs. Add the colon.
 
-00:02:58.150 --> 00:03:06.193
+00:03:07.250 --> 00:03:15.603
 Run again. Now it crashes at line three. Score two has a capital S, so Python has never seen that name. Make it lower case.
 
-00:03:06.750 --> 00:03:19.934
+00:03:16.200 --> 00:03:29.664
 Now it runs, but the average shows sixty. That is a logic error. An average divides the total by two. Twelve plus eighteen is thirty, and thirty divided by two is fifteen, so it prints Pass.
 
-00:03:20.500 --> 00:03:30.740
+00:03:30.250 --> 00:03:40.660
 Remember the method: read the task, fix one error at a time, then test the output and save with the finished name. Now try the practice questions for this type.

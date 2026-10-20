@@ -1,52 +1,52 @@
 WEBVTT
 
-00:00:00.000 --> 00:00:11.200
-Think about making toast. Bread goes in, the toaster heats it, and toast comes out. Something goes in, work is done, and a result comes out. Computers work the same way.
+00:00:00.000 --> 00:00:12.207
+Idea. Think about making toast. Bread goes in, the toaster heats it, and toast comes out. Something goes in, work is done, and a result comes out. Computers work the same way.
 
-00:00:11.750 --> 00:00:24.187
+00:00:12.800 --> 00:00:25.427
 This picture is called the input, process, output model, or I P O. Input is the data that goes in. Process is the work done on it. Output is the result the program produces.
 
-00:00:24.750 --> 00:00:40.451
+00:00:26.000 --> 00:00:41.871
 There are other models too. Sequential means instructions run one after another. Parallel means a job is split between processors, or cores, working at the same time. Multi-agent means separate systems work together on one goal.
 
-00:00:41.600 --> 00:00:53.888
-Read the scenario and underline every value. An input is given to the program from outside. It is typed in or sensed. Anything the program works out for itself is not an input.
+00:00:43.000 --> 00:00:56.115
+Method. Read the scenario and underline every value. An input is given to the program from outside. It is typed in or sensed. Anything the program works out for itself is not an input.
 
-00:00:54.450 --> 00:01:04.711
+00:00:56.700 --> 00:01:07.141
 The process is the actual working. Write it with the names from the scenario, such as pay rate times hours. The word calculate on its own does not earn the mark.
 
-00:01:05.300 --> 00:01:11.423
+00:01:07.700 --> 00:01:14.013
 The output is a result the program produces at the end. It is shown on screen, printed or done.
 
-00:01:12.000 --> 00:01:22.005
+00:01:14.600 --> 00:01:24.795
 For a parallel question, give each core a separate part that does not need the other. Joining the answers must wait for a later step, because it needs both results.
 
-00:01:23.150 --> 00:01:38.574
-Here is a real question from Paper 2 in June 2025. A payslip shows a pay rate, hours, total pay, tax and income. Give an input, a process and an output used by the program. It is worth three marks.
+00:01:25.900 --> 00:01:42.825
+Worked example. Here is a real question from Paper 2 in June 2025. A payslip shows a pay rate, hours, total pay, tax and income. Give an input, a process and an output used by the program. It is worth three marks.
 
-00:01:39.150 --> 00:01:49.241
+00:01:43.400 --> 00:01:53.761
 Which values must be typed in? The pay rate, eighteen pounds seventy-five, and the hours, nineteen. Nobody calculates the hours. So hours is an input.
 
-00:01:49.800 --> 00:02:01.405
+00:01:54.350 --> 00:02:06.145
 How is total pay made? Pay rate times hours. Eighteen seventy-five times nineteen is three hundred and fifty-six pounds twenty-five. That calculation is the process.
 
-00:02:02.000 --> 00:02:14.736
+00:02:06.700 --> 00:02:19.646
 Check the others. Tax is twenty per cent of the total, seventy-one pounds twenty-five. Income is total minus tax, two hundred and eighty-five pounds. All three are produced, so they are outputs.
 
-00:02:15.300 --> 00:02:28.271
+00:02:20.200 --> 00:02:34.004
 So the answer is: input, hours. Process, pay rate times hours. Output, total pay. One mark for each box. This explanation is by olevels.com, not an official mark scheme.
 
-00:02:29.400 --> 00:02:37.997
-The most common mistake is giving a calculated value, such as total pay, as an input. If the program works it out, it is an output.
+00:02:35.150 --> 00:02:45.297
+Common mistake. The most common mistake is giving a calculated value, such as total pay, as an input. If the program works it out, it is an output.
 
-00:02:38.550 --> 00:02:47.723
+00:02:45.850 --> 00:02:55.223
 In parallel tables, each core first does an independent part. Adding the parts together must go in a later row, because it needs both answers.
 
-00:02:48.850 --> 00:03:03.442
-Now you try. A fitness app is given the number of steps someone walked today. Each step is zero point seven metres. The app shows the distance walked. Give an input, a process and an output. Pause here and work it out.
+00:02:56.350 --> 00:03:11.881
+Your turn. Now you try. A fitness app is given the number of steps someone walked today. Each step is zero point seven metres. The app shows the distance walked. Give an input, a process and an output. Pause here and work it out.
 
-00:03:04.550 --> 00:03:17.265
-The step count is given, so it is the input. The process is steps times zero point seven. The distance shown is the output. For eight thousand steps, that is five thousand six hundred metres.
+00:03:13.000 --> 00:03:26.578
+Answer. The step count is given, so it is the input. The process is steps times zero point seven. The distance shown is the output. For eight thousand steps, that is five thousand six hundred metres.
 
-00:03:17.850 --> 00:03:29.221
+00:03:27.150 --> 00:03:38.771
 Remember the method: find what is given, write the actual working, then name the result. Keep the order input, process, output. Now try the practice questions for this type.

@@ -1,43 +1,43 @@
 WEBVTT
 
-00:00:00.000 --> 00:00:12.011
-When you pack for a trip, you squash clothes into a smaller bag. Compression does the same to a file. It makes the file smaller, so it takes less storage space and is quicker to send over a network.
+00:00:00.000 --> 00:00:12.829
+Idea. When you pack for a trip, you squash clothes into a smaller bag. Compression does the same to a file. It makes the file smaller, so it takes less storage space and is quicker to send over a network.
 
-00:00:12.600 --> 00:00:23.779
+00:00:13.400 --> 00:00:24.789
 Here is how big the saving can be. A three-minute song in CD quality is about thirty-two megabytes. As a compressed M P three file it is under three megabytes.
 
-00:00:24.350 --> 00:00:36.425
+00:00:25.350 --> 00:00:37.605
 There are two kinds. Lossy compression removes some data for ever, so the original can never be rebuilt exactly. Lossless compression loses nothing, so the original comes back exactly.
 
-00:00:37.550 --> 00:00:47.385
-First, decide what the file is. Is it text or program code, where every character matters? Or is it a picture, music or video that people see or hear?
+00:00:38.750 --> 00:00:49.628
+Method. First, decide what the file is. Is it text or program code, where every character matters? Or is it a picture, music or video that people see or hear?
 
-00:00:47.950 --> 00:01:00.451
+00:00:50.200 --> 00:01:03.011
 Then choose. Lossless if every bit must be kept. Lossy is often fine for media, because people rarely notice the missing detail. Finally, justify with what would happen to this file.
 
-00:01:01.050 --> 00:01:08.879
+00:01:03.600 --> 00:01:11.609
 Compression has drawbacks too. It takes time to compress and decompress, and you need compatible software to open the file.
 
-00:01:10.000 --> 00:01:24.677
-Here is a real question from Paper 1 in June 2024. An instruction manual is compressed before it is sent to a proofreader. Choose lossy or lossless, and justify your choice. It is worth three marks.
+00:01:12.750 --> 00:01:28.769
+Worked example. Here is a real question from Paper 1 in June 2024. An instruction manual is compressed before it is sent to a proofreader. Choose lossy or lossless, and justify your choice. It is worth three marks.
 
-00:01:25.250 --> 00:01:32.589
+00:01:29.350 --> 00:01:36.869
 What is the file? An instruction manual, which is text. The proofreader must see every word exactly as it was written.
 
-00:01:33.150 --> 00:01:50.195
+00:01:37.450 --> 00:01:54.995
 Lossy compression would delete some data for ever. Letters could be lost or changed, so the proofreader could not check the real text. So choose lossless. It rebuilds the manual exactly. This explanation is by olevels.com, not an official mark scheme.
 
-00:01:51.300 --> 00:01:59.727
-A common mistake is saying lossless removes less data. It removes no data at all. That is why the file can be rebuilt exactly.
+00:01:56.100 --> 00:02:05.977
+Common mistake. A common mistake is saying lossless removes less data. It removes no data at all. That is why the file can be rebuilt exactly.
 
-00:02:00.300 --> 00:02:10.647
+00:02:06.550 --> 00:02:17.077
 Another mistake is giving the same reason twice. Saves space and takes less storage are one point. Give different points, such as less storage and faster to send.
 
-00:02:11.750 --> 00:02:22.182
-Now you try. A band streams its songs to fans' phones. Should the songs use lossy or lossless compression? Justify your choice. Pause and decide.
+00:02:18.200 --> 00:02:29.601
+Your turn. Now you try. A band streams its songs to fans' phones. Should the songs use lossy or lossless compression? Justify your choice. Pause and decide.
 
-00:02:23.300 --> 00:02:34.287
-Choose lossy. The songs are much smaller, so they stream quickly over mobile data and use less of each fan's data. Listeners rarely notice the missing detail in music.
+00:02:30.750 --> 00:02:42.624
+Answer. Choose lossy. The songs are much smaller, so they stream quickly over mobile data and use less of each fan's data. Listeners rarely notice the missing detail in music.
 
-00:02:34.850 --> 00:02:47.458
+00:02:43.200 --> 00:02:55.988
 Remember the method: decide what the file is, choose lossless if every bit matters and lossy if people will not notice, then justify for this file. Now try the practice questions for this type.

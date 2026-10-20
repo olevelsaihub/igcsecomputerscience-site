@@ -1,43 +1,43 @@
 WEBVTT
 
-00:00:00.000 --> 00:00:11.627
-Zoom right into a photo on your phone and it turns into tiny coloured squares. Each square is a pixel, short for picture element. A bitmap image is simply a grid of pixels.
+00:00:00.000 --> 00:00:12.403
+Idea. Zoom right into a photo on your phone and it turns into tiny coloured squares. Each square is a pixel, short for picture element. A bitmap image is simply a grid of pixels.
 
-00:00:12.200 --> 00:00:21.864
+00:00:13.000 --> 00:00:22.854
 Resolution tells you how much detail there is. It can be the width times the height in pixels, or a measure such as pixels per inch or dots per inch.
 
-00:00:22.450 --> 00:00:32.925
+00:00:23.450 --> 00:00:34.115
 Colour depth is the number of bits used to store the colour of one pixel. One bit gives two colours. Two bits give four. Eight bits give two hundred and fifty-six colours.
 
-00:00:34.050 --> 00:00:44.269
-For a definition, give the short key phrase. A pixel is the smallest element of a bitmap image. For resolution, give a unit such as pixels per inch.
+00:00:35.250 --> 00:00:46.363
+Method. For a definition, give the short key phrase. A pixel is the smallest element of a bitmap image. For resolution, give a unit such as pixels per inch.
 
-00:00:44.850 --> 00:00:56.839
+00:00:46.950 --> 00:00:59.119
 For a file size question, start with one pixel. More colour depth means more bits for that pixel. Then scale up. Every pixel needs those extra bits, so the whole file is bigger.
 
-00:00:57.950 --> 00:01:09.918
-Here is a real question from Paper 1 in June 2023. Increasing the colour depth of an image makes its file bigger. Describe the reason for this. It is worth two marks.
+00:01:00.250 --> 00:01:13.762
+Worked example. Here is a real question from Paper 1 in June 2023. Increasing the colour depth of an image makes its file bigger. Describe the reason for this. It is worth two marks.
 
-00:01:10.500 --> 00:01:19.801
+00:01:14.350 --> 00:01:23.851
 Start with one pixel. Colour depth is the number of bits stored for each pixel. If the colour depth goes up, every single pixel now needs more bits.
 
-00:01:20.400 --> 00:01:35.248
+00:01:24.450 --> 00:01:39.478
 The number of pixels stays the same. So the total number of bits for the image goes up. A one hundred by one hundred image at eight bits per pixel needs eighty thousand bits. At sixteen bits it needs one hundred and sixty thousand.
 
-00:01:35.800 --> 00:01:48.152
+00:01:40.050 --> 00:01:53.010
 So the answer is: each pixel is stored with more bits, and since there are the same number of pixels, the file gets bigger. This explanation is by olevels.com, not an official mark scheme.
 
-00:01:49.300 --> 00:01:58.815
-A common mistake is saying more colour depth means more pixels. It does not. The pixel count stays the same. Each pixel just holds more bits.
+00:01:54.150 --> 00:02:05.230
+Common mistake. A common mistake is saying more colour depth means more pixels. It does not. The pixel count stays the same. Each pixel just holds more bits.
 
-00:01:59.400 --> 00:02:10.493
+00:02:05.800 --> 00:02:17.083
 Another mistake is giving megabytes as a measure of resolution. Megabytes measure file size. Resolution needs a unit such as pixels per inch or dots per inch.
 
-00:02:11.600 --> 00:02:23.077
-Now you try. An icon is fifty pixels wide and forty pixels high, with a colour depth of eight bits. Work out its size in bits, then in bytes. Pause here and work it out.
+00:02:18.200 --> 00:02:30.814
+Your turn. Now you try. An icon is fifty pixels wide and forty pixels high, with a colour depth of eight bits. Work out its size in bits, then in bytes. Pause here and work it out.
 
-00:02:24.200 --> 00:02:37.747
-Fifty times forty is two thousand pixels. Times eight bits is sixteen thousand bits. Divide by eight to get two thousand bytes. Using one kilobyte equals one thousand bytes, that is two kilobytes.
+00:02:31.950 --> 00:02:46.215
+Answer. Fifty times forty is two thousand pixels. Times eight bits is sixteen thousand bits. Divide by eight to get two thousand bytes. Using one kilobyte equals one thousand bytes, that is two kilobytes.
 
-00:02:38.300 --> 00:02:49.372
+00:02:46.800 --> 00:02:58.062
 Remember the method: define with one exact phrase, then for file size start at one pixel and scale up to the whole image. Now try the practice questions for this type.

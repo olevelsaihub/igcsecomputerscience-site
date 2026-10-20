@@ -1,52 +1,52 @@
 WEBVTT
 
-00:00:00.000 --> 00:00:08.832
-One light switch has two states, off or on. Add a second switch, and now there are four different patterns: off off, off on, on off and on on.
+00:00:00.000 --> 00:00:09.845
+Idea. One light switch has two states, off or on. Add a second switch, and now there are four different patterns: off off, off on, on off and on on.
 
-00:00:09.400 --> 00:00:23.864
+00:00:10.400 --> 00:00:25.134
 Every extra bit doubles the number of patterns. One bit gives two, two bits give four, three bits give eight, four bits give sixteen, and eight bits give two hundred and fifty-six. So n bits give two to the power n patterns.
 
-00:00:24.450 --> 00:00:35.245
+00:00:25.700 --> 00:00:36.675
 Three bits count from zero zero zero up to one one one. That is eight patterns, and the biggest value is seven, one less than eight, because zero is a pattern too.
 
-00:00:35.800 --> 00:00:47.960
+00:00:37.250 --> 00:00:49.600
 The same rule appears in images and sound. Colour depth is the bits for each pixel. Bit depth is the bits for each sound sample. n bits give two to the power n colours or levels.
 
-00:00:49.100 --> 00:00:58.785
-First decide which way round the question is. Bits to patterns? Work out two to the power n. Items to bits? Find the fewest bits that give enough patterns.
+00:00:50.700 --> 00:01:01.473
+Method. First decide which way round the question is. Bits to patterns? Work out two to the power n. Items to bits? Find the fewest bits that give enough patterns.
 
-00:00:59.350 --> 00:01:07.286
+00:01:02.050 --> 00:01:10.196
 For items to bits, list two, four, eight, sixteen, thirty-two, and stop at the first number that is at least the number of items.
 
-00:01:07.850 --> 00:01:16.426
+00:01:10.750 --> 00:01:19.516
 If you must write codes, give every item a different pattern with exactly that many bits. Counting up in binary makes sure no code repeats.
 
-00:01:17.550 --> 00:01:31.353
-Here is a real question from Paper 1 in June 2022. An image has five colours. Give each colour a unique binary pattern, all using the same minimum colour depth. It is worth two marks.
+00:01:20.650 --> 00:01:35.826
+Worked example. Here is a real question from Paper 1 in June 2022. An image has five colours. Give each colour a unique binary pattern, all using the same minimum colour depth. It is worth two marks.
 
-00:01:31.950 --> 00:01:40.931
+00:01:36.400 --> 00:01:45.701
 We need five patterns. Two bits give only four, which is not enough. Three bits give eight, which is enough. So every code uses three bits.
 
-00:01:41.500 --> 00:01:52.124
+00:01:46.300 --> 00:01:57.114
 Now count up in three-bit binary. Green zero zero one, black zero one zero, white zero one one, red one zero zero and blue one zero one.
 
-00:01:52.700 --> 00:02:04.967
+00:01:57.700 --> 00:02:10.583
 Check: every code has three bits, and no two are the same. One mark is for the minimum length, and one for no repeats. This explanation is by olevels.com, not an official mark scheme.
 
-00:02:06.100 --> 00:02:17.620
-The biggest mistake is multiplying or squaring. Three bits is not three times two, which is six, and not three squared, which is nine. It is two to the power three, which is eight.
+00:02:11.700 --> 00:02:24.789
+Common mistake. The biggest mistake is multiplying or squaring. Three bits is not three times two, which is six, and not three squared, which is nine. It is two to the power three, which is eight.
 
-00:02:18.200 --> 00:02:26.371
+00:02:25.350 --> 00:02:33.711
 Another mistake is codes of different lengths, such as zero, one, one zero. Every code must use the same number of bits.
 
-00:02:27.500 --> 00:02:40.599
-Now you try. A railway uses twelve different signals, each with its own binary code. What is the fewest bits each code needs? How many different signals could that many bits give? Pause here and work it out.
+00:02:34.850 --> 00:02:49.041
+Your turn. Now you try. A railway uses twelve different signals, each with its own binary code. What is the fewest bits each code needs? How many different signals could that many bits give? Pause here and work it out.
 
-00:02:41.700 --> 00:02:49.849
-Three bits give eight patterns, which is not enough for twelve. Four bits give sixteen, which is enough. So the fewest is four bits.
+00:02:50.150 --> 00:02:59.069
+Answer. Three bits give eight patterns, which is not enough for twelve. Four bits give sixteen, which is enough. So the fewest is four bits.
 
-00:02:50.400 --> 00:03:02.411
+00:02:59.650 --> 00:03:11.891
 Four bits give sixteen different patterns, so sixteen signals, with four codes spare. Counting up from zero zero zero zero, the twelfth signal gets one zero one one, which is eleven.
 
-00:03:03.000 --> 00:03:14.349
+00:03:12.450 --> 00:03:23.989
 Remember the method: decide the direction, use two to the power n, and give every item a code of the same length with no repeats. Now try the practice questions for this type.

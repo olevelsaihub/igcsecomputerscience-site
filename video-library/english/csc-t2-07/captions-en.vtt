@@ -1,43 +1,43 @@
 WEBVTT
 
-00:00:00.000 --> 00:00:12.373
-Imagine finding your pencil in a messy bedroom, then in a tidy one. Code is the same. This program works, but what are a and b? What is it for? Another programmer would struggle to fix it.
+00:00:00.000 --> 00:00:13.393
+Idea. Imagine finding your pencil in a messy bedroom, then in a tidy one. Code is the same. This program works, but what are a and b? What is it for? Another programmer would struggle to fix it.
 
-00:00:12.950 --> 00:00:24.875
+00:00:13.950 --> 00:00:26.055
 Here is the same program made readable. A comment says what it does. The names say what each value holds. Blank lines split the sections, and the print line is indented inside the if.
 
-00:00:25.450 --> 00:00:39.679
+00:00:26.650 --> 00:00:41.079
 So there are four techniques. Comments, which start with a hash sign and are ignored by the computer. Descriptive names, like total pay instead of t p. Indentation to show structure. And white space between sections.
 
-00:00:40.250 --> 00:00:54.863
+00:00:41.650 --> 00:00:56.493
 Indentation is more than tidiness. Moving lines in shows which lines belong inside a loop or an if. Here, Revise is indented, so it repeats three times. Exam is not, so it prints once, after the loop.
 
-00:00:56.000 --> 00:01:05.152
-First, check whether the question wants a technique or a reason. A technique is something the programmer does. A reason is what it achieves for the reader.
+00:00:57.600 --> 00:01:07.711
+Method. First, check whether the question wants a technique or a reason. A technique is something the programmer does. A reason is what it achieves for the reader.
 
-00:01:05.750 --> 00:01:15.350
+00:01:08.300 --> 00:01:18.070
 For a technique, name one from the list and add a tiny example if there is space. For a reason for comments, say how they help a person understand the code.
 
-00:01:16.450 --> 00:01:28.610
-Here is a real question from Paper 2 in November 2021. Give one technique that programmers use to make their code easy to read and understand. It is worth one mark.
+00:01:19.200 --> 00:01:32.521
+Worked example. Here is a real question from Paper 2 in November 2021. Give one technique that programmers use to make their code easy to read and understand. It is worth one mark.
 
-00:01:29.200 --> 00:01:40.251
+00:01:33.100 --> 00:01:44.431
 The command word is give, and it wants a technique. So name an action the programmer takes. Pick one from the list: comments, descriptive names, indentation or white space.
 
-00:01:40.850 --> 00:01:55.229
+00:01:45.000 --> 00:01:59.793
 Write it in a few words with a small example. Give variables descriptive names, for example total pay instead of t p. That earns the mark. This explanation is by olevels.com, not an official mark scheme.
 
-00:01:56.350 --> 00:02:03.966
-A common mistake is giving something that does not affect readability, like use correct code or use suitable data structures.
+00:02:00.900 --> 00:02:10.263
+Common mistake. A common mistake is giving something that does not affect readability, like use correct code or use suitable data structures.
 
-00:02:04.550 --> 00:02:12.934
+00:02:10.850 --> 00:02:19.404
 Another mistake is saying comments make the program run faster. The computer ignores comments completely. They are only for people.
 
-00:02:14.050 --> 00:02:25.570
-Now you try. Give one reason why programmers add comments to their code. Then give one other technique, not comments, that makes code easier to read. Pause here and work it out.
+00:02:20.550 --> 00:02:33.243
+Your turn. Now you try. Give one reason why programmers add comments to their code. Then give one other technique, not comments, that makes code easier to read. Pause here and work it out.
 
-00:02:26.700 --> 00:02:42.444
-A, comments explain what a section of code does and how it works, so another programmer can understand it. B, use indentation to show which lines belong inside a loop or an if. Descriptive names or white space would also be right.
+00:02:34.350 --> 00:02:50.872
+Answer. A, comments explain what a section of code does and how it works, so another programmer can understand it. B, use indentation to show which lines belong inside a loop or an if. Descriptive names or white space would also be right.
 
-00:02:43.000 --> 00:02:53.091
+00:02:51.450 --> 00:03:01.732
 Remember the method: decide if it is a technique or a reason, then give one clear idea with a small example. Now try the practice questions for this type.

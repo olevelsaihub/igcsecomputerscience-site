@@ -1,49 +1,49 @@
 WEBVTT
 
-00:00:00.000 --> 00:00:15.040
-Imagine looking up a word in a dictionary. You could read every page from the start. Or you could open it near the middle and jump forwards or backwards. Both ways find the word, but one is far quicker. Choosing the right algorithm matters.
+00:00:00.000 --> 00:00:15.738
+Idea. Imagine looking up a word in a dictionary. You could read every page from the start. Or you could open it near the middle and jump forwards or backwards. Both ways find the word, but one is far quicker. Choosing the right algorithm matters.
 
-00:00:15.600 --> 00:00:31.941
+00:00:16.300 --> 00:00:32.811
 There are two searches to know. A linear search checks items one by one from the start, until it finds the target or reaches the end. It works on any list. A binary search checks the middle item and halves the list each time, but the list must be sorted.
 
-00:00:32.500 --> 00:00:48.244
+00:00:33.400 --> 00:00:49.334
 There are two sorts to know. Bubble sort swaps neighbours and sorts in place, so it needs very little extra memory, but it is slow on large lists. Merge sort is much faster on large lists, but it needs extra memory for all the new lists it makes.
 
-00:00:48.800 --> 00:00:58.400
+00:00:49.900 --> 00:00:59.660
 Here is a number to remember. For a thousand sorted items, a linear search may need all one thousand checks. A binary search needs at most ten.
 
-00:00:59.500 --> 00:01:11.105
-To answer, name the algorithm and recall its key property: does it need sorted data, does it halve the list, does it sort in place? Then link that property to an effect, using the word so.
+00:01:00.800 --> 00:01:13.428
+Method. To answer, name the algorithm and recall its key property: does it need sorted data, does it halve the list, does it sort in place? Then link that property to an effect, using the word so.
 
-00:01:11.700 --> 00:01:22.431
+00:01:14.000 --> 00:01:24.901
 Saying faster on its own earns nothing. Say why: it halves the list each time, so fewer comparisons are needed. And never repeat a fact the question already gives you.
 
-00:01:23.550 --> 00:01:40.105
-Here is a real question from Paper 2 in June 2025. A youth club stores a list of over a thousand items of sports equipment, sorted in ascending order. State and justify the most appropriate search algorithm. It is worth two marks.
+00:01:26.050 --> 00:01:44.096
+Worked example. Here is a real question from Paper 2 in June 2025. A youth club stores a list of over a thousand items of sports equipment, sorted in ascending order. State and justify the most appropriate search algorithm. It is worth two marks.
 
-00:01:40.700 --> 00:01:50.769
+00:01:44.650 --> 00:01:54.899
 Read the data. The list is large, and it is already sorted. A sorted list makes a binary search possible, and a large list is where it gains the most.
 
-00:01:51.350 --> 00:02:09.206
+00:01:55.450 --> 00:02:13.586
 Justify it with how it works. Each comparison with the middle item throws away half the list. A thousand items shrink to five hundred, then two hundred and fifty, and so on, down to one. That is at most ten comparisons, against up to a thousand for a linear search.
 
-00:02:09.800 --> 00:02:25.117
+00:02:14.150 --> 00:02:29.989
 So the answer is binary search, because each comparison halves the remaining list, so far fewer comparisons are needed. One mark for the name, one for the reason. This explanation is by olevels.com, not an official mark scheme.
 
-00:02:26.250 --> 00:02:35.231
-A common mistake is giving the list is sorted as the reason. The question already says that, so it earns nothing. Give the halving reason instead.
+00:02:31.100 --> 00:02:41.584
+Common mistake. A common mistake is giving the list is sorted as the reason. The question already says that, so it earns nothing. Give the halving reason instead.
 
-00:02:35.800 --> 00:02:44.909
+00:02:42.150 --> 00:02:51.449
 Another mistake is mixing up memory. Merge sort is the one that needs extra memory, because it makes new lists. Bubble sort sorts in place.
 
-00:02:46.050 --> 00:02:57.677
-Now you try. A small sensor has very little memory. It must sort fifty readings. Should it use a bubble sort or a merge sort? Justify your choice. Pause and decide.
+00:02:52.550 --> 00:03:05.292
+Your turn. Now you try. A small sensor has very little memory. It must sort fifty readings. Should it use a bubble sort or a merge sort? Justify your choice. Pause and decide.
 
-00:02:58.800 --> 00:03:09.531
-The key fact is very little memory. Merge sort makes new lists, so it needs extra memory. Bubble sort sorts in place, using just one extra variable for swaps.
+00:03:06.400 --> 00:03:17.954
+Answer. The key fact is very little memory. Merge sort makes new lists, so it needs extra memory. Bubble sort sorts in place, using just one extra variable for swaps.
 
-00:03:10.100 --> 00:03:20.169
+00:03:18.550 --> 00:03:28.799
 So choose bubble sort, because it sorts in place, so it needs very little extra memory. Fifty readings is a small list, so its slower speed hardly matters.
 
-00:03:20.750 --> 00:03:31.075
+00:03:29.350 --> 00:03:39.885
 Remember the method: name the algorithm, give its key property, link it to an effect with so, and fit it to the data. Now try the practice questions for this type.
