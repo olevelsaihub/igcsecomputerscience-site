@@ -1,0 +1,11 @@
+Idea۔ کچھ ciphers letters کو دوسرے letters سے بدلتے ہیں۔ Rail Fence cipher کچھ مختلف کرتی ہے۔ یہ وہی letters رکھتی ہے مگر ان کی ترتیب گڈمڈ کر دیتی ہے۔ اسے transposition cipher کہتے ہیں۔ چند rails والی fence سوچیں۔ آپ message کو zig-zag میں لکھتے ہیں، نیچے والی rail تک اور پھر واپس اوپر، ہر column میں ایک letter۔ یہ تین rails پر FENCE ہے۔ پھر ہر rail کو بائیں سے دائیں پڑھیں، اوپر والی rail پہلے۔ Rail one سے F E ملتا ہے، rail two سے E C، اور rail three سے N۔ تو FENCE، F E E C N بن جاتا ہے۔
+
+Method۔ key کے برابر rails بنائیں۔ Letters کو zig-zag میں لکھیں، ہر column میں ایک۔ ہر rail کو بائیں سے دائیں، اوپر سے نیچے پڑھیں۔ پھر check کریں کہ letters کی تعداد برابر ہے۔ یہ cipher کمزور ہے کیونکہ صرف چند معقول keys ہیں۔ Attacker بس rails کی ہر تعداد آزما سکتا ہے جب تک message سمجھ میں نہ آ جائے۔
+
+Worked Example۔ یہ November دو ہزار بیس کے Paper دو کا اصل سوال ہے۔ لفظ COMPUTATIONAL کو چار کی key کے ساتھ Rail Fence cipher سے encrypt کریں۔ اپنی working دکھائیں۔ اس کے چار marks ہیں۔ چار rails بنائیں۔ C rail one پر جاتا ہے، O rail two پر، M rail three پر اور P rail four پر۔ پھر واپس اوپر جائیں: U rail three پر، T rail two پر، A rail one پر۔ چلتے رہیں۔ T rail two پر، I rail three پر، O rail four پر، پھر N rail three پر، A rail two پر، اور L rail one پر۔ اب rails کے ساتھ پڑھیں۔ Rail one: C A L۔ Rail two: O T T A۔ Rail three: M U I N۔ Rail four: P O۔ Rails کو ترتیب سے جوڑیں۔ Ciphertext ہے C A L O T T A M U I N P O۔ اس میں تیرہ letters ہیں، plaintext کے برابر۔ یہ وضاحت olevels dot com کی ہے، یہ official mark scheme نہیں ہے۔
+
+Common Mistake۔ ایک عام غلطی دو بار bounce کرنا ہے، یعنی نیچے والی rail پر لگاتار دو letters لکھنا۔ ایک اور columns کے ساتھ نیچے پڑھنا ہے، جو بس plaintext واپس دے دیتا ہے۔
+
+Your Turn۔ اب آپ کوشش کریں۔ MEET AT NOON کو، spaces کے بغیر لکھ کر، تین rails کی Rail Fence cipher سے encrypt کریں۔ یہاں رک کر حل کریں۔
+
+Answer۔ تین rails پر zig-zag لکھیں۔ Rail one: M A O۔ Rail two: E T T O N۔ Rail three: E N۔ Ciphertext ہے M A O E T T O N E N، دس letters، plaintext کے برابر۔ method یاد رکھیں: rails بنائیں، ہر column میں ایک letter کے ساتھ zig-zag لکھیں، ہر rail اوپر سے پڑھیں، اور count check کریں۔ اب اس type کے practice questions کریں۔

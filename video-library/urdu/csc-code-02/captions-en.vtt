@@ -1,0 +1,55 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:16.737
+A cinema gives a child ticket if you are under twelve. The question, are you under twelve, is either true or false. In code, a test like this is called a condition. Age less than twelve is True for nine, but False for twelve.
+
+00:00:17.300 --> 00:00:32.170
+Every boundary word has an exact operator. At least means greater than or equal to. More than means greater than. At most means less than or equal to. Exactly means double equals.
+
+00:00:32.750 --> 00:00:51.644
+And is True only when both tests are True, so use it for a range like thirty-one to thirty-nine. Or is True when either test is True. Python checks if, then each elif in order, and runs only the first True branch. Else catches the rest.
+
+00:00:52.750 --> 00:01:06.545
+Turn each table row into a condition, choosing the exact operator for each boundary word. Join two tests with and or or, as the wording says. Keep the branch order the program gives you.
+
+00:01:07.100 --> 00:01:15.428
+Fill any other gaps, such as the input line or int. Then test one value from every row, plus the values each side of every boundary.
+
+00:01:16.550 --> 00:01:31.064
+Here is a real question from Paper 2 in June 2024. The table shows the message each input should give. We must complete the program. It is worth six marks.
+
+00:01:31.650 --> 00:01:54.898
+Here is Figure 3, the table of messages. An empty input gives, You must provide a number. Any negative number, and zero, give, The number must be greater than zero. One to twenty gives Acceptable, and so does sixty or more. Thirty-one to thirty-nine gives Centre. Thirty gives Perfect. Any other number gives No message.
+
+00:01:55.450 --> 00:02:04.628
+Start with the input. A string equals input, enter a number. We keep it as a string, so an empty entry can be spotted.
+
+00:02:05.200 --> 00:02:13.805
+Next, if a string is not equal to the empty string, something was typed. Inside, convert it: a num equals int of a string.
+
+00:02:14.400 --> 00:02:26.680
+Acceptable is one to twenty, or sixty or more. We are already inside a num greater than zero, so the test is a num less than or equal to twenty, or a num greater than or equal to sixty.
+
+00:02:27.250 --> 00:02:37.797
+Centre is thirty-one to thirty-nine. The number must be inside both limits, so a num greater than or equal to thirty-one, and a num less than or equal to thirty-nine.
+
+00:02:38.350 --> 00:02:45.646
+Perfect is exactly thirty, so a num double equals thirty. Anything else falls through to else, which prints no message.
+
+00:02:46.200 --> 00:02:58.813
+Run it three times. Twenty gives Acceptable, thirty gives Perfect, and thirty-five gives Centre. Test the boundaries too. This explanation is by olevels.com, not an official mark scheme.
+
+00:02:59.950 --> 00:03:14.971
+A common mistake is writing a range as thirty-one less than or equal to a num and less than or equal to thirty-nine. The second half has nothing on its left. Each side needs its own full comparison.
+
+00:03:15.550 --> 00:03:23.828
+Another mistake is using greater than where the table says at least. Then thirty-one would be missed from the Centre range.
+
+00:03:24.950 --> 00:03:40.020
+Now you try. Below zero should print Freezing. Zero to twenty should print Mild. Above twenty should print Hot. Write the two missing conditions. Pause here and work it out.
+
+00:03:41.150 --> 00:03:54.492
+Freezing is temp less than zero. Mild is temp greater than or equal to zero, and temp less than or equal to twenty. Run it: zero gives Mild, and twenty-one gives Hot.
+
+00:03:55.050 --> 00:04:06.149
+Remember the method: turn each row into a condition with the exact operator, join tests with and or or, then test every boundary. Now try the practice questions for this type.

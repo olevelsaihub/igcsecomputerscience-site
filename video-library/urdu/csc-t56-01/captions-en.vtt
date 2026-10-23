@@ -1,0 +1,46 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:15.889
+Think of your home. Your phone, laptop and television all share one internet connection, and they can send things to each other. Two or more devices linked so they can share data and resources make a network.
+
+00:00:16.450 --> 00:00:32.366
+Why link computers? To share files, to share hardware such as a printer, to share one internet connection, and to communicate. An organisation can also back up, update and secure every computer from one place.
+
+00:00:32.950 --> 00:00:49.776
+Distance decides the type. A PAN connects devices around one person, like earbuds linked to a phone. A LAN covers one building or site. A WAN covers a large area and joins LANs together. The internet is the biggest WAN.
+
+00:00:50.350 --> 00:01:02.671
+There are also two usage models. In client-server, a central server provides services such as file storage or logins, and the clients ask for them. In peer-to-peer, every device is equal and shares directly.
+
+00:01:03.800 --> 00:01:17.721
+First, underline the distance in the scenario. Then name the network type that matches it. If a usage model is asked, check whether one central device serves the others.
+
+00:01:18.300 --> 00:01:28.060
+For a difference, take one feature and write both sides: what the WAN does, whereas what the LAN does. Area, ownership, bandwidth and latency are all good features.
+
+00:01:29.200 --> 00:01:40.038
+Here is a real question from Paper 1 in June 2024. Give two differences between a WAN and a LAN. It is worth two marks.
+
+00:01:40.600 --> 00:01:49.907
+Start with the size of the area. A WAN spreads over a large area, such as several cities or countries, whereas a LAN covers only one building or site.
+
+00:01:50.500 --> 00:02:01.545
+Now a different feature: latency, which means delay. A WAN usually has higher latency than a LAN, because data travels much further and passes through many more links.
+
+00:02:02.100 --> 00:02:14.060
+Check: two lines, two different features, and each line names both networks. Each line earns one mark. This explanation is by olevels.com, not an official mark scheme.
+
+00:02:15.200 --> 00:02:24.040
+A common mistake is a vague difference. A WAN is slower does not say what is slower. Name the feature: latency, or bandwidth.
+
+00:02:24.600 --> 00:02:34.015
+Another mistake is giving the same point twice. Big area and covers many cities are one idea, so they earn only one mark.
+
+00:02:35.150 --> 00:02:51.456
+Now you try. A dental clinic links its six computers, all in one building. Name the type of network. Then give one reason for networking the computers. Pause here and work it out.
+
+00:02:52.600 --> 00:03:06.806
+All the computers are in one building, so it is a LAN. A good reason: staff can share files, such as the appointment list, from any computer. Sharing a printer or one internet connection also works.
+
+00:03:07.400 --> 00:03:17.400
+Remember the method: read the distance, name PAN, LAN or WAN, and write differences as pairs on one feature. Now try the practice questions for this type.

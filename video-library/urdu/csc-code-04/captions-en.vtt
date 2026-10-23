@@ -1,0 +1,55 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:17.739
+A flowchart is like a map of an algorithm, the step-by-step plan. Each shape turns into a piece of Python. A rectangle becomes an assignment. A parallelogram becomes input or output. A diamond becomes if, and an arrow that loops back becomes while.
+
+00:00:18.300 --> 00:00:31.577
+Pseudocode maps across too. Set becomes equals. Receive becomes int of input. D I V becomes two slashes, for whole-number division, and M O D becomes the per cent sign, for the remainder.
+
+00:00:32.150 --> 00:00:44.390
+A loop needs a variable that changes inside it, or it never stops. Here count goes up by one each time, so after three passes count less than three is False, and the loop ends.
+
+00:00:45.500 --> 00:00:58.035
+Tick each box of the design as you code it. Write the starting values first, then the inputs with int. Next, turn every loop-back arrow into a while line with exactly the same condition.
+
+00:00:58.600 --> 00:01:08.778
+Code each decision as if and else, each calculation with the right operator, and add clear outputs. Then run it with the test data and compare.
+
+00:01:09.900 --> 00:01:23.964
+Here is a real question from Paper 2 in June 2023. The flowchart raises a base to the power of an exponent. We turn it into Python. It is worth ten marks.
+
+00:01:24.550 --> 00:02:03.704
+Here is Figure 3, the flowchart, written out line by line. Start. Initialise variables. Enter a value for base. Is base equal to zero? If yes, stop. If no, enter a value for exponent. Is the exponent negative? If yes, display an error message and go back to the base. If no, set answer to one and count to zero. Is count less than exponent? If yes, set answer to answer times base, add one to count, and ask again. If no, inform the user of the result and go back to the base.
+
+00:02:04.300 --> 00:02:14.490
+First, initialise the variables. Base starts at one, anything but zero, so the main loop can start. Exponent zero, answer one, count zero.
+
+00:02:15.050 --> 00:02:25.002
+The arrows lead back to enter value for base, until base is zero. So write while base is not equal to zero, and input the base at the top of the loop.
+
+00:02:25.600 --> 00:02:33.672
+Only carry on if base is not zero. Input the exponent. If it is negative, print an error message.
+
+00:02:34.250 --> 00:02:46.752
+Otherwise, set answer to one and count to zero. While count is less than exponent, answer equals answer times base, and count goes up by one. That multiplies the base exponent times.
+
+00:02:47.350 --> 00:02:50.778
+When the inner loop ends, print the result with a clear label.
+
+00:02:51.350 --> 00:03:05.524
+Run it. Three to the power four gives eighty-one. Five with minus one gives the error. Zero stops the program. This explanation is by olevels.com, not an official mark scheme.
+
+00:03:06.650 --> 00:03:17.858
+A common mistake is using if where the design loops back. An if runs only once, so the program stops after one go.
+
+00:03:18.450 --> 00:03:26.375
+Another mistake is forgetting to update the loop variable. Without count equals count plus one, the inner loop never ends.
+
+00:03:27.500 --> 00:03:36.682
+Now you try. Turn this pseudocode into Python, then say what it displays. Pause here and work it out.
+
+00:03:37.800 --> 00:03:50.394
+Set becomes equals, while stays while with the same condition, and send to display becomes print. It adds one, two, three, four and five, so it displays fifteen.
+
+00:03:50.950 --> 00:04:02.449
+Remember the method: tick each box, start values first, loops become while, decisions become if, then run the test data. Now try the practice questions for this type.

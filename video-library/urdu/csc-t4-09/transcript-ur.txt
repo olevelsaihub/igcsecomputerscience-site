@@ -1,0 +1,11 @@
+Idea۔ اپنے گھر میں دیکھیں۔ Washing machine، smartwatch، TV remote۔ ان میں سے کوئی computer جیسی نہیں لگتی، مگر ہر ایک کے اندر ایک چھوٹا computer چھپا ہے۔ یہ embedded system ہے: ایک چھوٹا computer جو کسی بڑی device کے اندر بنا ہوتا ہے اور ایک خاص کام کرتا ہے۔ اس میں hardware اور software ہوتا ہے، اور software عموماً بنانے والا set کرتا ہے۔ بہت سے embedded systems sensors استعمال کرتے ہیں جو ماحول ناپتے ہیں، جیسے water-level sensor۔ Actuators، جیسے motor یا valve، اس پر عمل کرتے ہیں۔ بہت سے فوراً، real time میں، response دیتے ہیں۔
+
+Method۔ Features سیکھیں۔ ایک dedicated task۔ Low power۔ چھوٹا size۔ Built-in memory، اکثر flash۔ سادہ interface، یا کوئی نہیں۔ Low cost اور robust۔ ایک task سے شروع کریں۔ ایسا feature چنیں جو question نے پہلے نہ دیا ہو۔ اسے device پر فٹ کریں۔ Explain question میں feature کو اس ایک task سے، power بچانے سے، یا cost سے جوڑیں۔
+
+Worked Example۔ یہ June دو ہزار پچیس کے Paper ایک کا اصل question ہے۔ Smartwatch کے embedded system کی ایک characteristic یہ ہے کہ وہ sensors استعمال کرتا ہے۔ دو اور characteristics دیں جو اسے suitable بناتی ہیں۔ دو marks۔ Sensors پہلے ہی دیے گئے ہیں، انہیں کاٹ دیں۔ اب smartwatch کا سوچیں۔ وہ بہت چھوٹی ہے، اور چھوٹی battery پر چلتی ہے۔ اس سے دو characteristics ملتی ہیں۔ ایک: low power use، تاکہ چھوٹی battery دیر تک چلے۔ دو: چھوٹا physical size، تاکہ وہ watch کے اندر فٹ آئے۔ یہ وضاحت olevels dot com کی ہے، یہ official mark scheme نہیں ہے۔
+
+Common mistake وہ دہرانا ہے جو question نے دیا ہو، جیسے sensors۔ اس پر کوئی mark نہیں ملتا۔ نئی characteristic دیں۔ ایک اور mistake ایسا purpose دینا ہے جو صرف sensor کا نام دہراتا ہو۔ بتائیں کہ reading کس کام آتی ہے۔
+
+Your Turn۔ اب آپ try کریں۔ ایک smart thermostat کمرے کو اکیس degrees پر رکھتا ہے۔ ایک sensor کا نام بتائیں جو اسے چاہیے اور یہ بتائیں کہ وہ کس کام آتا ہے۔ پھر ایک characteristic دیں جو embedded system کو suitable بناتی ہے۔ یہاں رک کر حل کریں۔
+
+Answer۔ Part a۔ Temperature sensor کمرے کو ناپتا ہے۔ Processor reading کا اکیس degrees سے موازنہ کرتا ہے اور heating on یا off کرتا ہے۔ Part b۔ مثلاً low power use، تاکہ وہ سارا دن سستے میں چل سکے۔ یا وہ ایک dedicated task کرتا ہے، اس لیے اس کا hardware اس کام کے لیے بس کافی ہو سکتا ہے۔ Method یاد رکھیں: ایک task سے شروع کریں، device کے مطابق نیا feature چنیں، اور اسے جوڑیں۔ اب اس type کے practice questions کریں۔

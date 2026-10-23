@@ -1,0 +1,11 @@
+Idea۔ Julius Caesar ہر letter کو alphabet میں چند جگہ آگے بڑھا کر خفیہ messages بھیجتا تھا۔ plus تین کے shift سے A، D بن جاتا ہے، B، E بن جاتا ہے، اور C، F۔ یہ Caesar cipher ہے۔ Alphabet گھوم کر واپس آتا ہے۔ Z کے بعد پھر A آتا ہے۔ تو plus تین کے shift سے X، A بن جاتا ہے، Y، B اور Z، C۔ Positive shift آگے لے جاتا ہے۔ Negative shift پیچھے۔ Decrypt کرنے کے لیے الٹا shift لگائیں۔ لگاتار دو shifts جمع ہو جاتے ہیں، تو minus چھ پھر plus آٹھ، plus دو کے برابر ہے۔
+
+Method۔ Encrypt کرنے کے لیے ہر letter کو shift کے مطابق حرکت دیں، Z یا A سے آگے گھومتے ہوئے۔ ایک ایک step انگلیوں پر گننا مدد کرتا ہے۔ اگر گننا سست ہو تو letters کو number دیں، A صفر اور Z پچیس۔ Shift add کریں۔ اگر جواب پچیس سے زیادہ ہو تو چھبیس minus کریں۔ مثلاً Y چوبیس ہے، plus تین، ستائیس، minus چھبیس، ایک، جو B ہے۔ نامعلوم shift نکالنے کے لیے ایک plaintext letter کا اس کے ciphertext letter سے موازنہ کریں اور فرق گنیں۔ پھر دوسرے letters سے فرق check کریں۔
+
+Worked Example۔ یہ June دو ہزار تئیس کے Paper دو کا اصل سوال ہے۔ PIXEL کو minus چار کے shift سے encrypt کریں۔ پھر وہ shift نکالیں جو CLOUD کو F O R X G بناتا ہے۔ اس کے دو marks ہیں۔ Minus چار کا مطلب چار جگہ پیچھے جانا ہے۔ P پیچھے L پر جاتا ہے۔ I پیچھے E پر۔ X پیچھے T پر۔ E پیچھے A پر۔ L پیچھے H پر۔ Row دو کے لیے C کو F سے جوڑیں۔ C, D, E, F تین جگہ آگے ہے۔ باقی check کریں: L سے O، O سے R، U سے X، D سے G۔ سب plus تین ہیں۔ یہ وضاحت olevels dot com کی ہے، یہ official mark scheme نہیں ہے۔
+
+Common Mistake۔ ایک عام غلطی گھومنا بھول جانا ہے۔ plus تین کے ساتھ Y آخر سے باہر نہیں جاتا۔ یہ گھوم کر B بنتا ہے۔ ایک اور غلطی cipher کو کمزور کہنا مگر وجہ نہ بتانا ہے۔ صرف پچیس کارآمد shifts ہیں، اس لیے attacker سب بہت جلدی آزما سکتا ہے۔ یہ brute-force attack ہے۔
+
+Your Turn۔ اب آپ کوشش کریں۔ لفظ ZEBRA کو plus پانچ کے Caesar shift سے encrypt کریں۔ Z کا خیال رکھیں۔ یہاں رک کر حل کریں۔
+
+Answer۔ Z گھومتا ہے: A, B, C, D, E، تو Z، E بن جاتا ہے۔ E، J بنتا ہے۔ B، G بنتا ہے۔ R، W بنتا ہے۔ A، F بنتا ہے۔ جواب E J G W F ہے۔ method یاد رکھیں: ہر letter کو ایک ہی shift سے حرکت دیں، Z یا A سے آگے گھومیں، اور ہر shift کے ساتھ sign دیں۔ اب اس type کے practice questions کریں۔

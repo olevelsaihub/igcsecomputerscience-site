@@ -1,0 +1,46 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:18.463
+Think about fairy lights. On some strings, one broken bulb makes the whole string go dark. On others, only that bulb goes out. The way things are wired decides what happens when one part fails. In a network, the layout of the connections is the topology.
+
+00:00:19.050 --> 00:00:32.261
+In a star, every device has its own cable to a central switch. If one cable breaks, only that device is cut off, and the fault is easy to find. But if the switch fails, the whole network stops.
+
+00:00:32.850 --> 00:00:47.328
+In a bus, every device joins one shared main cable, with a terminator at each end. It is cheap. In a ring, devices form a closed loop and data goes one way, so packets do not collide.
+
+00:00:47.900 --> 00:01:03.522
+In a mesh, each device links to several others, so there are many routes. Data can go around a broken link. It is very reliable, but expensive and hard to set up. The internet is a huge partial mesh.
+
+00:01:04.650 --> 00:01:17.595
+First, recognise the shape. One shared cable is a bus. A closed loop is a ring. Everything joined to one central box is a star. Many cross-links make a mesh.
+
+00:01:18.150 --> 00:01:26.147
+Then recall that topology's strength and weakness. For an explain question, give the feature, then its effect, joined with so or because.
+
+00:01:27.250 --> 00:01:43.438
+Here is a real question from Paper 1 in June 2024. A fault tolerant network gives a reliable service. Explain one reason why the topology in the figure is fault tolerant. It is worth two marks.
+
+00:01:44.000 --> 00:01:55.855
+In the figure, every computer is linked to several others, so it is a mesh. Start with the feature: each computer has two or more links, so there is more than one path between any two devices.
+
+00:01:56.450 --> 00:02:04.966
+Now the effect. If one link breaks or is busy, the packets are sent along another route, and they still reach their destination.
+
+00:02:05.550 --> 00:02:16.636
+Join them with so. Each node has several links, so packets can go around a broken link and still arrive. This explanation is by olevels.com, not an official mark scheme.
+
+00:02:17.750 --> 00:02:27.621
+Watch for drawbacks from the wrong topology. A star has no main cable. Its weak point is the central switch.
+
+00:02:28.200 --> 00:02:37.634
+Another mistake is saying a mesh is fault tolerant because it is reliable. That repeats the question. Mention the multiple routes.
+
+00:02:38.750 --> 00:02:56.131
+Now you try. A café links six computers. Each one has its own cable to a single switch in the back office. Name the topology. Give one benefit and one drawback. Pause here and work it out.
+
+00:02:57.250 --> 00:03:11.254
+Every computer has its own cable to one switch, so it is a star. Benefit: one broken cable only cuts off that computer. Drawback: if the switch fails, every computer loses the network.
+
+00:03:11.850 --> 00:03:20.462
+Remember the method: spot the shape, name it, then explain with feature, so effect. Now try the practice questions for this type.

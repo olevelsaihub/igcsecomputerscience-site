@@ -1,0 +1,55 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:12.750
+The last question on Paper 2 is the big one, worth twenty marks. Eleven marks are for meeting the listed requirements. Up to nine more are for the overall quality of your program.
+
+00:00:13.300 --> 00:00:24.785
+Planning a school trip is easier when you split it into jobs: transport, food, tickets. That is decomposition. In code, each job becomes its own small subprogram.
+
+00:00:25.350 --> 00:00:35.449
+Parallel arrays hold related data at the same index. Index seven is Jersey in the breed array, rating one, seven cows, and eighteen point three litres per cow.
+
+00:00:36.550 --> 00:00:52.383
+Turn every bullet into a numbered checklist. Study the data: which arrays, and what each index means. Then build and run one requirement at a time, looping with len, never a fixed number.
+
+00:00:52.950 --> 00:01:04.247
+Use a tracker variable to remember the best item found so far. Finish with comments, clear names and labelled output, then re-read every bullet and test.
+
+00:01:05.350 --> 00:01:26.694
+Here is a real question from Paper 2 in June 2023. A college stores data on twelve breeds of dairy cow in parallel arrays. The program must work out each breed's daily milk, show a table, total the herd, and recommend the best breed. It is worth twenty marks.
+
+00:01:27.250 --> 00:01:43.652
+The question goes on. Calculate each breed's daily volume and store it in tbl daily volume. Display a field message, the data for each breed, the herd total, and the recommended breed by name. It must work if the number of breeds changes.
+
+00:01:44.250 --> 00:01:55.232
+Here is Figure 8, the output. A heading, one line for each breed, the total of nine hundred and five point four litres, and the recommended breed: Jersey, rating one, volume eighteen point three.
+
+00:01:55.800 --> 00:02:09.825
+First, daily volume. For each index, multiply volume per cow by the number of cows, round it, and append it to the daily volume array. Red Chittagong gives seven point five times six, which is forty-five litres.
+
+00:02:10.400 --> 00:02:19.997
+Next, the herd total. A running total starts at zero and adds every daily volume. It is rounded to one decimal place.
+
+00:02:20.550 --> 00:02:35.354
+Now the best breed. Best starts at index zero. A breed wins if its rating is better, which means a lower number, or if the rating is the same and it gives more milk. Joining these tests with or and and is the key logic.
+
+00:02:35.950 --> 00:02:49.208
+The main program calls each subprogram in order and prints the results with labels. The full answer also prints a table with headings. Here we show the total and the recommendation.
+
+00:02:49.800 --> 00:03:07.861
+Run it. The herd total is nine hundred and five point four litres. The rating-one breeds give seven point five, fifteen point two, eighteen point three and nine litres per cow, so Jersey is recommended. This explanation is by olevels.com, not an official mark scheme.
+
+00:03:09.000 --> 00:03:21.212
+A common mistake is hard-coding the number of items, like range twelve. If a breed is added, the program breaks. Use len of the array instead.
+
+00:03:21.800 --> 00:03:33.280
+Another mistake is starting a tracker at zero when looking for the smallest value. Nothing is smaller than zero, so it never changes. Start from the first item instead.
+
+00:03:34.400 --> 00:03:51.073
+Now you try. Two parallel arrays hold four fruits and their prices in pence. Write a function find cheapest that returns the index of the cheapest fruit, then print its name. Pause here and work it out.
+
+00:03:52.200 --> 00:04:11.016
+Best starts at index zero. Loop from index one using len. If a price is lower than the best price so far, best becomes that index. Return best, then print the name at that index. Plum, at twenty pence, is cheapest.
+
+00:04:11.600 --> 00:04:24.136
+Remember the method: make a checklist, understand the arrays, build one subprogram at a time with len, use trackers, then add comments and labels. Now try the practice questions for this type.

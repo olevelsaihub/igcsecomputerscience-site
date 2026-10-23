@@ -1,0 +1,55 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:12.088
+On a cold day the temperature might be minus five degrees. On a warm day, plus twenty. A number like this has two parts: a sign, plus or minus, and a size.
+
+00:00:12.650 --> 00:00:25.882
+Sign and magnitude stores exactly those two parts. The leftmost bit is the sign bit: zero means plus, one means minus. The other seven bits hold the magnitude, the size, using sixty-four down to one.
+
+00:00:26.450 --> 00:00:36.061
+For minus five, keep the same seven magnitude bits and change only the sign bit to one. So one zero zero zero, zero one zero one is minus five.
+
+00:00:36.650 --> 00:00:49.251
+The largest magnitude is seven ones, which is one hundred and twenty-seven. So the range is minus one hundred and twenty-seven up to plus one hundred and twenty-seven. Zero has two patterns: plus zero and minus zero.
+
+00:00:50.400 --> 00:01:02.471
+Pattern to denary: separate the first bit from the other seven. Read the sign from the first bit. Then add the place values above the ones in the other seven bits.
+
+00:01:03.050 --> 00:01:15.773
+For example, one one zero one, zero zero zero one. The sign bit is one, so it is negative. The size is sixty-four plus sixteen plus one, which is eighty-one. So the answer is minus eighty-one.
+
+00:01:16.350 --> 00:01:25.905
+Denary to pattern: ignore the minus sign and convert the size to seven bits. Then put one in front for a negative number, or zero for a positive one.
+
+00:01:27.050 --> 00:01:41.188
+Here is a real question from Paper 1 in June 2022. Convert the denary number minus forty-three to eight-bit binary, using sign and magnitude. It is worth two marks.
+
+00:01:41.750 --> 00:01:44.276
+The number is negative, so the sign bit is one.
+
+00:01:44.850 --> 00:01:59.254
+Now the size, forty-three. Sixty-four does not fit, so zero. Thirty-two fits: write one, and eleven is left. Sixteen does not fit: zero. Eight fits: write one, and three is left.
+
+00:01:59.850 --> 00:02:08.922
+Four does not fit: zero. Two fits: write one, and one is left. One fits: write one, and nothing is left.
+
+00:02:09.500 --> 00:02:27.583
+The answer is one zero one zero, one zero one one. Check: sign one means minus, and thirty-two plus eight plus two plus one is forty-three. One mark is for the sign bit, and one for the seven magnitude bits. This explanation is by olevels.com, not an official mark scheme.
+
+00:02:28.700 --> 00:02:42.644
+A common mistake is counting the sign bit as one hundred and twenty-eight. Then one zero one zero, one zero one one reads as one hundred and seventy-one. In sign and magnitude it means minus forty-three.
+
+00:02:43.200 --> 00:02:54.140
+Another mistake is giving minus one hundred and twenty-eight as the lowest value. That is the two's complement limit. In sign and magnitude, the lowest is minus one hundred and twenty-seven.
+
+00:02:55.250 --> 00:03:11.686
+Now you try. First, convert minus one hundred to eight-bit sign and magnitude. Second, what denary number does zero zero one one, zero one one zero represent in sign and magnitude? Pause here and work it out.
+
+00:03:12.800 --> 00:03:35.128
+Part a. The sign bit is one. Then one hundred: sixty-four fits, leaving thirty-six. Thirty-two fits, leaving four. Sixteen and eight do not fit. Four fits, leaving zero. Two and one are zero. The answer is one one one zero, zero one zero zero.
+
+00:03:35.700 --> 00:03:46.162
+Part b. The sign bit is zero, so it is positive. The size is thirty-two plus sixteen plus four plus two, which is fifty-four. So the answer is plus fifty-four.
+
+00:03:46.750 --> 00:03:57.799
+Remember the method: the first bit is the sign, the other seven bits are the size, and the range is minus one hundred and twenty-seven to plus one hundred and twenty-seven. Now try the practice questions for this type.

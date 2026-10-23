@@ -1,0 +1,46 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:16.101
+Your phone says a photo is about three megabytes, and a song takes a few seconds to download. Those numbers come from counting bits. In this type you write the calculation, called an expression, that counts them.
+
+00:00:16.700 --> 00:00:30.833
+Each kind of file has its own starting product. An image is width times height times colour depth. A sound is sample rate times bit depth times seconds. Text is characters times bytes per character.
+
+00:00:31.400 --> 00:00:45.916
+Then you need the units. Eight bits make one byte. In this type, one kilobyte is one thousand bytes and one megabyte is one thousand times one thousand bytes. Mebibytes use one thousand and twenty-four instead.
+
+00:00:47.050 --> 00:01:02.458
+Build it in order. Write the product. Divide by eight to get bytes. Add any metadata, which is given in bytes. Then divide by one thousand times one thousand for megabytes.
+
+00:01:03.050 --> 00:01:14.615
+For a transfer time, divide the size in bits by the speed in bits per second. Megabits per second means millions of bits each second, so multiply by one thousand times one thousand.
+
+00:01:15.200 --> 00:01:24.133
+Use brackets so the whole top is divided. Without brackets, only the last part would be divided, and the expression would give the wrong answer.
+
+00:01:25.250 --> 00:01:46.388
+Here is a real question from Paper 1 in June 2022. A photo is three thousand five hundred and seventy-nine by six thousand one hundred and twenty-eight pixels, with a colour depth of thirty-two bits and seven hundred and thirty-two bytes of metadata. Construct an expression for its size in megabytes. It is worth four marks.
+
+00:01:46.950 --> 00:01:55.988
+Start with the product. Three five seven nine times six one two eight pixels, times thirty-two bits for each pixel. That is the size in bits.
+
+00:01:56.550 --> 00:02:07.125
+Divide by eight to change bits into bytes. Then add the metadata, seven hundred and thirty-two bytes. It is already in bytes, so it is added after the divide.
+
+00:02:07.700 --> 00:02:26.788
+Finally, divide everything by one thousand times one thousand, because one megabyte is one million bytes. Brackets round the top make sure all of it is divided. If worked out, it is about eighty-seven point seven three megabytes. This explanation is by olevels.com, not an official mark scheme.
+
+00:02:27.900 --> 00:02:38.257
+A common mistake is adding the metadata before dividing by eight. That treats seven hundred and thirty-two bytes as if they were bits.
+
+00:02:38.850 --> 00:02:47.363
+Another mistake is dividing by one thousand and twenty-four times one thousand and twenty-four when the question says megabytes. That factor is for mebibytes.
+
+00:02:48.500 --> 00:03:02.448
+Now you try. A twenty-five megabyte video is sent over a link at twenty megabits per second. Construct an expression for the transfer time in seconds. Pause here and work it out.
+
+00:03:03.550 --> 00:03:20.816
+The file is twenty-five times one thousand times one thousand bytes. Times eight gives bits. The speed is twenty times one thousand times one thousand bits per second. Divide the bits by the speed. That is ten seconds.
+
+00:03:21.400 --> 00:03:35.137
+Remember the method: write the product, divide by eight, add metadata, scale to the unit, and use brackets. For time, divide bits by bits per second. Now try the practice questions for this type.

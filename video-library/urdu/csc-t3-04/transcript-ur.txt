@@ -1,0 +1,11 @@
+Idea۔ ایک صفر ایک ایک، ایک صفر صفر ایک، بغیر غلطی کے تیزی سے پڑھ کر دیکھیں۔ یہ مشکل ہے۔ programmers binary کو چھوٹے طریقے سے لکھتے ہیں جسے hexadecimal، یا hex کہتے ہیں۔ Hex base sixteen ہے۔ Base sixteen کو سولہ digits چاہییں۔ Hex صفر سے نو استعمال کرتا ہے، پھر دس سے پندرہ کے لیے letters۔ A دس ہے، B گیارہ، C بارہ، D تیرہ، E چودہ اور F پندرہ۔ چار bits، یعنی ایک nibble، بالکل سولہ patterns بنا سکتے ہیں، صفر سے پندرہ تک۔ اس لیے ایک hex digit بالکل ایک nibble کو ظاہر کرتا ہے، اور ایک byte ہمیشہ دو hex digits کا ہوتا ہے۔
+
+Method۔ byte کو hex میں convert کرنے کے لیے اسے دو nibbles میں توڑیں۔ ہر nibble کو headers آٹھ، چار، دو، ایک دیں، اور ones کے اوپر کی values جمع کریں۔ اگر nibble کی value دس سے پندرہ ہو، تو اسے اس کے letter سے بدل دیں۔ پھر دونوں digits اسی ترتیب میں لکھیں جس میں nibbles ہیں، بایاں nibble پہلے۔
+
+Worked Example۔ یہ June دو ہزار پچیس کے Paper ایک کا اصل سوال ہے۔ binary pattern ایک صفر ایک ایک، ایک صفر صفر ایک کو hexadecimal میں convert کریں۔ اس کے دو marks ہیں۔ byte کو دو nibbles میں توڑیں۔ بایاں nibble ایک صفر ایک ایک ہے۔ دایاں nibble ایک صفر صفر ایک ہے۔ بایاں nibble آٹھ plus دو plus ایک ہے، یعنی گیارہ۔ گیارہ B ہے۔ دایاں nibble آٹھ plus ایک ہے، یعنی نو۔ نو، نو ہی رہتا ہے۔ ترتیب رکھیں: B پھر نو۔ جواب B نو ہے۔ یہ وضاحت olevels dot com کی ہے، یہ official mark scheme نہیں ہے۔
+
+Common Mistake۔ ایک عام غلطی B کی جگہ گیارہ لکھنا ہے۔ گیارہ نو تین hex digits بنیں گے، جبکہ byte صرف دو کا ہوتا ہے۔ ایک اور غلطی یہ سمجھنا ہے کہ hex memory بچاتا ہے یا computer کے لیے تیز ہے۔ یہ دونوں نہیں کرتا۔ computer پھر بھی binary ہی store کرتا ہے۔ Hex صرف انسانوں کے لیے پڑھنا آسان بناتا ہے۔
+
+Your Turn۔ اب آپ کوشش کریں۔ binary pattern صفر ایک ایک ایک، ایک ایک ایک صفر کو hexadecimal میں convert کریں۔ یہاں رک کر حل کریں۔
+
+Answer۔ بایاں nibble، صفر ایک ایک ایک، چار plus دو plus ایک ہے، یعنی سات۔ دایاں nibble، ایک ایک ایک صفر، آٹھ plus چار plus دو ہے، یعنی چودہ، اور چودہ E ہے۔ جواب سات E ہے۔ method یاد رکھیں: nibbles میں توڑیں، ہر ایک پر آٹھ، چار، دو، ایک استعمال کریں، دس سے پندرہ کو A سے F سے بدلیں، اور ترتیب برقرار رکھیں۔ اب اس type کے practice questions کریں۔

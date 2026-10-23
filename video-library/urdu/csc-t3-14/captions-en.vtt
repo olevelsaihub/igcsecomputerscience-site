@@ -1,0 +1,43 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:16.025
+When you pack for a trip, you squash clothes into a smaller bag. Compression does the same to a file. It makes the file smaller, so it takes less storage space and is quicker to send over a network.
+
+00:00:16.600 --> 00:00:28.377
+Here is how big the saving can be. A three-minute song in CD quality is about thirty-two megabytes. As a compressed M P three file it is under three megabytes.
+
+00:00:28.950 --> 00:00:43.090
+There are two kinds. Lossy compression removes some data for ever, so the original can never be rebuilt exactly. Lossless compression loses nothing, so the original comes back exactly.
+
+00:00:44.200 --> 00:00:56.095
+First, decide what the file is. Is it text or program code, where every character matters? Or is it a picture, music or video that people see or hear?
+
+00:00:56.650 --> 00:01:09.847
+Then choose. Lossless if every bit must be kept. Lossy is often fine for media, because people rarely notice the missing detail. Finally, justify with what would happen to this file.
+
+00:01:10.400 --> 00:01:18.680
+Compression has drawbacks too. It takes time to compress and decompress, and you need compatible software to open the file.
+
+00:01:19.800 --> 00:01:37.063
+Here is a real question from Paper 1 in June 2024. An instruction manual is compressed before it is sent to a proofreader. Choose lossy or lossless, and justify your choice. It is worth three marks.
+
+00:01:37.650 --> 00:01:46.298
+What is the file? An instruction manual, which is text. The proofreader must see every word exactly as it was written.
+
+00:01:46.850 --> 00:02:05.474
+Lossy compression would delete some data for ever. Letters could be lost or changed, so the proofreader could not check the real text. So choose lossless. It rebuilds the manual exactly. This explanation is by olevels.com, not an official mark scheme.
+
+00:02:06.600 --> 00:02:17.996
+A common mistake is saying lossless removes less data. It removes no data at all. That is why the file can be rebuilt exactly.
+
+00:02:18.550 --> 00:02:28.664
+Another mistake is giving the same reason twice. Saves space and takes less storage are one point. Give different points, such as less storage and faster to send.
+
+00:02:29.800 --> 00:02:45.907
+Now you try. A band streams its songs to fans' phones. Should the songs use lossy or lossless compression? Justify your choice. Pause and decide.
+
+00:02:47.050 --> 00:03:01.141
+Choose lossy. The songs are much smaller, so they stream quickly over mobile data and use less of each fan's data. Listeners rarely notice the missing detail in music.
+
+00:03:01.700 --> 00:03:14.199
+Remember the method: decide what the file is, choose lossless if every bit matters and lossy if people will not notice, then justify for this file. Now try the practice questions for this type.

@@ -1,0 +1,43 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:17.701
+A kilogram is one thousand grams, and a kilometre is one thousand metres. So you would expect a kilobyte to be one thousand bytes. It is. But computers count in twos, so there is a second unit too.
+
+00:00:18.300 --> 00:00:28.147
+Two to the power ten is one thousand and twenty-four, which is very close to one thousand. So a kibibyte is one thousand and twenty-four bytes. A kibibyte is slightly bigger than a kilobyte.
+
+00:00:28.700 --> 00:00:40.139
+Decimal units are the SI units: kilobyte, megabyte, gigabyte, each a thousand times the last. Binary units are the IEC units: kibibyte, mebibyte, gibibyte, each one thousand and twenty-four times the last.
+
+00:00:41.250 --> 00:00:54.824
+First, decide which unit is decimal and which is binary. Then change the amount into bytes using its own factor. Finally, divide by the factor for the unit you want.
+
+00:00:55.400 --> 00:01:06.783
+For a compare question, give both sides of each point. A kilobyte is one thousand bytes, whereas a kibibyte is one thousand and twenty-four bytes. Kilobytes are base ten, whereas kibibytes are base two.
+
+00:01:07.900 --> 00:01:19.238
+Here is a real question from Paper 1 in June 2023. Construct an expression to convert thirteen kilobytes into kibibytes. It is worth two marks.
+
+00:01:19.800 --> 00:01:29.146
+Kilobytes are decimal. One kilobyte is one thousand bytes. So thirteen kilobytes is thirteen times one thousand, which is thirteen thousand bytes.
+
+00:01:29.700 --> 00:01:40.745
+A kibibyte is one thousand and twenty-four bytes. So divide the bytes by one thousand and twenty-four. The expression is thirteen times one thousand, all divided by one thousand and twenty-four.
+
+00:01:41.300 --> 00:01:53.172
+Check: the answer, about twelve point seven, is a little less than thirteen. That makes sense, because each kibibyte is a little bigger. This explanation is by olevels.com, not an official mark scheme.
+
+00:01:54.300 --> 00:02:06.487
+A common mistake is multiplying by one thousand and twenty-four instead of dividing. That gives over thirteen million, which cannot be right for a smaller count of bigger units.
+
+00:02:07.050 --> 00:02:17.473
+Another mistake is thinking a kilobyte is one thousand and twenty-four bytes. In this course, a kilobyte is one thousand bytes. The one thousand and twenty-four unit is the kibibyte.
+
+00:02:18.600 --> 00:02:30.281
+Now you try. A saved game file is two kibibytes. Construct an expression to give its size in kilobytes. Pause here and work it out.
+
+00:02:31.400 --> 00:02:47.919
+Kibibytes are binary, so two kibibytes is two times one thousand and twenty-four bytes. Kilobytes are decimal, so divide by one thousand. The expression is two times one thousand and twenty-four, divided by one thousand, which is two point zero four eight kilobytes.
+
+00:02:48.500 --> 00:02:58.474
+Remember the method: spot the decimal and binary units, change to bytes with the first factor, then divide by the second. Now try the practice questions for this type.

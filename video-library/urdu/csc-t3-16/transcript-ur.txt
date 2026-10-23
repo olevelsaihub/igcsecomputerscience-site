@@ -1,0 +1,11 @@
+Idea۔ ایک kilogram ایک ہزار grams کا ہوتا ہے، اور ایک kilometre ایک ہزار metres کا۔ تو آپ توقع کریں گے کہ ایک kilobyte ایک ہزار bytes کا ہو۔ ایسا ہی ہے۔ مگر computers دو کی بنیاد پر گنتے ہیں، اس لیے ایک دوسری unit بھی ہے۔ Two to the power ten ایک ہزار چوبیس ہے، جو ایک ہزار کے بہت قریب ہے۔ تو ایک kibibyte ایک ہزار چوبیس bytes کا ہے۔ Kibibyte، kilobyte سے تھوڑا بڑا ہے۔ Decimal units SI units ہیں: kilobyte، megabyte، gigabyte، ہر ایک پچھلے سے ایک ہزار گنا۔ Binary units IEC units ہیں: kibibyte، mebibyte، gibibyte، ہر ایک پچھلے سے ایک ہزار چوبیس گنا۔
+
+Method۔ پہلے فیصلہ کریں کہ کون سی unit decimal ہے اور کون سی binary۔ پھر مقدار کو اس کے اپنے factor سے bytes میں بدلیں۔ آخر میں جس unit میں چاہیے اس کے factor سے divide کریں۔ Compare کے سوال میں ہر point کے دونوں پہلو دیں۔ ایک kilobyte ایک ہزار bytes ہے، جبکہ ایک kibibyte ایک ہزار چوبیس bytes ہے۔ Kilobytes base ten ہیں، جبکہ kibibytes base two ہیں۔
+
+Worked Example۔ یہ June دو ہزار تئیس کے Paper ایک کا اصل سوال ہے۔ تیرہ kilobytes کو kibibytes میں convert کرنے کا expression بنائیں۔ اس کے دو marks ہیں۔ Kilobytes decimal ہیں۔ ایک kilobyte ایک ہزار bytes ہے۔ تو تیرہ kilobytes، تیرہ ضرب ایک ہزار، یعنی تیرہ ہزار bytes ہیں۔ ایک kibibyte ایک ہزار چوبیس bytes کا ہے۔ تو bytes کو ایک ہزار چوبیس سے divide کریں۔ Expression ہے: تیرہ ضرب ایک ہزار، سب divided by ایک ہزار چوبیس۔ Check: جواب، تقریباً بارہ اعشاریہ سات، تیرہ سے تھوڑا کم ہے۔ یہ سمجھ میں آتا ہے، کیونکہ ہر kibibyte تھوڑا بڑا ہے۔ یہ وضاحت olevels dot com کی ہے، یہ official mark scheme نہیں ہے۔
+
+Common Mistake۔ ایک عام غلطی divide کرنے کی جگہ ایک ہزار چوبیس سے multiply کرنا ہے۔ اس سے تیرہ ملین سے اوپر آتا ہے، جو بڑی units کی چھوٹی تعداد کے لیے صحیح نہیں ہو سکتا۔ ایک اور غلطی یہ سمجھنا ہے کہ kilobyte ایک ہزار چوبیس bytes کا ہے۔ اس course میں kilobyte ایک ہزار bytes کا ہے۔ ایک ہزار چوبیس والی unit kibibyte ہے۔
+
+Your Turn۔ اب آپ کوشش کریں۔ ایک saved game file دو kibibytes کی ہے۔ kilobytes میں اس کا size دینے کا expression بنائیں۔ یہاں رک کر حل کریں۔
+
+Answer۔ Kibibytes binary ہیں، تو دو kibibytes، دو ضرب ایک ہزار چوبیس bytes ہیں۔ Kilobytes decimal ہیں، تو ایک ہزار سے divide کریں۔ Expression ہے: دو ضرب ایک ہزار چوبیس، divided by ایک ہزار، یعنی دو اعشاریہ صفر چار آٹھ kilobytes۔ method یاد رکھیں: decimal اور binary units پہچانیں، پہلے factor سے bytes میں بدلیں، پھر دوسرے سے divide کریں۔ اب اس type کے practice questions کریں۔

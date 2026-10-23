@@ -1,0 +1,52 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:18.281
+Imagine sorting a big pile of name cards. It is hard to do all at once. So you split the pile in half, then in half again, until each person holds just one card. One card on its own is already in order.
+
+00:00:18.850 --> 00:00:32.638
+Then you join the small piles back together, two at a time, keeping them in order. This is a merge sort. It is a divide and conquer algorithm: split the problem into small parts, solve them, then combine the results.
+
+00:00:33.750 --> 00:00:48.349
+Step one: split the list in half. Keep splitting each half until every list holds just one item. While you split, do not sort anything. You only cut.
+
+00:00:48.900 --> 00:01:03.945
+Step two: merge. Take two sorted lists and compare their front items. Move the smaller one into the new list, then compare the fronts again. When one list is empty, copy the rest across.
+
+00:01:04.500 --> 00:01:15.649
+Merge in levels: single items into pairs, pairs into fours, and fours into the full list. Only merge lists that sit next to each other, and check the order asked for at every merge.
+
+00:01:16.750 --> 00:01:30.005
+Here is a real question from Paper 2 in November 2021. Use a merge sort to put nine, one, seven, six, three, five, two, eight into ascending order. It is worth five marks.
+
+00:01:30.600 --> 00:01:39.715
+First, split the eight numbers into two halves of four: nine, one, seven, six, and three, five, two, eight. Notice that nothing has been sorted yet.
+
+00:01:40.300 --> 00:01:46.937
+Split each half into pairs, then split the pairs into single items. Each split level earns a mark.
+
+00:01:47.500 --> 00:01:58.837
+Now merge neighbours into sorted pairs. Nine and one become one, nine. Seven and six become six, seven. Three, five and two, eight are already in order.
+
+00:01:59.400 --> 00:02:09.589
+Merge the pairs into sorted fours. One, nine with six, seven gives one, six, seven, nine. Three, five with two, eight gives two, three, five, eight.
+
+00:02:10.150 --> 00:02:23.722
+The final merge gives one, two, three, five, six, seven, eight, nine. One mark each for the three split rows and the two merge rows. This explanation is by olevels.com, not an official mark scheme.
+
+00:02:24.850 --> 00:02:34.710
+A common mistake is sorting while you split. Splitting only cuts the list. The sorting happens when you merge.
+
+00:02:35.300 --> 00:02:42.827
+Another mistake is skipping a level, jumping from pairs straight to the full list. Merge pairs into fours first.
+
+00:02:43.950 --> 00:02:55.895
+Now you try. Use a merge sort to put four, nine, one, six into descending order. Show every split and every merge. Pause here and work it out.
+
+00:02:57.000 --> 00:03:03.879
+Split into halves: four, nine and one, six. Then split into single items.
+
+00:03:04.450 --> 00:03:19.254
+Descending means largest first. Merge into pairs: nine, four and six, one. Then compare the fronts: nine before six, six before four, then four before one. The answer is nine, six, four, one.
+
+00:03:19.850 --> 00:03:32.706
+Remember the method: split until every list has one item, merge neighbours level by level, and check the direction at every merge. Now try the practice questions for this type.

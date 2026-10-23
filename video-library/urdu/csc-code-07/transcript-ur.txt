@@ -1,0 +1,11 @@
+Idea۔ toaster کا سوچیں۔ آپ bread ڈالتے ہیں، وہ ایک کام کرتا ہے، اور toast نکلتا ہے۔ Subprogram بھی ایسا ہی ہے: code کا ایک named block جو ایک کام کرتا ہے۔ Function، return کے ذریعے ایک value واپس بھی دیتا ہے۔ یہاں p num، parameter ہے، یعنی def line میں placeholder۔ پانچ، argument ہے جو call میں بھیجا گیا۔ function دس return کرتا ہے، اور answer اسے store کرتا ہے۔ String characters کی ایک قطار ہے، اور ہر character کا index صفر سے شروع ہوتا ہے۔ zero colon two جیسا slice، index صفر اور ایک کے characters لیتا ہے، مگر index دو سے پہلے رک جاتا ہے۔ تو a b c d کے لیے یہ a b دیتا ہے۔
+
+Method۔ def line پڑھیں اور parameters نوٹ کریں۔ body صرف انہی parameters سے لکھیں۔ function کو return اور result پر ختم کریں۔ پھر call کو arguments کی صحیح ترتیب سے مکمل کریں، اور جو واپس آئے اسے store کریں۔
+
+Worked Example۔ یہ جون دو ہزار چوبیس کے Paper دو کا اصل question ہے۔ program چار characters کی string اور ایک whole number لیتا ہے۔ نئی key میں پہلے پہلے دو characters، پھر number، پھر آخری دو characters ہوتے ہیں۔ تو a b c d اور ایک دو تین سے a b ایک دو تین c d بنتا ہے۔ یہ چھ marks کا ہے۔ gen new key کے اندر، p string میں text ہے اور p num میں number۔ پہلے دو characters کو جوڑیں، اور p num کو string بنا کر ساتھ جوڑیں۔ پھر آخری دو characters add کریں۔ function کو اپنا answer واپس دینا ہوتا ہے، اس لیے آخری line ہے return new key۔ main program دیا گیا ہے۔ call مکمل کریں: my new key equals gen new key، my string اور my number اسی ترتیب میں۔ a b c d اور ایک دو تین کے ساتھ run کریں۔ نیا word a b ایک دو تین c d ہے، بالکل example کی طرح۔ یہ وضاحت olevels dot com کی ہے، یہ official mark scheme نہیں ہے۔
+
+Common Mistake۔ ایک عام غلطی str کے بغیر number کو جوڑنا ہے۔ Python whole number کو string کے ساتھ add نہیں کر سکتا، اس لیے program crash ہو جاتا ہے۔ ایک اور غلطی function کے اندر print کرنا ہے، یا بغیر value کے return لکھنا۔ پھر calling line کو کچھ واپس نہیں ملتا۔
+
+Your Turn۔ اب آپ کوشش کریں۔ make tag کو اس طرح مکمل کریں کہ وہ چار حرفوں کے word کے آخری دو characters واپس کرے، اور اس کے بعد number۔ پھر اسے lion اور سات کے ساتھ call کریں، اور result print کریں۔ رک کر حل کریں۔
+
+Answer۔ Tag equals p word، slice دو سے چار، plus str of p num۔ Return tag۔ Call ہے make tag of lion and سات۔ Run کریں تو o n سات print ہوتا ہے۔ Method یاد رکھیں۔ parameters استعمال کریں، result return کریں، اور call میں arguments صحیح ترتیب سے دیں۔ اب اس type کے practice questions کریں۔

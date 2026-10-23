@@ -1,0 +1,43 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:16.114
+Think of a toaster. You put bread in, it does one job, and toast comes out. A subprogram is the same: a named block of code that does one job. A function also hands a value back with return.
+
+00:00:16.700 --> 00:00:27.530
+Here, p num is the parameter, the placeholder in the def line. Five is the argument passed in the call. The function returns ten, and answer stores it.
+
+00:00:28.100 --> 00:00:43.240
+A string is a row of characters, and each has an index starting at zero. A slice like zero colon two takes the characters at index zero and one, but stops before index two. So for a b c d it gives a b.
+
+00:00:44.350 --> 00:01:00.324
+Read the def line and note the parameters. Write the body using only those parameters. End a function with return and the result. Then complete the call with the arguments in the right order, and store what comes back.
+
+00:01:01.450 --> 00:01:22.943
+Here is a real question from Paper 2 in June 2024. The program takes a four-character string and a whole number. The new key is the first two characters, then the number, then the last two. So a b c d and one two three gives a b one two three c d. It is worth six marks.
+
+00:01:23.500 --> 00:01:34.679
+Inside gen new key, p string holds the text and p num the number. Join the first two characters and p num, turned into a string. Then add the last two characters.
+
+00:01:35.250 --> 00:01:39.838
+A function must hand its answer back, so the last line is return new key.
+
+00:01:40.400 --> 00:01:48.125
+The main program is given. Complete the call: my new key equals gen new key, with my string and my number in that order.
+
+00:01:48.700 --> 00:02:00.293
+Run it with a b c d and one two three. The new word is a b one two three c d, just like the example. This explanation is by olevels.com, not an official mark scheme.
+
+00:02:01.400 --> 00:02:12.121
+A common mistake is joining the number without str. Python cannot add a whole number to a string, so the program crashes.
+
+00:02:12.700 --> 00:02:20.528
+Another mistake is printing inside the function, or writing return with no value. The calling line then gets nothing back.
+
+00:02:21.650 --> 00:02:38.395
+Now you try. Complete make tag so it returns the last two characters of a four-letter word, followed by the number. Then call it with lion and seven, and print the result. Pause here and work it out.
+
+00:02:39.500 --> 00:02:52.355
+Tag equals p word, slice two to four, plus str of p num. Return tag. The call is make tag of lion and seven. Running it prints o n seven.
+
+00:02:52.950 --> 00:03:03.186
+Remember the method: use the parameters, return the result, and call with the arguments in the right order. Now try the practice questions for this type.

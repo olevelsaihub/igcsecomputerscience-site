@@ -1,0 +1,43 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:15.886
+Try reading out one zero one one, one zero zero one, quickly, without a slip. It is hard. Programmers write binary in a shorter way called hexadecimal, or hex. Hex is base sixteen.
+
+00:00:16.450 --> 00:00:28.083
+Base sixteen needs sixteen digits. Hex uses nought to nine, then letters for ten to fifteen. A is ten, B is eleven, C is twelve, D is thirteen, E is fourteen and F is fifteen.
+
+00:00:28.650 --> 00:00:40.305
+Four bits, a nibble, can make exactly sixteen patterns, from nought to fifteen. So one hex digit stands for exactly one nibble, and a byte is always two hex digits.
+
+00:00:41.450 --> 00:00:51.824
+To convert a byte to hex, split it into two nibbles. Give each nibble the headers eight, four, two, one, and add the values above the ones.
+
+00:00:52.400 --> 00:01:01.468
+If a nibble is worth ten to fifteen, swap it for its letter. Then write the two digits in the same order as the nibbles, left nibble first.
+
+00:01:02.600 --> 00:01:15.788
+Here is a real question from Paper 1 in June 2025. Convert the binary pattern one zero one one, one zero zero one into hexadecimal. It is worth two marks.
+
+00:01:16.350 --> 00:01:23.901
+Split the byte into two nibbles. The left nibble is one zero one one. The right nibble is one zero zero one.
+
+00:01:24.500 --> 00:01:29.194
+The left nibble is eight plus two plus one, which is eleven. Eleven is B.
+
+00:01:29.750 --> 00:01:43.006
+The right nibble is eight plus one, which is nine. Nine stays as nine. Keep the order: B then nine. The answer is B nine. This explanation is by olevels.com, not an official mark scheme.
+
+00:01:44.150 --> 00:01:53.000
+A common mistake is writing eleven instead of B. Eleven nine would be three hex digits, but a byte is only two.
+
+00:01:53.600 --> 00:02:07.450
+Another mistake is thinking hex saves memory or is faster for the computer. It does neither. The computer still stores binary. Hex is only easier for humans to read.
+
+00:02:08.550 --> 00:02:19.349
+Now you try. Convert the binary pattern zero one one one, one one one zero into hexadecimal. Pause here and work it out.
+
+00:02:20.450 --> 00:02:33.558
+The left nibble, zero one one one, is four plus two plus one, which is seven. The right nibble, one one one zero, is eight plus four plus two, which is fourteen, and fourteen is E. The answer is seven E.
+
+00:02:34.150 --> 00:02:45.825
+Remember the method: split into nibbles, use eight, four, two, one on each, swap ten to fifteen for A to F, and keep the order. Now try the practice questions for this type.

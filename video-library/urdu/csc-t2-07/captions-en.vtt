@@ -1,0 +1,43 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:17.855
+Imagine finding your pencil in a messy bedroom, then in a tidy one. Code is the same. This program works, but what are a and b? What is it for? Another programmer would struggle to fix it.
+
+00:00:18.450 --> 00:00:33.477
+Here is the same program made readable. A comment says what it does. The names say what each value holds. Blank lines split the sections, and the print line is indented inside the if.
+
+00:00:34.050 --> 00:00:50.793
+So there are four techniques. Comments, which start with a hash sign and are ignored by the computer. Descriptive names, like total pay instead of t p. Indentation to show structure. And white space between sections.
+
+00:00:51.350 --> 00:01:08.597
+Indentation is more than tidiness. Moving lines in shows which lines belong inside a loop or an if. Here, Revise is indented, so it repeats three times. Exam is not, so it prints once, after the loop.
+
+00:01:09.700 --> 00:01:21.021
+First, check whether the question wants a technique or a reason. A technique is something the programmer does. A reason is what it achieves for the reader.
+
+00:01:21.600 --> 00:01:32.438
+For a technique, name one from the list and add a tiny example if there is space. For a reason for comments, say how they help a person understand the code.
+
+00:01:33.550 --> 00:01:48.015
+Here is a real question from Paper 2 in November 2021. Give one technique that programmers use to make their code easy to read and understand. It is worth one mark.
+
+00:01:48.600 --> 00:01:59.302
+The command word is give, and it wants a technique. So name an action the programmer takes. Pick one from the list: comments, descriptive names, indentation or white space.
+
+00:01:59.900 --> 00:02:14.793
+Write it in a few words with a small example. Give variables descriptive names, for example total pay instead of t p. That earns the mark. This explanation is by olevels.com, not an official mark scheme.
+
+00:02:15.900 --> 00:02:24.719
+A common mistake is giving something that does not affect readability, like use correct code or use suitable data structures.
+
+00:02:25.300 --> 00:02:35.128
+Another mistake is saying comments make the program run faster. The computer ignores comments completely. They are only for people.
+
+00:02:36.250 --> 00:02:51.520
+Now you try. Give one reason why programmers add comments to their code. Then give one other technique, not comments, that makes code easier to read. Pause here and work it out.
+
+00:02:52.650 --> 00:03:11.291
+A, comments explain what a section of code does and how it works, so another programmer can understand it. B, use indentation to show which lines belong inside a loop or an if. Descriptive names or white space would also be right.
+
+00:03:11.850 --> 00:03:21.824
+Remember the method: decide if it is a technique or a reason, then give one clear idea with a small example. Now try the practice questions for this type.

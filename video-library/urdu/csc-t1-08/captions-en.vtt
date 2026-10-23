@@ -1,0 +1,55 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:16.189
+Imagine lining up your class by height. You only ever look at two people standing next to each other. If the taller one is on the left, they swap places. Then you move one step along and look again.
+
+00:00:16.750 --> 00:00:30.130
+That is a bubble sort. It compares each pair of neighbouring items and swaps them if they are in the wrong order. For ascending order, smallest first, seven and three are the wrong way round, so they swap.
+
+00:00:30.700 --> 00:00:46.839
+Going through the whole list once, from the first pair to the last pair, is called a pass. After pass one, the largest item, seven, has bubbled to the end. The passes go on until one pass makes no swaps. Here, that is pass four.
+
+00:00:47.950 --> 00:01:02.008
+Always work from left to right. Compare the first two items and swap them if they are in the wrong order. Move one place along and repeat, right up to the last pair. Count the swaps as you go.
+
+00:01:02.600 --> 00:01:09.052
+Write the whole list only once, at the end of each complete pass. Never write a new row after a single swap.
+
+00:01:09.650 --> 00:01:21.309
+Keep making passes until one pass has no swaps at all. That last checking pass still counts, because the algorithm cannot know the list is sorted until it has checked it.
+
+00:01:22.450 --> 00:01:37.739
+Here is a real question from Paper 2 in June 2025. A bubble sort puts eight ages into ascending order. You complete the table, one row for each pass. It is worth two marks.
+
+00:01:38.300 --> 00:01:55.041
+Pass one. Nine and eleven are in order. So are eleven and twelve, and twelve and nineteen. Then nineteen is bigger than fourteen, so they swap. Nineteen keeps swapping, with eighteen, fifteen and seventeen. That is four swaps.
+
+00:01:55.600 --> 00:02:03.506
+So the first row is nine, eleven, twelve, fourteen, eighteen, fifteen, seventeen, nineteen. Only nineteen has moved, all the way to the end.
+
+00:02:04.100 --> 00:02:18.734
+Pass two starts again at the left. The pairs are in order up to fourteen and eighteen. Then eighteen swaps with fifteen, and with seventeen. Eighteen and nineteen are in order. That is two swaps.
+
+00:02:19.300 --> 00:02:27.384
+Row two is nine, eleven, twelve, fourteen, fifteen, seventeen, eighteen, nineteen. It looks sorted, but the algorithm does not know that yet.
+
+00:02:27.950 --> 00:02:45.225
+Pass three checks every pair and makes no swaps, so the sort stops. The two rows that changed earn the marks. The first pass made four swaps, and the least number of passes is three. This explanation is by olevels.com, not an official mark scheme.
+
+00:02:46.350 --> 00:02:58.257
+A common mistake is writing a new row after every single swap. Those rows are ignored. Write the list once, at the end of each complete pass.
+
+00:02:58.850 --> 00:03:06.738
+Another mistake is forgetting the last pass when counting. The pass with no swaps still counts, so the answer is three, not two.
+
+00:03:07.850 --> 00:03:20.957
+Now you try. Use a bubble sort to put eight, three, six, one, nine into ascending order. Write the list after each pass, and count the passes. Pause here and work it out.
+
+00:03:22.100 --> 00:03:38.016
+Pass one: eight swaps with three, six and one, then stops behind nine. The list is three, six, one, eight, nine, after three swaps. Pass two: six swaps with one, giving three, one, six, eight, nine.
+
+00:03:38.600 --> 00:03:49.821
+Pass three: three swaps with one, giving one, three, six, eight, nine. Pass four makes no swaps, so the sort stops. That is four passes in all.
+
+00:03:50.400 --> 00:04:02.969
+Remember the method: compare neighbours from left to right, write the list once per pass, and stop after a pass with no swaps, counting it too. Now try the practice questions for this type.

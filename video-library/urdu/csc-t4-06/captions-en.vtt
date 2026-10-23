@@ -1,0 +1,49 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:14.352
+Picture a supermarket queue. It moves faster if the cashier works faster, if more tills are open, or if popular items are kept right by the till. A CPU speeds up in the same three ways.
+
+00:00:14.950 --> 00:00:30.932
+Clock speed is how many cycles the CPU clock makes each second, measured in hertz. Three gigahertz is three billion cycles each second. More cycles means more instructions processed in the same time.
+
+00:00:31.500 --> 00:00:40.244
+A core is a separate processing unit inside the CPU. A quad-core CPU has four, so it can work on more instructions at the same time.
+
+00:00:40.800 --> 00:00:57.335
+Cache is a small amount of very fast memory inside or close to the CPU. It holds instructions and data used often, so the CPU waits less for slower RAM. A larger cache holds more of them.
+
+00:00:58.450 --> 00:01:13.108
+To explain a factor, name it. Say what it changes inside the CPU. Link that to speed. In a scenario, say what the user would notice, such as lag in a game.
+
+00:01:13.700 --> 00:01:25.116
+A higher clock speed has a cost. It processes more instructions each second, but it uses more power and makes more heat, so it needs more cooling.
+
+00:01:26.250 --> 00:01:42.363
+Here is a real question from Paper 1 in June 2023. One type of cache sits between main memory and the CPU. Explain one reason cache is used in a computer. It is worth two marks.
+
+00:01:42.950 --> 00:01:54.249
+Two facts. What does cache hold? Instructions and data that are used often. How fast is it? Much faster than RAM.
+
+00:01:54.800 --> 00:02:03.232
+Link them. The CPU finds these items in cache, so it does not wait for slow RAM, so processing is faster.
+
+00:02:03.800 --> 00:02:19.063
+So the answer is: cache speeds up processing because it holds frequently used instructions and data near the CPU, so the CPU does not wait for slower RAM. This explanation is by olevels.com, not an official mark scheme.
+
+00:02:20.200 --> 00:02:31.695
+A common mistake is saying cache stores all data, or stores it permanently. Cache is small and temporary. It holds only items used often.
+
+00:02:32.250 --> 00:02:40.366
+Another mistake is a vague answer, like cache, it is faster. Name the factor fully and say why it speeds things up.
+
+00:02:41.500 --> 00:03:01.794
+Now you try. Zara's laptop has a two gigahertz CPU. A new model has a three point five gigahertz CPU, with the same cores and cache. Explain how the new CPU affects her game, and give one drawback. Pause here and work it out.
+
+00:03:02.900 --> 00:03:17.766
+Three point five gigahertz is three and a half billion cycles each second, compared with two billion. More instructions are processed each second, so the game runs more smoothly with less lag.
+
+00:03:18.350 --> 00:03:27.029
+The drawback: the faster CPU uses more power and gets hotter. The battery drains faster, and it needs more cooling.
+
+00:03:27.600 --> 00:03:35.969
+Remember the method: name the factor, say what it changes, then give the effect on speed. Now try the practice questions for this type.

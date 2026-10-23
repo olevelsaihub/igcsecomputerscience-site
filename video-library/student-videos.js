@@ -5,11 +5,11 @@
   window.olvComputerScienceVideosLoaded = true;
   const base = '/igcsecomputerscience/video-library/';
   const style = document.createElement('link');
-  style.rel = 'stylesheet'; style.href = base + 'student-videos.css?v=d3bd33f198'; document.head.append(style);
+  style.rel = 'stylesheet'; style.href = base + 'student-videos.css?v=64a1312047'; document.head.append(style);
   const chapterPlayerReady = new Promise(resolve => {
     if (window.olvCreateChapterPlayer) { resolve(window.olvCreateChapterPlayer); return; }
     const script = document.createElement('script');
-    script.src = base + 'chapter-player.js?v=d3bd33f198';
+    script.src = base + 'chapter-player.js?v=64a1312047';
     script.onload = () => resolve(window.olvCreateChapterPlayer);
     script.onerror = () => resolve(null);
     document.head.append(script);
@@ -19,8 +19,8 @@
   function loadGuidedPlayer() {
     guidedAssets ||= chapterPlayerReady.then(() => new Promise(resolve => {
       if (window.olvMountGuidedPlayer) { resolve(window.olvMountGuidedPlayer); return; }
-      const css = document.createElement('link'); css.rel = 'stylesheet'; css.href = base + 'guided-player.css?v=d3bd33f198'; document.head.append(css);
-      const script = document.createElement('script'); script.src = base + 'guided-player.js?v=d3bd33f198';
+      const css = document.createElement('link'); css.rel = 'stylesheet'; css.href = base + 'guided-player.css?v=64a1312047'; document.head.append(css);
+      const script = document.createElement('script'); script.src = base + 'guided-player.js?v=64a1312047';
       script.onload = () => resolve(window.olvMountGuidedPlayer); script.onerror = () => resolve(null); document.head.append(script);
     }));
     return guidedAssets;
@@ -194,5 +194,7 @@
     for (const card of root.querySelectorAll('[data-method-card]')) if (!card.closest('[data-type-lesson]')) mount(card);
   }
   document.addEventListener('computer science:content-ready', event => initialise(event.detail?.root || document));
+  // The plan and type workspaces (bank.js) announce loaded lessons as olv:content-ready.
+  document.addEventListener('olv:content-ready', event => initialise(event.detail?.root || document));
   initialise();
 })();

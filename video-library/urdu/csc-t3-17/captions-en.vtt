@@ -1,0 +1,43 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:15.355
+Imagine passing a note in class, written in a secret code that only your friend knows. If someone else picks it up, they can see it, but they cannot read it. That is the idea of encryption.
+
+00:00:15.950 --> 00:00:25.537
+The readable message is called plaintext. Encryption uses an algorithm and a key to turn it into ciphertext, a scrambled message that cannot be understood.
+
+00:00:26.100 --> 00:00:36.035
+For example, shift each letter three places along the alphabet. Hello becomes K H O O R. Without knowing the key, three, the message looks like nonsense.
+
+00:00:36.600 --> 00:00:42.745
+Decryption is the reverse. The receiver uses the key to turn the ciphertext back into plaintext.
+
+00:00:43.300 --> 00:00:57.465
+Be clear about what encryption does. It does not stop data being intercepted or stolen, and it does not stop hackers getting in. It stops them understanding the data. It also does not make files smaller.
+
+00:00:58.600 --> 00:01:14.520
+For a definition, say what goes in and what comes out: plaintext is turned into ciphertext. For a reason, say who can understand the data: only authorised people with the key. Never say it stops hacking.
+
+00:01:15.650 --> 00:01:27.692
+Here is a real question from Paper 2 in November 2020. Give one reason why data may need to be encrypted. It is worth one mark.
+
+00:01:28.250 --> 00:01:38.661
+Think about what happens if someone intercepts the data. Encrypted data looks like nonsense without the key. So the reason is about who can understand it.
+
+00:01:39.250 --> 00:01:51.312
+So the answer is: if the data is intercepted, it cannot be understood, because only an authorised person with the key can read it. This explanation is by olevels.com, not an official mark scheme.
+
+00:01:52.450 --> 00:02:03.735
+The most common mistake is writing to stop hackers. Encryption does not stop anyone getting in. It stops them understanding what they take.
+
+00:02:04.300 --> 00:02:14.928
+Another mistake is swapping the words. Encryption makes ciphertext from plaintext. Decryption turns it back. And encryption is not compression.
+
+00:02:16.050 --> 00:02:34.994
+Now you try. Maya sends her card details to an online shop. The details are encrypted. A criminal copies the data on its way. Explain what the criminal sees, and why. Pause here and work it out.
+
+00:02:36.100 --> 00:02:48.128
+The criminal sees only ciphertext, scrambled data. They do not have the key, so they cannot understand it. The shop has the key, so it can decrypt the details.
+
+00:02:48.700 --> 00:02:57.737
+Remember the method: plaintext goes in, ciphertext comes out, and only people with the key can understand it. Now try the practice questions for this type.

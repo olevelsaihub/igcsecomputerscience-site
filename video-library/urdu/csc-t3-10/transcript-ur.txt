@@ -1,0 +1,11 @@
+Idea۔ اپنے phone پر کسی photo کو بہت زیادہ zoom کریں تو وہ چھوٹے رنگین چوکوروں میں بدل جاتی ہے۔ ہر چوکور ایک pixel ہے، یعنی picture element کا مخفف۔ Bitmap image بس pixels کا ایک grid ہے۔ Resolution بتاتی ہے کہ کتنی detail ہے۔ یہ pixels میں width ضرب height ہو سکتی ہے، یا pixels per inch یا dots per inch جیسی پیمائش۔ Colour depth ایک pixel کا رنگ store کرنے کے لیے استعمال ہونے والی bits کی تعداد ہے۔ ایک bit دو colours دیتی ہے۔ دو bits چار۔ آٹھ bits دو سو چھپن colours۔
+
+Method۔ Definition کے لیے مختصر key phrase دیں۔ Pixel، bitmap image کا سب سے چھوٹا element ہے۔ Resolution کے لیے pixels per inch جیسی unit دیں۔ File size کے سوال میں ایک pixel سے شروع کریں۔ زیادہ colour depth کا مطلب اس pixel کے لیے زیادہ bits۔ پھر پیمانہ بڑھائیں۔ ہر pixel کو یہ اضافی bits چاہییں، اس لیے پوری file بڑی ہو جاتی ہے۔
+
+Worked Example۔ یہ June دو ہزار تئیس کے Paper ایک کا اصل سوال ہے۔ image کی colour depth بڑھانے سے اس کی file بڑی ہو جاتی ہے۔ اس کی وجہ describe کریں۔ اس کے دو marks ہیں۔ ایک pixel سے شروع کریں۔ Colour depth ہر pixel کے لیے store ہونے والی bits کی تعداد ہے۔ اگر colour depth بڑھے، تو اب ہر ایک pixel کو زیادہ bits چاہییں۔ pixels کی تعداد وہی رہتی ہے۔ اس لیے image کی کل bits بڑھ جاتی ہیں۔ ایک سو ضرب ایک سو کی image، آٹھ bits per pixel پر، اسی ہزار bits چاہتی ہے۔ سولہ bits پر ایک لاکھ ساٹھ ہزار۔ تو جواب یہ ہے: ہر pixel زیادہ bits کے ساتھ store ہوتا ہے، اور pixels کی تعداد وہی ہے، اس لیے file بڑی ہو جاتی ہے۔ یہ وضاحت olevels dot com کی ہے، یہ official mark scheme نہیں ہے۔
+
+Common Mistake۔ ایک عام غلطی یہ کہنا ہے کہ زیادہ colour depth کا مطلب زیادہ pixels ہے۔ ایسا نہیں۔ pixel count وہی رہتی ہے۔ ہر pixel بس زیادہ bits رکھتا ہے۔ ایک اور غلطی resolution کی پیمائش megabytes میں دینا ہے۔ Megabytes file size ناپتے ہیں۔ Resolution کو pixels per inch یا dots per inch جیسی unit چاہیے۔
+
+Your Turn۔ اب آپ کوشش کریں۔ ایک icon پچاس pixels چوڑا اور چالیس pixels اونچا ہے، colour depth آٹھ bits ہے۔ اس کا size پہلے bits میں، پھر bytes میں نکالیں۔ یہاں رک کر حل کریں۔
+
+Answer۔ پچاس ضرب چالیس، دو ہزار pixels ہے۔ ضرب آٹھ bits، سولہ ہزار bits۔ آٹھ سے divide کریں تو دو ہزار bytes ملتے ہیں۔ ایک kilobyte برابر ایک ہزار bytes لیں، تو یہ دو kilobytes ہے۔ method یاد رکھیں: ایک exact phrase سے define کریں، پھر file size کے لیے ایک pixel سے شروع کریں اور پوری image تک پیمانہ بڑھائیں۔ اب اس type کے practice questions کریں۔

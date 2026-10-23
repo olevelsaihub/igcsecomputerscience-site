@@ -1,0 +1,46 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:17.651
+A games console is a box you can touch, but it does nothing without a game. The box is hardware: the physical parts. The game is software: instructions that tell the hardware what to do. A computer needs both.
+
+00:00:18.250 --> 00:00:28.808
+An input device sends data into the computer, like a keyboard, mouse or microphone. An output device receives data from the computer and presents it, like a screen, speaker or printer.
+
+00:00:29.400 --> 00:00:43.957
+Some devices do both jobs. A touch screen shows images and senses your finger. A headset has a speaker and a microphone. A U S B storage device has data saved to it and read from it.
+
+00:00:44.550 --> 00:00:55.029
+On a diagram, the arrow shows which way the data travels. For an input device, the arrow points to the C P U. For an output device, it points away from the C P U.
+
+00:00:56.150 --> 00:01:09.462
+For each device, ask: does it send data, receive data, or both? Draw the arrow head at the C P U for input, at the device for output, and at both ends for a device that does both.
+
+00:01:10.050 --> 00:01:20.244
+If a question asks for devices in a named product, give ones built into it. A smartphone's output devices are its screen, speaker and vibration motor, not a printer.
+
+00:01:21.350 --> 00:01:38.663
+Here is a real question from Paper 1 in June 2023. The diagram shows a C P U, a speaker, a mouse and a U S B device. Add directional arrows to show the flow of communication. It is worth three marks.
+
+00:01:39.250 --> 00:01:47.393
+The mouse sends clicks and movements to the computer, so it is input. Draw a line from the mouse to the C P U, with the arrow head at the C P U.
+
+00:01:47.950 --> 00:01:56.244
+The speaker receives sound data from the computer, so it is output. Draw a line from the C P U to the speaker, with the arrow head at the speaker.
+
+00:01:56.800 --> 00:02:10.283
+Data is saved to the U S B device and read from it, so data goes both ways. Draw one line with arrow heads at both ends. This explanation is by olevels.com, not an official mark scheme.
+
+00:02:11.400 --> 00:02:20.946
+A common mistake is putting the arrow head at the wrong end, such as from the speaker to the C P U. Sound comes out of the speaker, so the data flows to it.
+
+00:02:21.500 --> 00:02:29.500
+Another mistake is naming a separate device, such as a printer, when the question asks about a smartphone. Name devices built into the phone.
+
+00:02:30.600 --> 00:02:44.618
+Now you try. A self-service checkout has a barcode scanner, a touch screen and a receipt printer. For each, say input, output or both, and which way the arrow points. Pause here and work it out.
+
+00:02:45.750 --> 00:03:01.064
+The scanner sends barcodes to the computer, so it is input, with the arrow pointing to the C P U. The touch screen does both, so it has arrows at both ends. The printer receives data, so it is output, with the arrow pointing away.
+
+00:03:01.650 --> 00:03:12.107
+Remember the method: ask whether each device sends, receives or both, then point the arrow the way the data flows. Now try the practice questions for this type.

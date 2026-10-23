@@ -1,0 +1,46 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:12.826
+Your school locks the staff room, gives you your own login, and lets only teachers change your marks. A computer network is protected in the same three ways.
+
+00:00:13.400 --> 00:00:22.108
+Networks need protecting because malware can spread between computers, and outsiders can try to get in and steal or change data.
+
+00:00:22.700 --> 00:00:33.514
+Authentication checks that a user really is who they claim to be. Methods include a username and password, a security question, biometrics such as a fingerprint, and two-factor authentication.
+
+00:00:34.100 --> 00:00:41.377
+Physical security protects the hardware itself: locked server rooms, swipe cards, C C T V cameras and security guards.
+
+00:00:41.950 --> 00:00:55.148
+Access rights give each user only what their job needs. The rights are none, read, write and execute. A teacher can change the marks file, but a student can only read their own.
+
+00:00:55.700 --> 00:01:10.133
+Do not mix up validation and authentication. Validation checks that data is sensible, like a password being long enough. Authentication checks identity, like the password matching the stored one.
+
+00:01:11.250 --> 00:01:31.996
+Decide what the threat is. Pick a control that matches it: authentication for identity, physical security for hardware, access rights for data. Never reuse a method the question already gives. To describe, name it, then say how it works.
+
+00:01:33.100 --> 00:01:49.926
+Here is a real question from Paper 1 in June 2024. Employees already log in with a biometric. Describe one other measure to make sure an employee is who they claim to be. It is worth two marks.
+
+00:01:50.500 --> 00:01:58.058
+Biometrics are already used, so cross them out. Another way to prove identity is two-factor authentication.
+
+00:01:58.650 --> 00:02:15.721
+Describe it. After their password, the employee also types a one-time code sent to their phone. Only the real employee should have both, so it confirms who they are. This explanation is by olevels.com, not an official mark scheme.
+
+00:02:16.850 --> 00:02:24.495
+A common mistake is writing password on its own. Say that each user has a unique password, checked against a stored record.
+
+00:02:25.050 --> 00:02:37.499
+Another mistake is giving encryption or backups as ways to stop people getting in. They protect data after access. Entry is controlled by authentication and firewalls.
+
+00:02:38.600 --> 00:02:57.511
+Now you try. A clinic server holds patient records. A cleaner, a nurse and a doctor work in the building. Suggest one physical measure for the server, and the access rights each person needs. Pause here and work it out.
+
+00:02:58.650 --> 00:03:13.216
+Keep the server in a locked room with swipe card entry. The cleaner needs no access to the records. The nurse may need to read them. The doctor needs to read and write them.
+
+00:03:13.800 --> 00:03:22.137
+Remember the method: name the threat, match the control, then say how it works. Now try the practice questions for this type.

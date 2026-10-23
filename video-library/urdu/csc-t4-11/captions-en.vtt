@@ -1,0 +1,52 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:13.265
+Imagine a rule at home: you can go out to play if your homework is done and it is not raining. Call homework done H, and raining R. The rule becomes H and not R.
+
+00:00:13.850 --> 00:00:24.975
+Use AND when every condition is needed. Use OR when any one of the choices is enough. Use NOT when a condition must be false, like a code that has not been entered.
+
+00:00:25.550 --> 00:00:35.689
+Order matters. NOT is done first, then AND, then OR. So brackets are needed around an OR group that is joined to something else with AND.
+
+00:00:36.800 --> 00:00:47.362
+Step one. Write each condition next to its letter, and note whether it must be true or false. False conditions need NOT.
+
+00:00:47.950 --> 00:00:56.808
+Step two. Group the either-or choices with OR, inside brackets. Then join every part that must all hold with AND.
+
+00:00:57.400 --> 00:01:08.595
+Step three. Use only the letters and operators you are given. Then test your statement with one case that should give one, and one that should give zero.
+
+00:01:09.700 --> 00:01:27.201
+Here is a real question from Paper 1 in June 2023. A warehouse alarm sounds if a movement sensor, M, or a pressure pad, P, is activated, and the key code, C, has not been entered. Write a logic statement. It is worth three marks.
+
+00:01:27.800 --> 00:01:36.702
+Either sensor is enough to start the alarm, so that is M or P. Put it in brackets, because it will be joined to something else.
+
+00:01:37.300 --> 00:01:42.624
+The key code must not have been entered. That condition must be false, so it is not C.
+
+00:01:43.200 --> 00:01:50.344
+Both parts are needed together, so join them with AND. The statement is: M or P, in brackets, and not C.
+
+00:01:50.900 --> 00:02:08.150
+Test it with a truth table. The alarm sounds only when a sensor is on and no code is entered, and stays silent whenever C is one. One mark each for M or P, not C, and the AND. This explanation is by olevels.com, not an official mark scheme.
+
+00:02:09.250 --> 00:02:20.382
+The most common mistake is leaving out the brackets. Without them, AND is done first, so the movement sensor alone would sound the alarm, even after the code is entered.
+
+00:02:20.950 --> 00:02:29.212
+Another mistake is forgetting NOT for a condition that must be false. Without NOT, the alarm would only sound once the code is entered.
+
+00:02:30.350 --> 00:02:47.461
+Now you try. A car beeps a warning, W, when the engine is running, E, and either the seat belt, S, is not fastened or a door, D, is open. Write a logic statement for W using E, S and D. Pause here and work it out.
+
+00:02:48.600 --> 00:03:03.442
+The engine must be running: E. The belt must not be fastened: not S. Either that or an open door is enough, so not S or D, in brackets. Join with AND: E and, in brackets, not S or D.
+
+00:03:04.000 --> 00:03:18.976
+Test two cases. Engine on, belt fastened, doors shut: one, one, zero gives zero, no beep. Engine on, belt off, doors shut: one, zero, zero gives one, a beep. Both match the story.
+
+00:03:19.550 --> 00:03:31.807
+Remember the method: list each condition, put either-or choices in brackets with OR, use NOT for anything that must be false, and join with AND. Now try the practice questions for this type.

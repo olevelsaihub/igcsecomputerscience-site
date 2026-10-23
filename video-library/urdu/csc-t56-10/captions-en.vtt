@@ -1,0 +1,43 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:17.150
+Before a bank opens a new vault, it might pay an expert to try to break in. If the expert finds a weak door, it is fixed before a real thief tries. A weakness that an attacker could use is called a vulnerability.
+
+00:00:17.750 --> 00:00:35.308
+There are four ways to find weaknesses. Penetration testing is an authorised, pretend attack on your own system. Ethical hackers break in with permission. Analysis tools scan automatically. And policies are reviewed regularly.
+
+00:00:35.900 --> 00:00:53.020
+Software is protected too. In a code review, other programmers check the code. An audit trail records who did what. Modular testing tests each subprogram as it is written. Secure design builds security in from the start.
+
+00:00:53.600 --> 00:01:04.301
+Ethical hackers, or white hat hackers, have the owner's permission. They do not steal or change any data. They report what they find, so it can be fixed.
+
+00:01:04.900 --> 00:01:15.146
+An audit trail is an automatic record of what was done and who did it. Here, a guest deleting a file late at night stands out as suspicious, and can be traced back.
+
+00:01:16.250 --> 00:01:32.696
+Identify the method named. Say what it does in one plain sentence. Then link it to security: how it finds or prevents weaknesses before attackers use them. Avoid copying words from the question.
+
+00:01:33.800 --> 00:01:48.788
+Here is a real question from Paper 1 in June 2025. I T teams carry out network penetration testing. Describe the purpose of penetration testing. It is worth two marks.
+
+00:01:49.350 --> 00:01:59.296
+Start with what it is: an authorised, simulated attack on the organisation's own network. Its purpose is to find weaknesses before real attackers do.
+
+00:01:59.850 --> 00:02:12.850
+Then say what happens next. The weaknesses are reported and fixed, so the network becomes harder to break into. This explanation is by olevels.com, not an official mark scheme.
+
+00:02:14.000 --> 00:02:23.301
+A common mistake is saying a penetration tester steals data. They only find and report weaknesses, with permission.
+
+00:02:23.900 --> 00:02:31.869
+Another mistake is calling an audit trail a backup. It is not a copy of the files. It is a record of who did what, and when.
+
+00:02:33.000 --> 00:02:47.457
+Now you try. A games company is about to release an app. Describe how a code review and modular testing could help make it secure. Pause here and work it out.
+
+00:02:48.600 --> 00:03:02.779
+In a code review, other programmers check the code to find bugs and security holes before release. In modular testing, each subprogram is tested on its own as it is written, so errors are found early, in a small piece of code.
+
+00:03:03.350 --> 00:03:12.549
+Remember the method: say what the method is, how it works, and how it keeps the system secure. Now try the practice questions for this type.

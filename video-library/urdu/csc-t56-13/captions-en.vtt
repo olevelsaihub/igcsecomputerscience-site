@@ -1,0 +1,46 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:13.113
+At home, your phone joins the Wi-Fi, and a games console might plug into the router box with a cable. That one box is really several devices in one case. Let us meet each one.
+
+00:00:13.700 --> 00:00:22.238
+A switch connects the wired devices in a LAN. It sends each packet only to the device it is meant for, using M A C addresses.
+
+00:00:22.800 --> 00:00:32.204
+A wireless access point, or W A P, lets wireless devices join the wired network. The W A P is connected to the switch by a cable.
+
+00:00:32.800 --> 00:00:45.969
+A router forwards packets between different networks, such as your LAN and the internet. A modem converts the digital data into signals that can travel over the I S P's line, and back again.
+
+00:00:47.100 --> 00:01:02.008
+First, mark which devices are wired and which are wireless. Draw each wired device to the switch. Draw each wireless device to the W A P, then cable the W A P to the switch.
+
+00:01:02.600 --> 00:01:12.365
+Then continue outwards: switch to router, router to modem, modem to the I S P. Finally, check for extra lines and remove them, because wrong links cancel marks.
+
+00:01:13.500 --> 00:01:34.438
+Here is a real question from Paper 1 in June 2025. A library connects two desktop computers, a laptop, a switch and a wireless access point. Complete the diagram, with solid lines for wired links and dashed lines for wireless. It is worth three marks.
+
+00:01:35.000 --> 00:01:40.329
+The two desktops have wired cards, so draw a solid line from each desktop to the switch.
+
+00:01:40.900 --> 00:01:47.365
+The wireless access point is cabled to the switch, so draw a solid line from the W A P to the switch.
+
+00:01:47.950 --> 00:02:00.556
+The laptop has a wireless card, so draw a dashed line from the laptop to the W A P. Check: four lines in total, and no others. This explanation is by olevels.com, not an official mark scheme.
+
+00:02:01.700 --> 00:02:10.995
+A common mistake is drawing the laptop straight to the switch with a solid line. A wireless device must go to the W A P.
+
+00:02:11.550 --> 00:02:21.226
+Another mistake is reversing the order, with the modem next to the devices. From the device outwards, it is switch, router, modem, then the I S P.
+
+00:02:22.350 --> 00:02:40.070
+Now you try. A café has two wired tills, a wireless tablet, a switch, a W A P, a router and a modem. List every link from the devices out to the I S P, and say which are wireless. Pause here and work it out.
+
+00:02:41.200 --> 00:02:55.467
+Each till is cabled to the switch. The tablet links wirelessly to the W A P, and the W A P is cabled to the switch. Then the switch goes to the router, the router to the modem, and the modem to the I S P.
+
+00:02:56.050 --> 00:03:06.624
+Remember the method: wired to the switch, wireless to the W A P, then outwards through the router and modem. Now try the practice questions for this type.

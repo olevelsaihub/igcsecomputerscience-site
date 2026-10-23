@@ -1,0 +1,11 @@
+Idea۔ Phone screen کے اوپر دیکھیں۔ وہاں چار G یا پانچ G لکھا ہو سکتا ہے۔ اس سے پتا چلتا ہے کہ وہ mobile network کی کون سی generation استعمال کر رہا ہے۔ تین G، چار G اور پانچ G mobile standards کی generations ہیں، اور سب wireless ہیں۔ دو الفاظ اہم ہیں۔ Bandwidth یہ ہے کہ ہر second کتنا data بھیجا جا سکتا ہے۔ Latency وہ delay ہے جس کے بعد response واپس آتا ہے۔ زیادہ bandwidth اور کم latency بہتر ہیں۔ ہر نئی generation میں bandwidth زیادہ اور latency کم ہے۔ پانچ G ایک ہی area میں بہت زیادہ devices بھی جوڑ سکتا ہے، جو Internet of Things کے لیے مناسب ہے، یعنی روزمرہ devices جو internet سے جڑتی ہیں۔ پانچ G تیز کیوں ہے؟ وہ نئے، زیادہ radio frequency bands استعمال کرتا ہے، جہاں بہت چوڑے channels دستیاب ہیں۔ چوڑے channels ہر second زیادہ data لے جاتے ہیں۔ مگر زیادہ frequencies کم فاصلہ طے کرتی ہیں۔ اس لیے پانچ G کو زیادہ masts چاہییں، جو ایک دوسرے کے قریب لگیں۔
+
+Method۔ تین improvements یاد کریں: زیادہ bandwidth، کم latency، زیادہ devices۔ Give کے لیے دو الگ الگ لکھیں۔ Explain کے لیے شامل کریں کہ improvement کا شخص کے لیے کیا مطلب ہے۔
+
+Worked Example۔ یہ November دو ہزار اکیس کے Paper ایک کا اصل question ہے۔ Explain کریں کہ Carlo کے لیے تین G کے بجائے پانچ G استعمال کرنے کا ایک benefit کیا ہے۔ اس کے دو marks ہیں۔ ایک property چنیں: پانچ G میں تین G سے بہت زیادہ bandwidth اور کم latency ہے۔ پھر پوچھیں کہ اس سے Carlo کو کیا ملتا ہے۔ Data تیز منتقل ہوتا ہے، کم delay کے ساتھ۔ اب اسے so سے جوڑیں۔ پانچ G میں زیادہ bandwidth اور کم latency ہے، so Carlo بہت کم وقت میں data share کر سکتا ہے اور اپنی calls اور apps میں تیز responses پاتا ہے۔ یہ وضاحت olevels dot com کی ہے، یہ official mark scheme نہیں ہے۔
+
+Common mistake صرف یہ کہنا ہے کہ پانچ G بہتر ہے، یا تیز ہے۔ Feature کا نام لیں، اور نتیجہ بتائیں۔ ایک اور mistake یہ کہنا ہے کہ پانچ G کی range زیادہ ہے۔ زیادہ frequencies کم دور جاتی ہیں، اسی لیے زیادہ masts چاہییں۔
+
+Your Turn۔ اب آپ try کریں۔ ایک city ہزاروں smart bins اور streetlights کو internet سے جوڑتی ہے۔ Explain کریں کہ پانچ G اس کے لیے چار G سے بہتر کیوں ہے، ایک وجہ۔ یہاں رک کر حل کریں۔
+
+Answer۔ پانچ G ایک ہی area میں بہت زیادہ devices جوڑ سکتا ہے۔ تو ہزاروں bins اور streetlights سب ایک ساتھ جڑی رہ سکتی ہیں، network پر بوجھ پڑے بغیر۔ Method یاد رکھیں: property کا نام لیں، so شامل کریں، پھر شخص کو ملنے والا benefit دیں۔ اب اس type کے practice questions کریں۔

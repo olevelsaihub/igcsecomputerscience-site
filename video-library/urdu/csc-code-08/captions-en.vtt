@@ -1,0 +1,52 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:15.888
+A text file is like a notebook the program can keep. Variables vanish when the program ends, but a file stays on the disk. To use one, you open it, read or write it line by line, then close it.
+
+00:00:16.450 --> 00:00:28.729
+The mode says what you will do. R opens a file to read. W creates a new file to write, wiping any old one. A adds to the end.
+
+00:00:29.300 --> 00:00:43.914
+Each line read from a file is one string, ending with a hidden newline. Strip removes the newline. Split at commas breaks the line into a list of strings. Then int turns each one into a number.
+
+00:00:44.500 --> 00:00:52.686
+Writing works the other way. Build one string per record, with commas between fields and a newline at the end, then write it.
+
+00:00:53.800 --> 00:01:10.170
+Open the file with the right mode and the exact name. Loop over the lines. For each line, strip, split and convert. Do the work, such as a running total. Then print the results and close the file.
+
+00:01:11.300 --> 00:01:27.419
+Here is a real question from Paper 2 in June 2024. Sales dot t x t holds five lines of sales figures. The program must show a subtotal for each line and a grand total. It is worth eight marks.
+
+00:01:28.000 --> 00:01:44.590
+Here are the two figures. Figure 7 is the Sales dot t x t file, with five lines of numbers, each separated by commas. Figure 8 is the output we want: one thousand, two thousand, three thousand, four thousand, five thousand, then Grand total, fifteen thousand.
+
+00:01:45.150 --> 00:01:52.595
+The constants and totals are given. Open the file to read: the file equals open input file, r.
+
+00:01:53.150 --> 00:02:01.812
+For line in the file visits each line. Strip the newline and split at the comma, giving five strings such as two six four.
+
+00:02:02.400 --> 00:02:08.922
+Reset the subtotal to zero for each line. Then, for each sale, add int of sale to the subtotal.
+
+00:02:09.500 --> 00:02:15.769
+Print the subtotal, add it to the grand total, and after the loop print the grand total and close the file.
+
+00:02:16.350 --> 00:02:34.224
+Run it. Line one gives two six four plus one four zero plus one two zero plus two eight four plus one nine two, which is one thousand. The lines give one to five thousand, and a grand total of fifteen thousand. This explanation is by olevels.com, not an official mark scheme.
+
+00:02:35.350 --> 00:02:46.489
+A common mistake is adding the values without int. They are still text, so Python either crashes or joins the text together instead of adding.
+
+00:02:47.050 --> 00:02:53.112
+Another mistake is forgetting to reset the subtotal for each line, or closing the file inside the loop.
+
+00:02:54.250 --> 00:03:10.207
+Now you try. Scores dot t x t holds three lines: Ali comma twelve, Bea comma fifteen, Cal comma nine. Write a program that reads the file and displays the total of all the marks. Pause here and work it out.
+
+00:03:11.350 --> 00:03:28.533
+Set total to zero. Open the file to read. For each line, strip and split at the comma. The mark is at index one, so add int of parts one. Close the file and print the total: thirty-six.
+
+00:03:29.100 --> 00:03:40.336
+Remember the method: open with the right mode, loop over the lines, strip, split and convert, total, then close. Now try the practice questions for this type.

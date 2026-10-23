@@ -1,0 +1,49 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:18.845
+Imagine looking up a word in a dictionary. You could read every page from the start. Or you could open it near the middle and jump forwards or backwards. Both ways find the word, but one is far quicker. Choosing the right algorithm matters.
+
+00:00:19.400 --> 00:00:38.447
+There are two searches to know. A linear search checks items one by one from the start, until it finds the target or reaches the end. It works on any list. A binary search checks the middle item and halves the list each time, but the list must be sorted.
+
+00:00:39.000 --> 00:00:57.209
+There are two sorts to know. Bubble sort swaps neighbours and sorts in place, so it needs very little extra memory, but it is slow on large lists. Merge sort is much faster on large lists, but it needs extra memory for all the new lists it makes.
+
+00:00:57.800 --> 00:01:08.954
+Here is a number to remember. For a thousand sorted items, a linear search may need all one thousand checks. A binary search needs at most ten.
+
+00:01:10.100 --> 00:01:25.184
+To answer, name the algorithm and recall its key property: does it need sorted data, does it halve the list, does it sort in place? Then link that property to an effect, using the word so.
+
+00:01:25.750 --> 00:01:37.959
+Saying faster on its own earns nothing. Say why: it halves the list each time, so fewer comparisons are needed. And never repeat a fact the question already gives you.
+
+00:01:39.100 --> 00:01:57.889
+Here is a real question from Paper 2 in June 2025. A youth club stores a list of over a thousand items of sports equipment, sorted in ascending order. State and justify the most appropriate search algorithm. It is worth two marks.
+
+00:01:58.450 --> 00:02:10.128
+Read the data. The list is large, and it is already sorted. A sorted list makes a binary search possible, and a large list is where it gains the most.
+
+00:02:10.700 --> 00:02:29.917
+Justify it with how it works. Each comparison with the middle item throws away half the list. A thousand items shrink to five hundred, then two hundred and fifty, and so on, down to one. That is at most ten comparisons, against up to a thousand for a linear search.
+
+00:02:30.500 --> 00:02:44.176
+So the answer is binary search, because each comparison halves the remaining list, so far fewer comparisons are needed. One mark for the name, one for the reason. This explanation is by olevels.com, not an official mark scheme.
+
+00:02:45.300 --> 00:02:58.121
+A common mistake is giving the list is sorted as the reason. The question already says that, so it earns nothing. Give the halving reason instead.
+
+00:02:58.700 --> 00:03:08.477
+Another mistake is mixing up memory. Merge sort is the one that needs extra memory, because it makes new lists. Bubble sort sorts in place.
+
+00:03:09.600 --> 00:03:28.144
+Now you try. A small sensor has very little memory. It must sort fifty readings. Should it use a bubble sort or a merge sort? Justify your choice. Pause and decide.
+
+00:03:29.250 --> 00:03:43.567
+The key fact is very little memory. Merge sort makes new lists, so it needs extra memory. Bubble sort sorts in place, using just one extra variable for swaps.
+
+00:03:44.150 --> 00:03:54.800
+So choose bubble sort, because it sorts in place, so it needs very little extra memory. Fifty readings is a small list, so its slower speed hardly matters.
+
+00:03:55.400 --> 00:04:06.174
+Remember the method: name the algorithm, give its key property, link it to an effect with so, and fit it to the data. Now try the practice questions for this type.

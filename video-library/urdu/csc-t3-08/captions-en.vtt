@@ -1,0 +1,52 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:10.538
+One light switch has two states, off or on. Add a second switch, and now there are four different patterns: off off, off on, on off and on on.
+
+00:00:11.100 --> 00:00:24.335
+Every extra bit doubles the number of patterns. One bit gives two, two bits give four, three bits give eight, four bits give sixteen, and eight bits give two hundred and fifty-six. So n bits give two to the power n patterns.
+
+00:00:24.900 --> 00:00:34.772
+Three bits count from zero zero zero up to one one one. That is eight patterns, and the biggest value is seven, one less than eight, because zero is a pattern too.
+
+00:00:35.350 --> 00:00:47.515
+The same rule appears in images and sound. Colour depth is the bits for each pixel. Bit depth is the bits for each sound sample. n bits give two to the power n colours or levels.
+
+00:00:48.650 --> 00:01:02.595
+First decide which way round the question is. Bits to patterns? Work out two to the power n. Items to bits? Find the fewest bits that give enough patterns.
+
+00:01:03.150 --> 00:01:11.064
+For items to bits, list two, four, eight, sixteen, thirty-two, and stop at the first number that is at least the number of items.
+
+00:01:11.650 --> 00:01:20.446
+If you must write codes, give every item a different pattern with exactly that many bits. Counting up in binary makes sure no code repeats.
+
+00:01:21.550 --> 00:01:37.113
+Here is a real question from Paper 1 in June 2022. An image has five colours. Give each colour a unique binary pattern, all using the same minimum colour depth. It is worth two marks.
+
+00:01:37.700 --> 00:01:48.337
+We need five patterns. Two bits give only four, which is not enough. Three bits give eight, which is enough. So every code uses three bits.
+
+00:01:48.900 --> 00:01:57.791
+Now count up in three-bit binary. Green zero zero one, black zero one zero, white zero one one, red one zero zero and blue one zero one.
+
+00:01:58.350 --> 00:02:10.551
+Check: every code has three bits, and no two are the same. One mark is for the minimum length, and one for no repeats. This explanation is by olevels.com, not an official mark scheme.
+
+00:02:11.700 --> 00:02:24.560
+The biggest mistake is multiplying or squaring. Three bits is not three times two, which is six, and not three squared, which is nine. It is two to the power three, which is eight.
+
+00:02:25.150 --> 00:02:32.639
+Another mistake is codes of different lengths, such as zero, one, one zero. Every code must use the same number of bits.
+
+00:02:33.750 --> 00:02:51.461
+Now you try. A railway uses twelve different signals, each with its own binary code. What is the fewest bits each code needs? How many different signals could that many bits give? Pause here and work it out.
+
+00:02:52.600 --> 00:03:03.241
+Three bits give eight patterns, which is not enough for twelve. Four bits give sixteen, which is enough. So the fewest is four bits.
+
+00:03:03.800 --> 00:03:15.306
+Four bits give sixteen different patterns, so sixteen signals, with four codes spare. Counting up from zero zero zero zero, the twelfth signal gets one zero one one, which is eleven.
+
+00:03:15.900 --> 00:03:26.274
+Remember the method: decide the direction, use two to the power n, and give every item a code of the same length with no repeats. Now try the practice questions for this type.

@@ -1,0 +1,46 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:20.476
+Imagine posting a jigsaw puzzle to a friend in small envelopes. You number each envelope and write the address, and the post van carries them. Your friend puts the pieces back in order. Networks send data the same way, in small pieces called packets.
+
+00:00:21.050 --> 00:00:28.637
+The T C P I P model splits the work into four layers. From top to bottom: application, transport, network, and data link.
+
+00:00:29.200 --> 00:00:49.224
+The application layer holds the protocols programs use, such as H T T P, F T P and S M T P. The transport layer splits data into packets and numbers them. On receiving, it checks they all arrived, reorders them, and asks for missing ones again.
+
+00:00:49.800 --> 00:01:05.277
+The network layer adds the sender's and receiver's I P addresses, and routes each packet across networks. The data link layer moves packets across the physical connection between two devices, using M A C addresses.
+
+00:01:05.850 --> 00:01:20.498
+When sending, data passes down the layers. When receiving, it passes back up, and each layer removes what its partner added. Because of layers, one layer can be changed without changing the others.
+
+00:01:21.600 --> 00:01:35.658
+Write the four layers down the margin. Find the job in the question and match it by its key words. Check whether it is about sending or receiving. Then write the layer and its function side by side.
+
+00:01:36.250 --> 00:01:52.193
+These key words point to each layer. Protocols for programs: application. Split and reassemble: transport. I P addresses and routing: network. M A C addresses and the physical link: data link.
+
+00:01:53.300 --> 00:02:06.662
+Here is a real question from Paper 1 in November 2021. Name two layers of the T C P I P stack, and give one function for each. It is worth four marks.
+
+00:02:07.250 --> 00:02:19.040
+Choose the layers you know best. Transport: it splits the data into packets, and gives each packet a sequence number, so they can be put back in order.
+
+00:02:19.600 --> 00:02:32.010
+Network: it adds the source and destination I P addresses to each packet, and routes it across the networks to its destination. This explanation is by olevels.com, not an official mark scheme.
+
+00:02:33.150 --> 00:02:41.375
+A common mistake is giving the network layer the job of splitting data into packets. Splitting and numbering belong to the transport layer.
+
+00:02:41.950 --> 00:02:49.039
+Another mistake is the name. There is no data layer. Write the full name: data link layer.
+
+00:02:50.150 --> 00:03:07.094
+Now you try. A file arrives at a laptop. Packet seven is missing, and the others arrived out of order. Which layer deals with this? Give two things it does. Pause here and work it out.
+
+00:03:08.200 --> 00:03:19.741
+It is the transport layer. It checks that every packet has arrived, puts the packets back in order using their numbers, and asks for packet seven to be sent again.
+
+00:03:20.300 --> 00:03:34.633
+Remember the four layers and their jobs: application for programs' protocols, transport to split and rebuild, network for addresses and routes, data link for the physical link. Now try the practice questions for this type.

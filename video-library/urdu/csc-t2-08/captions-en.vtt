@@ -1,0 +1,49 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:22.014
+Think of following a recipe. If it is written in a language you cannot read, you cannot even start. If the oven breaks halfway, you stop. If it says salt instead of sugar, you finish, but the cake tastes wrong. Programs go wrong in the same three ways.
+
+00:00:22.600 --> 00:00:31.626
+A syntax error breaks the grammar rules of the language, so the program will not translate and never starts. Here, the if line is missing its colon.
+
+00:00:32.200 --> 00:00:41.782
+A runtime error happens while the program is running. An instruction cannot be carried out, such as dividing by zero, so the program crashes.
+
+00:00:42.350 --> 00:00:52.118
+A logic error is the sneaky one. The program runs to the end with no message, but the result is wrong. Here the subtraction is the wrong way round.
+
+00:00:53.250 --> 00:01:12.557
+To classify an error, ask three questions in order. Does it translate? If not, it is a syntax error. Does it crash while running? Then it is a runtime error. Does it finish with the wrong answer? Then it is a logic error.
+
+00:01:13.150 --> 00:01:20.212
+In a tick table, each description matches exactly one error type. So put one tick in each row, never two.
+
+00:01:21.350 --> 00:01:33.813
+Here is a real question from Paper 2 in June 2025. Complete the table by ticking the error type for each of three descriptions. It is worth three marks.
+
+00:01:34.400 --> 00:01:41.695
+Here is the table. There are three descriptions, and each one needs exactly one tick: syntax, logic or runtime.
+
+00:01:42.250 --> 00:01:52.965
+Row one: the program does not produce the expected output. It ran, so it is not syntax. It did not crash, so it is not runtime. It is a logic error.
+
+00:01:53.550 --> 00:02:00.515
+Row two: the program does not translate. It broke a rule of the language, so it is a syntax error.
+
+00:02:01.100 --> 00:02:15.724
+Row three: the program crashes during execution. Execution means running, so it is a runtime error. One mark for each correct tick. This explanation is by olevels.com, not an official mark scheme.
+
+00:02:16.850 --> 00:02:25.808
+A common mistake is calling divide by zero a logic error. It makes the program crash, so it is a runtime error.
+
+00:02:26.400 --> 00:02:33.178
+Another mistake is calling a wrong-way-round subtraction a syntax error. The code follows every rule, so it is a logic error.
+
+00:02:34.300 --> 00:02:52.457
+Now you try. Name the error type for each fault. A, a misspelt keyword, prnt instead of print. B, a loop that adds one too few numbers. C, asking for item ten in a list of five items. Pause and decide.
+
+00:02:53.600 --> 00:03:10.283
+A is a syntax error, because a misspelt keyword breaks the language rules. B is a logic error, because the program runs but the total is wrong. C is a runtime error, because using an index outside the list crashes the program.
+
+00:03:10.850 --> 00:03:22.124
+Remember the method: will it translate, does it crash, or is the answer wrong? One question finds the error type every time. Now try the practice questions for this type.

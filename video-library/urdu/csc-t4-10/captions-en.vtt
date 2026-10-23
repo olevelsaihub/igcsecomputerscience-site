@@ -1,0 +1,58 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:12.051
+A torch lights up only when the switch is on and the battery has charge. Each condition is either true or false. In logic we write true as one and false as zero.
+
+00:00:12.650 --> 00:00:24.708
+A truth table lists every possible set of inputs and the output for each one. Here is AND. A and B gives one only when both inputs are one. Every other row gives zero.
+
+00:00:25.300 --> 00:00:35.458
+OR gives one when at least one input is one, so one or one is still one. NOT flips a value: not one is zero, and not zero is one.
+
+00:00:36.050 --> 00:00:45.809
+With three inputs there are eight rows, because two to the power three is eight. Write them in binary counting order, from zero zero zero up to one one one.
+
+00:00:46.950 --> 00:00:53.820
+Step one. If the input rows are empty, fill them in binary counting order.
+
+00:00:54.400 --> 00:01:03.882
+Step two. Work out each middle column, such as a NOT column or a small AND, row by row. Look only at the inputs that column uses.
+
+00:01:04.450 --> 00:01:19.395
+Step three. Build the final column from the middle columns, not from the raw inputs. Then scan: an AND column has ones only where both parts are one. An OR column has zeros only where both parts are zero.
+
+00:01:20.500 --> 00:01:37.751
+Here is a real question from Paper 1 in June 2025. An LED comes on when the system is on, O, the sun is shining, S, and the house is not using all the power, P. Complete the truth table. It is worth three marks.
+
+00:01:38.350 --> 00:01:50.719
+Here is the truth table. O, S and P count up in binary, from zero zero zero to one one one. The last three columns are empty: O and S, not P, and the whole statement, O and S, and not P.
+
+00:01:51.300 --> 00:02:02.785
+First, O and S. It is one only when O and S are both one. That is the last two rows. Reading down: zero zero zero zero zero zero one one.
+
+00:02:03.350 --> 00:02:13.808
+Next, not P. Just flip every value in the P column. P reads zero one zero one, so not P reads one zero one zero, all the way down.
+
+00:02:14.400 --> 00:02:28.380
+Now the final column: O and S, and not P. It is one only where both middle columns are one. That happens in just one row, one one zero. So the final column is zero everywhere except row seven.
+
+00:02:28.950 --> 00:02:43.274
+Sense check: the LED is on only when the system is on, the sun shines and power is spare. That is row one one zero. Each correct column earns a mark. This explanation is by olevels.com, not an official mark scheme.
+
+00:02:44.400 --> 00:02:52.546
+A common mistake is treating OR as only one of the two. In logic, OR means at least one, so one or one is one.
+
+00:02:53.100 --> 00:03:03.636
+Another mistake is working the final column straight from the inputs. Build it from your middle columns instead, and you can still earn marks if an earlier column had an error.
+
+00:03:04.750 --> 00:03:19.749
+Complete a truth table for X equals not A, and B or C. Use three inputs in counting order, with middle columns for not A and for B or C. Pause here and work it out.
+
+00:03:20.850 --> 00:03:33.618
+Not A flips A: one one one one, then zero zero zero zero. B or C is zero only when B and C are both zero: zero one one one, zero one one one.
+
+00:03:34.200 --> 00:03:47.412
+X is one only where both middle columns are one. That is rows zero zero one, zero one zero and zero one one. So X reads zero one one one, zero zero zero zero.
+
+00:03:48.000 --> 00:03:57.974
+Remember the method: inputs in counting order, middle columns one at a time, then the final column from the middle columns. Now try the practice questions for this type.

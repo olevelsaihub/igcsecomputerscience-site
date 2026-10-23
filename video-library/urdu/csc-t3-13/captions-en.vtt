@@ -1,0 +1,46 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:18.276
+When you sing, the air vibrates in a smooth wave that changes all the time. That smooth, continuous signal is called analogue. A computer cannot store a smooth wave. It can only store separate binary numbers, which is digital.
+
+00:00:18.850 --> 00:00:29.621
+To turn the wave into numbers, the computer samples it. It measures the height of the wave, called the amplitude, at regular time intervals. Here are eight samples.
+
+00:00:30.200 --> 00:00:43.361
+Each sample is stored as a binary number. The number of bits for each sample is the bit depth. With a bit depth of three, sample three, with amplitude six, is stored as one one zero.
+
+00:00:43.950 --> 00:00:55.841
+The sampling frequency, or sample rate, is the number of samples taken each second. It is measured in hertz. A music file often uses forty-four thousand one hundred hertz.
+
+00:00:56.950 --> 00:01:12.324
+To describe the conversion, give the steps in order. Set the sample rate and bit depth. Measure the amplitude at each interval. Turn each measurement into binary. Store the binary values.
+
+00:01:12.900 --> 00:01:21.556
+For the effect of a change, give both sides. A higher sample rate or bit depth makes a closer copy of the sound, but the file gets bigger.
+
+00:01:22.700 --> 00:01:36.113
+Here is a real question from Paper 1 in November 2021. Describe how an analogue sound is converted into a digital sound file. It is worth three marks.
+
+00:01:36.700 --> 00:01:46.510
+First, the sample rate and bit depth are set. Then the analogue wave is sampled. Its amplitude is measured at regular time intervals.
+
+00:01:47.100 --> 00:01:58.242
+Next, each measured amplitude is given a binary value using the chosen number of bits. Finally, the binary values are stored, with the sample rate, as the sound file.
+
+00:01:58.800 --> 00:02:09.426
+For example, at forty-four thousand one hundred hertz, two seconds of sound gives eighty-eight thousand two hundred samples. This explanation is by olevels.com, not an official mark scheme.
+
+00:02:10.550 --> 00:02:19.763
+A common mistake is swapping the axes. Time always goes along the bottom. Amplitude goes up the side.
+
+00:02:20.350 --> 00:02:30.113
+Another mistake is describing playback through speakers. The question asks about recording and storing the sound, so describe sampling and binary values.
+
+00:02:31.250 --> 00:02:47.806
+Now you try. A voice note is recorded at eight thousand hertz for three seconds. How many samples are stored? What happens to the file size if the sample rate is doubled? Pause here and work it out.
+
+00:02:48.950 --> 00:03:01.982
+Eight thousand samples each second, for three seconds, is twenty-four thousand samples. Double the rate and there are forty-eight thousand samples, so the file is twice as big, with better quality.
+
+00:03:02.550 --> 00:03:13.449
+Remember the method: set the rate and bit depth, measure the amplitude at regular intervals, turn each sample into binary, and store it. Now try the practice questions for this type.

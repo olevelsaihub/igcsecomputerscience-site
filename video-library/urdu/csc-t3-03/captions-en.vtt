@@ -1,0 +1,52 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:17.752
+Think of a car's mileage counter showing zero zero zero zero. Wind it back by one, and it rolls round to nine nine nine nine. Eight bits behave the same way: one less than all zeros is all ones. So all ones can stand for minus one.
+
+00:00:18.350 --> 00:00:32.152
+In eight-bit two's complement, the leftmost column is worth minus one hundred and twenty-eight. The rest are sixty-four down to one, as normal. So all ones is minus one hundred and twenty-eight plus one hundred and twenty-seven, which is minus one.
+
+00:00:32.750 --> 00:00:43.672
+The range is minus one hundred and twenty-eight, one zero zero zero, zero zero zero zero, up to plus one hundred and twenty-seven, zero one one one, one one one one. There is only one pattern for zero.
+
+00:00:44.800 --> 00:01:01.206
+Pattern to denary: write the headers, starting with minus one hundred and twenty-eight, and add the values above every one. For one zero zero zero, zero one zero one, that is minus one hundred and twenty-eight plus four plus one, which is minus one hundred and twenty-three.
+
+00:01:01.800 --> 00:01:11.445
+Negative denary to pattern takes three steps. Write the positive size in eight bits. Flip every bit. Then add one.
+
+00:01:12.000 --> 00:01:29.983
+For minus six: six is zero zero zero zero, zero one one zero. Flip it to get one one one one, one zero zero one. Add one to get one one one one, one zero one zero. Check: minus one hundred and twenty-eight plus one hundred and twenty-two is minus six.
+
+00:01:31.100 --> 00:01:45.338
+Here is a real question from Paper 1 in June 2024. Convert the two's complement binary integer one one zero zero, zero zero zero one to denary. It is worth two marks.
+
+00:01:45.900 --> 00:01:54.924
+Write the headers, starting at minus one hundred and twenty-eight. Place the bits underneath. There are ones under minus one hundred and twenty-eight, sixty-four and one.
+
+00:01:55.500 --> 00:02:00.398
+Add them: minus one hundred and twenty-eight plus sixty-four plus one is minus sixty-three.
+
+00:02:00.950 --> 00:02:23.019
+Check with flip and add one. Flip to get zero zero one one, one one one zero. Add one to get zero zero one one, one one one one, which is sixty-three. So the original was minus sixty-three. One mark is for the minus sign, and one for sixty-three. This explanation is by olevels.com, not an official mark scheme.
+
+00:02:24.150 --> 00:02:42.382
+A common mistake is using the wrong system. Read as sign and magnitude, one one zero zero, zero zero zero one gives minus sixty-five. Read as unsigned, it gives one hundred and ninety-three. In two's complement it is minus sixty-three.
+
+00:02:42.950 --> 00:02:51.412
+Another mistake is flipping but forgetting to add one. For minus six, one one one one, one zero zero one is really minus seven.
+
+00:02:52.550 --> 00:03:08.831
+Now you try. First, convert minus forty-five to eight-bit two's complement. Second, convert the two's complement pattern one one one zero, one one zero zero to denary. Pause here and work it out.
+
+00:03:09.950 --> 00:03:18.772
+Part a. Positive forty-five is thirty-two plus eight plus four plus one, so zero zero one zero, one one zero one.
+
+00:03:19.350 --> 00:03:33.516
+Flip every bit: one one zero one, zero zero one zero. Add one: one one zero one, zero zero one one. Check: minus one hundred and twenty-eight plus sixty-four plus sixteen plus two plus one is minus forty-five.
+
+00:03:34.100 --> 00:03:44.997
+Part b. One one one zero, one one zero zero has ones under minus one hundred and twenty-eight, sixty-four, thirty-two, eight and four. That adds up to minus twenty.
+
+00:03:45.550 --> 00:03:57.212
+Remember the method: the first column is minus one hundred and twenty-eight. To make a negative, write the positive, flip every bit, then add one. Now try the practice questions for this type.

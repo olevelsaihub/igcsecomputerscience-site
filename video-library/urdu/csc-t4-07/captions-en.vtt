@@ -1,0 +1,46 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:11.351
+When you switch off a laptop, your photos and homework are still there the next morning. They live in secondary storage, which keeps data permanently, even without power.
+
+00:00:11.950 --> 00:00:22.552
+There are three technologies. Magnetic hard discs, optical discs and solid state drives. Each one stores ones and zeros in a different physical way.
+
+00:00:23.150 --> 00:00:40.923
+A hard disc drive stores data on spinning discs called platters, split into tracks and sectors. A read-write head on a moving arm senses tiny magnetised areas. One magnetic direction, or polarity, is one. The other is zero.
+
+00:00:41.500 --> 00:00:57.409
+An optical disc, like a CD or DVD, stores data as pits and lands on a spiral track. A laser shines on it. Light reflects differently from pits and lands, and the changes are read as ones and zeros.
+
+00:00:58.000 --> 00:01:12.289
+A solid state drive uses flash memory chips with no moving parts. Transistors trap electrical charge. Whether a cell holds charge stands for a one or a zero, and the charge stays without power.
+
+00:01:13.400 --> 00:01:27.833
+To describe one, identify the technology. Name the part that holds the data. Say how it is read or written. Then say how ones and zeros are shown.
+
+00:01:28.950 --> 00:01:41.151
+Here is a real question from Paper 1 in June 2024. Describe how data is read from a magnetic hard drive. It is worth three marks.
+
+00:01:41.750 --> 00:01:48.655
+Point one, the medium. The data is stored on a spinning platter, divided into tracks and sectors.
+
+00:01:49.250 --> 00:01:53.785
+Point two, the mechanism. An arm moves the read-write head over the right track.
+
+00:01:54.350 --> 00:02:07.901
+Point three, the binary. The head detects the polarity of each magnetised area. One polarity means one, the opposite means zero. This explanation is by olevels.com, not an official mark scheme.
+
+00:02:09.050 --> 00:02:20.965
+A common mistake is mixing technologies, such as saying a hard drive uses a laser. A hard drive uses a read-write head. Only optical discs use a laser.
+
+00:02:21.550 --> 00:02:29.882
+Another mistake is giving an SSD a read-write head. An SSD has no moving parts at all. It uses flash memory.
+
+00:02:31.000 --> 00:02:51.531
+Now you try. A delivery driver uses a tablet that is often dropped, and it must run all day on its battery. Explain why it should have an SSD rather than a hard disc drive. Do not mention cost or capacity. Pause here and work it out.
+
+00:02:52.650 --> 00:03:07.317
+An SSD has no moving parts, so it is not damaged when the tablet is dropped. A hard drive's moving head can be damaged. An SSD also uses less power, so the battery lasts all day.
+
+00:03:07.900 --> 00:03:18.412
+Remember the method: name the technology, say how it is read, then say how one and zero are shown. Now try the practice questions for this type.

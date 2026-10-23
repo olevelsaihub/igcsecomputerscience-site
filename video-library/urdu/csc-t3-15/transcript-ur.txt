@@ -1,0 +1,11 @@
+Idea۔ اگر آپ دوست کو بتاتے ہیں کہ ایک قطار میں پانچ لال cars ہیں، تو آپ red, red, red, red, red نہیں کہتے۔ آپ کہتے ہیں five red۔ Run-length encoding بالکل یہی خیال استعمال کر کے data چھوٹا کرتی ہے۔ Run ایک ہی symbol، یا ایک ہی pixel colour کا گروپ ہے جو ساتھ ساتھ بیٹھا ہو۔ RLE ہر run کو count اور symbol سے بدل دیتی ہے۔ تو چار whites، چار W بن جاتے ہیں۔ RLE تب اچھی چلتی ہے جب data میں لمبی runs ہوں، جیسے ایک سادہ icon جس میں ایک رنگ کے بڑے blocks ہوں۔ جب values بدلتی رہیں تو یہ بری چلتی ہے، اور file کو بڑا بھی کر سکتی ہے۔
+
+Method۔ data کو بائیں سے دائیں، ایک وقت میں ایک row پڑھیں۔ بدلنے سے پہلے ایک ہی symbol کتنی بار آتا ہے، گنیں۔ count اور symbol لکھیں، پھر اگلی run گننا شروع کریں۔ آخر میں ہر line check کریں۔ counts کا مجموعہ row کی width کے برابر ہونا چاہیے۔ اگر نہیں، تو آپ نے کوئی pixel چھوڑ دیا ہے یا دو بار گنا ہے۔
+
+Worked Example۔ یہ November دو ہزار اکیس کے Paper ایک کا اصل سوال ہے۔ ایک icon آٹھ ضرب آٹھ کے grid میں black اور white pixels سے بنا ہے۔ پہلی چار lines کو run-length encoding سے compress کریں۔ اس کے تین marks ہیں۔ یہ icon grid کی شکل میں ہے۔ Line ایک: white, white, white, black، پھر چار whites۔ یعنی three W, one B, four W۔ Line دو: ایک white، چھ black، ایک white۔ یعنی one W, six B, one W۔ Line تین میں بہت تبدیلی ہے۔ One B, two W, one B, one W, one B, two W۔ Line چار: three W, two B, three W۔ یہ پورا جواب ہے، ہر line کو آٹھ سے check کر کے۔ چاروں lines صحیح ہوں تو تین marks ملتے ہیں۔ یہ وضاحت olevels dot com کی ہے، یہ official mark scheme نہیں ہے۔
+
+Common Mistake۔ ایک عام غلطی ایک line کے سب whites کو ایک ساتھ گننا ہے۔ Line تین میں تین الگ white runs ہیں۔ ہر run الگ لکھنی ہے۔
+
+Your Turn۔ اب آپ کوشش کریں۔ دس pixels کی ان دو rows کو RLE سے encode کریں۔ پھر فیصلہ کریں کہ RLE کون سی row کے لیے مناسب ہے، اور کیوں۔ یہاں رک کر حل کریں۔
+
+Answer۔ Row A: five W, two B, three W۔ یہ دس کی جگہ چھ symbols ہیں، اس لیے چھوٹی ہے۔ Row B میں ایک ایک کی دس runs ہیں، اس لیے یہ بیس symbols بن جاتی ہے۔ یہ اصل سے بڑی ہے۔ RLE، row A کے لیے مناسب ہے، کیونکہ اس میں لمبی runs ہیں۔ method یاد رکھیں: ہر row کے ساتھ پڑھیں، ہر run گنیں، count اور symbol لکھیں، اور check کریں کہ counts کا مجموعہ width کے برابر ہے۔ اب اس type کے practice questions کریں۔
