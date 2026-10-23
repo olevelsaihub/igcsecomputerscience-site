@@ -1,6 +1,6 @@
 // Local, deterministic checks against the question's approved written answer.
 // Similar words alone never earn marks or confirm an explanation.
-import { assessPreparedResponse, cleanAnswer } from './response-checker-core.mjs?v=22d048e141';
+import { assessPreparedResponse, cleanAnswer } from './response-checker-core.mjs?v=d3bd33f198';
 
 const prose = value => cleanAnswer(value).normalize('NFD').replace(/[\u0300-\u036f]/g, '')
   .toLowerCase().replace(/[‐‑–—-]/g, ' ').replace(/[.,;:!?]/g, ' ').replace(/\s+/g, ' ').trim();
